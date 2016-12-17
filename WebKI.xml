@@ -905,6 +905,7 @@
   <HelpKINode Title="UserInterface.ShowCursor field" Url="html/F_GeonBit_UI_UserInterface_ShowCursor.htm" />
   <HelpKINode Title="UserInterface.Update method" Url="html/M_GeonBit_UI_UserInterface_Update.htm" />
   <HelpKINode Title="UserInterface.UserInterface constructor" Url="html/M_GeonBit_UI_UserInterface__ctor.htm" />
+  <HelpKINode Title="UserInterface.VERSION field" Url="html/F_GeonBit_UI_UserInterface_VERSION.htm" />
   <HelpKINode Title="UserInterface.WhileDragging field" Url="html/F_GeonBit_UI_UserInterface_WhileDragging.htm" />
   <HelpKINode Title="UserInterface.WhileMouseDown field" Url="html/F_GeonBit_UI_UserInterface_WhileMouseDown.htm" />
   <HelpKINode Title="UserInterface.WhileMouseHover field" Url="html/F_GeonBit_UI_UserInterface_WhileMouseHover.htm" />
@@ -919,6 +920,7 @@
     <HelpKINode Title="Slider.Value Property " Url="html/P_GeonBit_UI_Entities_Slider_Value.htm" />
     <HelpKINode Title="TextInput.Value Property " Url="html/P_GeonBit_UI_Entities_TextInput_Value.htm" />
   </HelpKINode>
+  <HelpKINode Title="VERSION field" Url="html/F_GeonBit_UI_UserInterface_VERSION.htm" />
   <HelpKINode Title="VerticalScrollbar class">
     <HelpKINode Title="VerticalScrollbar Class" Url="html/T_GeonBit_UI_Entities_VerticalScrollbar.htm" />
     <HelpKINode Title="about VerticalScrollbar class" Url="html/T_GeonBit_UI_Entities_VerticalScrollbar.htm" />
