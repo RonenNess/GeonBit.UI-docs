@@ -433,6 +433,7 @@
   <HelpKINode Title="InputHelper.KeysTypeCooldown field" Url="html/F_GeonBit_UI_InputHelper_KeysTypeCooldown.htm" />
   <HelpKINode Title="InputHelper.MouseButtonClick method" Url="html/M_GeonBit_UI_InputHelper_MouseButtonClick.htm" />
   <HelpKINode Title="InputHelper.MouseButtonDown method" Url="html/M_GeonBit_UI_InputHelper_MouseButtonDown.htm" />
+  <HelpKINode Title="InputHelper.MouseButtonPressed method" Url="html/M_GeonBit_UI_InputHelper_MouseButtonPressed.htm" />
   <HelpKINode Title="InputHelper.MouseButtonReleased method" Url="html/M_GeonBit_UI_InputHelper_MouseButtonReleased.htm" />
   <HelpKINode Title="InputHelper.MousePosition property" Url="html/P_GeonBit_UI_InputHelper_MousePosition.htm" />
   <HelpKINode Title="InputHelper.MousePositionDiff property" Url="html/P_GeonBit_UI_InputHelper_MousePositionDiff.htm" />
@@ -502,6 +503,7 @@
   <HelpKINode Title="MouseButton enumeration" Url="html/T_GeonBit_UI_MouseButton.htm" />
   <HelpKINode Title="MouseButtonClick method" Url="html/M_GeonBit_UI_InputHelper_MouseButtonClick.htm" />
   <HelpKINode Title="MouseButtonDown method" Url="html/M_GeonBit_UI_InputHelper_MouseButtonDown.htm" />
+  <HelpKINode Title="MouseButtonPressed method" Url="html/M_GeonBit_UI_InputHelper_MouseButtonPressed.htm" />
   <HelpKINode Title="MouseButtonReleased method" Url="html/M_GeonBit_UI_InputHelper_MouseButtonReleased.htm" />
   <HelpKINode Title="MouseDown enumeration member" Url="html/T_GeonBit_UI_Entities_EntityState.htm" />
   <HelpKINode Title="MouseHover enumeration member" Url="html/T_GeonBit_UI_Entities_EntityState.htm" />
