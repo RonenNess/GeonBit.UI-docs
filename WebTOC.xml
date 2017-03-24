@@ -1,31 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="f4366b89-fcb5-4c81-ad1d-5bb7a467f20c" Title="GeonBit.UI" Url="html/R_Project_Documentation.htm">
-    <HelpTOCNode Id="eb35563e-14cd-487f-a739-3aeced721a62" Title="GeonBit.UI" Url="html/N_GeonBit_UI.htm">
+  <HelpTOCNode Id="da67912b-631a-4e1f-acbb-ee64538c383b" Title="GeonBit.UI" Url="html/R_Project_Documentation.htm">
+    <HelpTOCNode Id="13bbede9-4b7d-468a-98da-0b70c5ef7109" Title="GeonBit.UI" Url="html/N_GeonBit_UI.htm">
       <HelpTOCNode Title="CursorType Enumeration" Url="html/T_GeonBit_UI_CursorType.htm" />
-      <HelpTOCNode Id="fafaa5b0-5940-4797-aaf0-d2bceeb28ca6" Title="DrawUtils Class" Url="html/T_GeonBit_UI_DrawUtils.htm">
+      <HelpTOCNode Id="a91c3b62-b718-454a-afc3-3314f38f90ff" Title="DrawUtils Class" Url="html/T_GeonBit_UI_DrawUtils.htm">
         <HelpTOCNode Title="DrawUtils Constructor " Url="html/M_GeonBit_UI_DrawUtils__ctor.htm" />
-        <HelpTOCNode Id="97a17a0d-3113-4710-96c2-9fa842acd700" Title="DrawUtils Methods" Url="html/Methods_T_GeonBit_UI_DrawUtils.htm">
+        <HelpTOCNode Id="b96292fc-ae5c-47ae-8663-7b9cad89a20e" Title="DrawUtils Methods" Url="html/Methods_T_GeonBit_UI_DrawUtils.htm">
           <HelpTOCNode Title="DrawImage Method " Url="html/M_GeonBit_UI_DrawUtils_DrawImage.htm" />
           <HelpTOCNode Title="DrawSurface Method " Url="html/M_GeonBit_UI_DrawUtils_DrawSurface.htm" />
           <HelpTOCNode Title="DrawSurfaceHorizontal Method " Url="html/M_GeonBit_UI_DrawUtils_DrawSurfaceHorizontal.htm" />
           <HelpTOCNode Title="DrawSurfaceVertical Method " Url="html/M_GeonBit_UI_DrawUtils_DrawSurfaceVertical.htm" />
           <HelpTOCNode Title="EndDraw Method " Url="html/M_GeonBit_UI_DrawUtils_EndDraw.htm" />
+          <HelpTOCNode Title="PopRenderTarget Method " Url="html/M_GeonBit_UI_DrawUtils_PopRenderTarget.htm" />
+          <HelpTOCNode Title="PushRenderTarget Method " Url="html/M_GeonBit_UI_DrawUtils_PushRenderTarget.htm" />
           <HelpTOCNode Title="ScaleRect Method " Url="html/M_GeonBit_UI_DrawUtils_ScaleRect.htm" />
           <HelpTOCNode Title="StartDraw Method " Url="html/M_GeonBit_UI_DrawUtils_StartDraw.htm" />
           <HelpTOCNode Title="StartDrawSilhouette Method " Url="html/M_GeonBit_UI_DrawUtils_StartDrawSilhouette.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="EventCallback Delegate" Url="html/T_GeonBit_UI_EventCallback.htm" />
-      <HelpTOCNode Id="8dbeea80-12a0-4fb0-b695-2f3f54c44370" Title="InputHelper Class" Url="html/T_GeonBit_UI_InputHelper.htm">
+      <HelpTOCNode Id="a0974f6d-c638-4773-a711-8b60906298bd" Title="InputHelper Class" Url="html/T_GeonBit_UI_InputHelper.htm">
         <HelpTOCNode Title="InputHelper Constructor " Url="html/M_GeonBit_UI_InputHelper__ctor.htm" />
-        <HelpTOCNode Id="d7ceb009-32f0-4689-aa03-437bccdf807d" Title="InputHelper Properties" Url="html/Properties_T_GeonBit_UI_InputHelper.htm">
+        <HelpTOCNode Id="810bf78e-8989-4c01-a868-9ddddf649da9" Title="InputHelper Properties" Url="html/Properties_T_GeonBit_UI_InputHelper.htm">
           <HelpTOCNode Title="CurrGameTime Property " Url="html/P_GeonBit_UI_InputHelper_CurrGameTime.htm" />
           <HelpTOCNode Title="MousePosition Property " Url="html/P_GeonBit_UI_InputHelper_MousePosition.htm" />
           <HelpTOCNode Title="MousePositionDiff Property " Url="html/P_GeonBit_UI_InputHelper_MousePositionDiff.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="fe9d32a7-358d-4ad0-82e9-4aa50c03bc9b" Title="InputHelper Methods" Url="html/Methods_T_GeonBit_UI_InputHelper.htm">
+        <HelpTOCNode Id="77097fd6-c3b5-490d-97fe-882502f31955" Title="InputHelper Methods" Url="html/Methods_T_GeonBit_UI_InputHelper.htm">
           <HelpTOCNode Title="AnyMouseButtonDown Method " Url="html/M_GeonBit_UI_InputHelper_AnyMouseButtonDown.htm" />
           <HelpTOCNode Title="GetTextInput Method " Url="html/M_GeonBit_UI_InputHelper_GetTextInput.htm" />
           <HelpTOCNode Title="IsKeyDown Method " Url="html/M_GeonBit_UI_InputHelper_IsKeyDown.htm" />
@@ -37,19 +39,20 @@
           <HelpTOCNode Title="Update Method " Url="html/M_GeonBit_UI_InputHelper_Update.htm" />
           <HelpTOCNode Title="UpdateCursorPosition Method " Url="html/M_GeonBit_UI_InputHelper_UpdateCursorPosition.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="b861d93c-6c44-4018-bba3-aad33b122cb0" Title="InputHelper Fields" Url="html/Fields_T_GeonBit_UI_InputHelper.htm">
+        <HelpTOCNode Id="e3c7b1a0-0e1e-406a-8eb6-f345eb7ca997" Title="InputHelper Fields" Url="html/Fields_T_GeonBit_UI_InputHelper.htm">
           <HelpTOCNode Title="KeysTypeCooldown Field" Url="html/F_GeonBit_UI_InputHelper_KeysTypeCooldown.htm" />
           <HelpTOCNode Title="MouseWheel Field" Url="html/F_GeonBit_UI_InputHelper_MouseWheel.htm" />
           <HelpTOCNode Title="MouseWheelChange Field" Url="html/F_GeonBit_UI_InputHelper_MouseWheelChange.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="MouseButton Enumeration" Url="html/T_GeonBit_UI_MouseButton.htm" />
-      <HelpTOCNode Id="b1901ff4-f684-456d-9e76-1d6f7565f4d0" Title="Resources Class" Url="html/T_GeonBit_UI_Resources.htm">
-        <HelpTOCNode Id="eaeb17e8-b644-4f04-b5a3-0a8496b12214" Title="Resources Methods" Url="html/Methods_T_GeonBit_UI_Resources.htm">
+      <HelpTOCNode Id="b26fcc3d-c96b-4e1a-9dc9-1a1e1a228623" Title="Resources Class" Url="html/T_GeonBit_UI_Resources.htm">
+        <HelpTOCNode Id="b59f7f50-02c3-402a-a593-75064f037406" Title="Resources Methods" Url="html/Methods_T_GeonBit_UI_Resources.htm">
           <HelpTOCNode Title="LoadContent Method " Url="html/M_GeonBit_UI_Resources_LoadContent.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="3d144b07-79ea-449e-b642-180cbc30ba20" Title="Resources Fields" Url="html/Fields_T_GeonBit_UI_Resources.htm">
+        <HelpTOCNode Id="63fcfef1-ec1e-4d98-bc3c-bbc36368bc5b" Title="Resources Fields" Url="html/Fields_T_GeonBit_UI_Resources.htm">
           <HelpTOCNode Title="ArrowDown Field" Url="html/F_GeonBit_UI_Resources_ArrowDown.htm" />
+          <HelpTOCNode Title="ArrowUp Field" Url="html/F_GeonBit_UI_Resources_ArrowUp.htm" />
           <HelpTOCNode Title="ButtonData Field" Url="html/F_GeonBit_UI_Resources_ButtonData.htm" />
           <HelpTOCNode Title="ButtonTextures Field" Url="html/F_GeonBit_UI_Resources_ButtonTextures.htm" />
           <HelpTOCNode Title="CheckBoxTextures Field" Url="html/F_GeonBit_UI_Resources_CheckBoxTextures.htm" />
@@ -76,19 +79,25 @@
           <HelpTOCNode Title="WhiteTexture Field" Url="html/F_GeonBit_UI_Resources_WhiteTexture.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="7d4119ea-c700-4012-ad49-a851ac1c5e19" Title="UserInterface Class" Url="html/T_GeonBit_UI_UserInterface.htm">
-        <HelpTOCNode Id="985aba05-4c3a-4e18-a596-dfbede25552f" Title="UserInterface Methods" Url="html/Methods_T_GeonBit_UI_UserInterface.htm">
+      <HelpTOCNode Id="2f8d4abf-c938-4d96-8f2a-f8b4f7de7f04" Title="UserInterface Class" Url="html/T_GeonBit_UI_UserInterface.htm">
+        <HelpTOCNode Id="3f3f19d3-4c90-4d69-9947-4d74d3690736" Title="UserInterface Properties" Url="html/Properties_T_GeonBit_UI_UserInterface.htm">
+          <HelpTOCNode Title="GlobalScale Property " Url="html/P_GeonBit_UI_UserInterface_GlobalScale.htm" />
+          <HelpTOCNode Title="RenderTarget Property " Url="html/P_GeonBit_UI_UserInterface_RenderTarget.htm" />
+          <HelpTOCNode Title="UseRenderTarget Property " Url="html/P_GeonBit_UI_UserInterface_UseRenderTarget.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="111479e3-ac71-4496-b5d1-9a3a4aaa5dd4" Title="UserInterface Methods" Url="html/Methods_T_GeonBit_UI_UserInterface.htm">
           <HelpTOCNode Title="AddEntity Method " Url="html/M_GeonBit_UI_UserInterface_AddEntity.htm" />
           <HelpTOCNode Title="Draw Method " Url="html/M_GeonBit_UI_UserInterface_Draw.htm" />
+          <HelpTOCNode Title="DrawMainRenderTarget Method " Url="html/M_GeonBit_UI_UserInterface_DrawMainRenderTarget.htm" />
           <HelpTOCNode Title="Initialize Method " Url="html/M_GeonBit_UI_UserInterface_Initialize.htm" />
           <HelpTOCNode Title="RemoveEntity Method " Url="html/M_GeonBit_UI_UserInterface_RemoveEntity.htm" />
-          <HelpTOCNode Id="ec6437f6-f986-405e-9b78-0ef6c80dc235" Title="SetCursor Method " Url="html/Overload_GeonBit_UI_UserInterface_SetCursor.htm">
+          <HelpTOCNode Id="82120d22-0f52-4df7-90d5-3de3f2b8af5f" Title="SetCursor Method " Url="html/Overload_GeonBit_UI_UserInterface_SetCursor.htm">
             <HelpTOCNode Title="SetCursor Method (CursorType)" Url="html/M_GeonBit_UI_UserInterface_SetCursor.htm" />
             <HelpTOCNode Title="SetCursor Method (Texture2D, Int32, Nullable(Point))" Url="html/M_GeonBit_UI_UserInterface_SetCursor_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="Update Method " Url="html/M_GeonBit_UI_UserInterface_Update.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="73f1d610-ee81-4257-9966-12f08238b570" Title="UserInterface Fields" Url="html/Fields_T_GeonBit_UI_UserInterface.htm">
+        <HelpTOCNode Id="4a6b4447-66ca-46ee-84c6-aea6abac9f21" Title="UserInterface Fields" Url="html/Fields_T_GeonBit_UI_UserInterface.htm">
           <HelpTOCNode Title="ActiveEntity Field" Url="html/F_GeonBit_UI_UserInterface_ActiveEntity.htm" />
           <HelpTOCNode Title="AfterDraw Field" Url="html/F_GeonBit_UI_UserInterface_AfterDraw.htm" />
           <HelpTOCNode Title="AfterUpdate Field" Url="html/F_GeonBit_UI_UserInterface_AfterUpdate.htm" />
@@ -96,7 +105,6 @@
           <HelpTOCNode Title="BeforeUpdate Field" Url="html/F_GeonBit_UI_UserInterface_BeforeUpdate.htm" />
           <HelpTOCNode Title="CursorScale Field" Url="html/F_GeonBit_UI_UserInterface_CursorScale.htm" />
           <HelpTOCNode Title="DrawUtils Field" Url="html/F_GeonBit_UI_UserInterface_DrawUtils.htm" />
-          <HelpTOCNode Title="GlobalScale Field" Url="html/F_GeonBit_UI_UserInterface_GlobalScale.htm" />
           <HelpTOCNode Title="OnClick Field" Url="html/F_GeonBit_UI_UserInterface_OnClick.htm" />
           <HelpTOCNode Title="OnEntitySpawn Field" Url="html/F_GeonBit_UI_UserInterface_OnEntitySpawn.htm" />
           <HelpTOCNode Title="OnMouseDown Field" Url="html/F_GeonBit_UI_UserInterface_OnMouseDown.htm" />
@@ -118,20 +126,20 @@
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="570557a5-fcd7-4eb5-a26e-2699ef65f70d" Title="GeonBit.UI.Entities" Url="html/N_GeonBit_UI_Entities.htm">
+    <HelpTOCNode Id="e961f190-5882-4aac-9785-49c829ae184f" Title="GeonBit.UI.Entities" Url="html/N_GeonBit_UI_Entities.htm">
       <HelpTOCNode Title="Anchor Enumeration" Url="html/T_GeonBit_UI_Entities_Anchor.htm" />
-      <HelpTOCNode Id="ae3f719b-5ceb-481e-bfc0-beee5d2a9483" Title="Button Class" Url="html/T_GeonBit_UI_Entities_Button.htm">
+      <HelpTOCNode Id="c48144d5-0933-4118-9550-0bf3415b2842" Title="Button Class" Url="html/T_GeonBit_UI_Entities_Button.htm">
         <HelpTOCNode Title="Button Constructor " Url="html/M_GeonBit_UI_Entities_Button__ctor.htm" />
-        <HelpTOCNode Id="5d31aea3-612a-42a5-9082-a57ddd4ebb07" Title="Button Properties" Url="html/Properties_T_GeonBit_UI_Entities_Button.htm">
+        <HelpTOCNode Id="00580aad-13c1-420f-ba67-46571ec82984" Title="Button Properties" Url="html/Properties_T_GeonBit_UI_Entities_Button.htm">
           <HelpTOCNode Title="Checked Property " Url="html/P_GeonBit_UI_Entities_Button_Checked.htm" />
           <HelpTOCNode Title="DefaultSize Property " Url="html/P_GeonBit_UI_Entities_Button_DefaultSize.htm" />
           <HelpTOCNode Title="Skin Property " Url="html/P_GeonBit_UI_Entities_Button_Skin.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="a381d05c-7fa5-4c8a-9d74-88a74f85d5f2" Title="Button Methods" Url="html/Methods_T_GeonBit_UI_Entities_Button.htm">
+        <HelpTOCNode Id="b6b10af4-11c8-4883-aa6d-ce4724a7a190" Title="Button Methods" Url="html/Methods_T_GeonBit_UI_Entities_Button.htm">
           <HelpTOCNode Title="IsNaturallyInteractable Method " Url="html/M_GeonBit_UI_Entities_Button_IsNaturallyInteractable.htm" />
           <HelpTOCNode Title="SetCustomSkin Method " Url="html/M_GeonBit_UI_Entities_Button_SetCustomSkin.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="23174c6a-5be1-4b86-b7e9-f7ffa1901eca" Title="Button Fields" Url="html/Fields_T_GeonBit_UI_Entities_Button.htm">
+        <HelpTOCNode Id="0c0ce712-79e0-4923-a396-1d5e47e3c232" Title="Button Fields" Url="html/Fields_T_GeonBit_UI_Entities_Button.htm">
           <HelpTOCNode Title="ButtonParagraph Field" Url="html/F_GeonBit_UI_Entities_Button_ButtonParagraph.htm" />
           <HelpTOCNode Title="DefaultParagraphStyle Field" Url="html/F_GeonBit_UI_Entities_Button_DefaultParagraphStyle.htm" />
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_Button_DefaultStyle.htm" />
@@ -139,23 +147,23 @@
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="ButtonSkin Enumeration" Url="html/T_GeonBit_UI_Entities_ButtonSkin.htm" />
-      <HelpTOCNode Id="527c5602-64d8-4691-9b43-081eb8f9ef1d" Title="CheckBox Class" Url="html/T_GeonBit_UI_Entities_CheckBox.htm">
+      <HelpTOCNode Id="a28221c5-ea28-4f3d-9a41-ad58891337ba" Title="CheckBox Class" Url="html/T_GeonBit_UI_Entities_CheckBox.htm">
         <HelpTOCNode Title="CheckBox Constructor " Url="html/M_GeonBit_UI_Entities_CheckBox__ctor.htm" />
-        <HelpTOCNode Id="c7f9b469-1fe0-4e9e-a6a4-cef14bbf97ef" Title="CheckBox Properties" Url="html/Properties_T_GeonBit_UI_Entities_CheckBox.htm">
+        <HelpTOCNode Id="890d5496-bab7-4a94-a9c1-1dfaa88dcb3c" Title="CheckBox Properties" Url="html/Properties_T_GeonBit_UI_Entities_CheckBox.htm">
           <HelpTOCNode Title="Checked Property " Url="html/P_GeonBit_UI_Entities_CheckBox_Checked.htm" />
           <HelpTOCNode Title="DefaultSize Property " Url="html/P_GeonBit_UI_Entities_CheckBox_DefaultSize.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f2483270-8417-43ad-8f8e-e3e9ad381200" Title="CheckBox Methods" Url="html/Methods_T_GeonBit_UI_Entities_CheckBox.htm">
+        <HelpTOCNode Id="2823b994-2b09-415c-968f-288aab8b3986" Title="CheckBox Methods" Url="html/Methods_T_GeonBit_UI_Entities_CheckBox.htm">
           <HelpTOCNode Title="IsNaturallyInteractable Method " Url="html/M_GeonBit_UI_Entities_CheckBox_IsNaturallyInteractable.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="cf11f75c-dbb6-4b29-84a9-7e87defea61d" Title="CheckBox Fields" Url="html/Fields_T_GeonBit_UI_Entities_CheckBox.htm">
+        <HelpTOCNode Id="751bc297-25e4-4e9c-aece-2f9167962504" Title="CheckBox Fields" Url="html/Fields_T_GeonBit_UI_Entities_CheckBox.htm">
           <HelpTOCNode Title="DefaultParagraphStyle Field" Url="html/F_GeonBit_UI_Entities_CheckBox_DefaultParagraphStyle.htm" />
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_CheckBox_DefaultStyle.htm" />
           <HelpTOCNode Title="TextParagraph Field" Url="html/F_GeonBit_UI_Entities_CheckBox_TextParagraph.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="89ada7ca-4cdc-4f9a-b369-f2866a97cc5d" Title="ColoredRectangle Class" Url="html/T_GeonBit_UI_Entities_ColoredRectangle.htm">
-        <HelpTOCNode Id="c8557971-68df-45d0-8ba7-38c766f269c0" Title="ColoredRectangle Constructor " Url="html/Overload_GeonBit_UI_Entities_ColoredRectangle__ctor.htm">
+      <HelpTOCNode Id="c32ccd7b-5554-4ce9-be31-66f8ff71a52f" Title="ColoredRectangle Class" Url="html/T_GeonBit_UI_Entities_ColoredRectangle.htm">
+        <HelpTOCNode Id="c3c3eb8b-af06-454d-8efa-6274aba61b51" Title="ColoredRectangle Constructor " Url="html/Overload_GeonBit_UI_Entities_ColoredRectangle__ctor.htm">
           <HelpTOCNode Title="ColoredRectangle Constructor (Vector2, Anchor, Nullable(Vector2))" Url="html/M_GeonBit_UI_Entities_ColoredRectangle__ctor_3.htm" />
           <HelpTOCNode Title="ColoredRectangle Constructor (Color, Vector2, Anchor, Nullable(Vector2))" Url="html/M_GeonBit_UI_Entities_ColoredRectangle__ctor_2.htm" />
           <HelpTOCNode Title="ColoredRectangle Constructor (Color, Color, Vector2, Anchor, Nullable(Vector2))" Url="html/M_GeonBit_UI_Entities_ColoredRectangle__ctor.htm" />
@@ -163,35 +171,61 @@
         </HelpTOCNode>
         <HelpTOCNode Title="ColoredRectangle Properties" Url="html/Properties_T_GeonBit_UI_Entities_ColoredRectangle.htm" />
         <HelpTOCNode Title="ColoredRectangle Methods" Url="html/Methods_T_GeonBit_UI_Entities_ColoredRectangle.htm" />
-        <HelpTOCNode Id="4affbee9-bfd6-44fb-859a-1f344bda4ec1" Title="ColoredRectangle Fields" Url="html/Fields_T_GeonBit_UI_Entities_ColoredRectangle.htm">
+        <HelpTOCNode Id="1baeccac-5245-4a1c-a991-8b4fbf34134f" Title="ColoredRectangle Fields" Url="html/Fields_T_GeonBit_UI_Entities_ColoredRectangle.htm">
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_ColoredRectangle_DefaultStyle.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="14ee12c3-2bea-47e8-a763-0d90c0921fee" Title="DropDown Class" Url="html/T_GeonBit_UI_Entities_DropDown.htm">
+      <HelpTOCNode Id="35bafbbb-53d7-4b96-92c1-a6793fe76c51" Title="DropDown Class" Url="html/T_GeonBit_UI_Entities_DropDown.htm">
         <HelpTOCNode Title="DropDown Constructor " Url="html/M_GeonBit_UI_Entities_DropDown__ctor.htm" />
-        <HelpTOCNode Id="faea9f52-9b9b-4508-8746-5660dc980411" Title="DropDown Properties" Url="html/Properties_T_GeonBit_UI_Entities_DropDown.htm">
+        <HelpTOCNode Id="70509d8b-44a0-4695-a618-4ae17c2182b5" Title="DropDown Properties" Url="html/Properties_T_GeonBit_UI_Entities_DropDown.htm">
+          <HelpTOCNode Title="ArrowDownImage Property " Url="html/P_GeonBit_UI_Entities_DropDown_ArrowDownImage.htm" />
+          <HelpTOCNode Title="Count Property " Url="html/P_GeonBit_UI_Entities_DropDown_Count.htm" />
+          <HelpTOCNode Title="DefaultSize Property " Url="html/P_GeonBit_UI_Entities_DropDown_DefaultSize.htm" />
+          <HelpTOCNode Title="Empty Property " Url="html/P_GeonBit_UI_Entities_DropDown_Empty.htm" />
           <HelpTOCNode Title="ListVisible Property " Url="html/P_GeonBit_UI_Entities_DropDown_ListVisible.htm" />
           <HelpTOCNode Title="Priority Property " Url="html/P_GeonBit_UI_Entities_DropDown_Priority.htm" />
+          <HelpTOCNode Title="ScrollPosition Property " Url="html/P_GeonBit_UI_Entities_DropDown_ScrollPosition.htm" />
+          <HelpTOCNode Title="SelectedIndex Property " Url="html/P_GeonBit_UI_Entities_DropDown_SelectedIndex.htm" />
+          <HelpTOCNode Title="SelectedTextPanel Property " Url="html/P_GeonBit_UI_Entities_DropDown_SelectedTextPanel.htm" />
+          <HelpTOCNode Title="SelectedTextPanelParagraph Property " Url="html/P_GeonBit_UI_Entities_DropDown_SelectedTextPanelParagraph.htm" />
+          <HelpTOCNode Title="SelectedValue Property " Url="html/P_GeonBit_UI_Entities_DropDown_SelectedValue.htm" />
+          <HelpTOCNode Title="SelectList Property " Url="html/P_GeonBit_UI_Entities_DropDown_SelectList.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="7bb167b1-f5cc-4436-bd82-37ac3576b2a5" Title="DropDown Methods" Url="html/Methods_T_GeonBit_UI_Entities_DropDown.htm">
+        <HelpTOCNode Id="05f8b3d8-c7d9-4fd0-80af-f9a83dd30e42" Title="DropDown Methods" Url="html/Methods_T_GeonBit_UI_Entities_DropDown.htm">
+          <HelpTOCNode Id="4287ba6c-c571-4a29-965d-70cec916c6ea" Title="AddItem Method " Url="html/Overload_GeonBit_UI_Entities_DropDown_AddItem.htm">
+            <HelpTOCNode Title="AddItem Method (String)" Url="html/M_GeonBit_UI_Entities_DropDown_AddItem.htm" />
+            <HelpTOCNode Title="AddItem Method (String, Int32)" Url="html/M_GeonBit_UI_Entities_DropDown_AddItem_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="ClearItems Method " Url="html/M_GeonBit_UI_Entities_DropDown_ClearItems.htm" />
           <HelpTOCNode Title="GetActualDestRect Method " Url="html/M_GeonBit_UI_Entities_DropDown_GetActualDestRect.htm" />
+          <HelpTOCNode Title="IsNaturallyInteractable Method " Url="html/M_GeonBit_UI_Entities_DropDown_IsNaturallyInteractable.htm" />
+          <HelpTOCNode Id="8b3c8505-cda0-4515-afa8-6044a3552e9b" Title="RemoveItem Method " Url="html/Overload_GeonBit_UI_Entities_DropDown_RemoveItem.htm">
+            <HelpTOCNode Title="RemoveItem Method (Int32)" Url="html/M_GeonBit_UI_Entities_DropDown_RemoveItem.htm" />
+            <HelpTOCNode Title="RemoveItem Method (String)" Url="html/M_GeonBit_UI_Entities_DropDown_RemoveItem_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="scrollToEnd Method " Url="html/M_GeonBit_UI_Entities_DropDown_scrollToEnd.htm" />
+          <HelpTOCNode Title="ScrollToSelected Method " Url="html/M_GeonBit_UI_Entities_DropDown_ScrollToSelected.htm" />
+          <HelpTOCNode Title="Unselect Method " Url="html/M_GeonBit_UI_Entities_DropDown_Unselect.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="298700dd-5fa3-439e-a307-c89a040b2f41" Title="DropDown Fields" Url="html/Fields_T_GeonBit_UI_Entities_DropDown.htm">
+        <HelpTOCNode Id="710c8ff8-c3c4-4566-bbac-5227a3a916e9" Title="DropDown Fields" Url="html/Fields_T_GeonBit_UI_Entities_DropDown.htm">
+          <HelpTOCNode Title="ArrowSize Field" Url="html/F_GeonBit_UI_Entities_DropDown_ArrowSize.htm" />
           <HelpTOCNode Title="DefaultParagraphStyle Field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultParagraphStyle.htm" />
           <HelpTOCNode Title="DefaultSelectedParagraphStyle Field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultSelectedParagraphStyle.htm" />
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultStyle.htm" />
           <HelpTOCNode Title="DefaultText Field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultText.htm" />
+          <HelpTOCNode Title="SelectedPanelHeight Field" Url="html/F_GeonBit_UI_Entities_DropDown_SelectedPanelHeight.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="b1e0f7d3-43a2-4300-a6c4-4610e9a0f311" Title="Entity Class" Url="html/T_GeonBit_UI_Entities_Entity.htm">
+      <HelpTOCNode Id="71681fa5-6885-4918-84a5-ddda56d1da55" Title="Entity Class" Url="html/T_GeonBit_UI_Entities_Entity.htm">
         <HelpTOCNode Title="Entity Constructor " Url="html/M_GeonBit_UI_Entities_Entity__ctor.htm" />
-        <HelpTOCNode Id="cac0db0e-3ec5-4283-9b36-49ae3c01b7cc" Title="Entity Properties" Url="html/Properties_T_GeonBit_UI_Entities_Entity.htm">
+        <HelpTOCNode Id="938ce027-9a1a-41b1-bd76-f122f81d8108" Title="Entity Properties" Url="html/Properties_T_GeonBit_UI_Entities_Entity.htm">
           <HelpTOCNode Title="Background Property " Url="html/P_GeonBit_UI_Entities_Entity_Background.htm" />
           <HelpTOCNode Title="DefaultSize Property " Url="html/P_GeonBit_UI_Entities_Entity_DefaultSize.htm" />
           <HelpTOCNode Title="Draggable Property " Url="html/P_GeonBit_UI_Entities_Entity_Draggable.htm" />
           <HelpTOCNode Title="FillColor Property " Url="html/P_GeonBit_UI_Entities_Entity_FillColor.htm" />
           <HelpTOCNode Title="IsMouseDown Property " Url="html/P_GeonBit_UI_Entities_Entity_IsMouseDown.htm" />
           <HelpTOCNode Title="IsMouseOver Property " Url="html/P_GeonBit_UI_Entities_Entity_IsMouseOver.htm" />
+          <HelpTOCNode Title="Opacity Property " Url="html/P_GeonBit_UI_Entities_Entity_Opacity.htm" />
           <HelpTOCNode Title="OutlineColor Property " Url="html/P_GeonBit_UI_Entities_Entity_OutlineColor.htm" />
           <HelpTOCNode Title="OutlineWidth Property " Url="html/P_GeonBit_UI_Entities_Entity_OutlineWidth.htm" />
           <HelpTOCNode Title="Padding Property " Url="html/P_GeonBit_UI_Entities_Entity_Padding.htm" />
@@ -207,14 +241,14 @@
           <HelpTOCNode Title="State Property " Url="html/P_GeonBit_UI_Entities_Entity_State.htm" />
           <HelpTOCNode Title="Visible Property " Url="html/P_GeonBit_UI_Entities_Entity_Visible.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="9c89846b-87ec-4001-9ffe-529b5992ab4e" Title="Entity Methods" Url="html/Methods_T_GeonBit_UI_Entities_Entity.htm">
+        <HelpTOCNode Id="00ac5dc4-d3b1-4371-a1e9-2f1bfb34f83d" Title="Entity Methods" Url="html/Methods_T_GeonBit_UI_Entities_Entity.htm">
           <HelpTOCNode Title="AddChild Method " Url="html/M_GeonBit_UI_Entities_Entity_AddChild.htm" />
           <HelpTOCNode Title="BringToFront Method " Url="html/M_GeonBit_UI_Entities_Entity_BringToFront.htm" />
           <HelpTOCNode Title="CalcDestRect Method " Url="html/M_GeonBit_UI_Entities_Entity_CalcDestRect.htm" />
           <HelpTOCNode Title="CalcInternalRect Method " Url="html/M_GeonBit_UI_Entities_Entity_CalcInternalRect.htm" />
           <HelpTOCNode Title="ClearChildren Method " Url="html/M_GeonBit_UI_Entities_Entity_ClearChildren.htm" />
           <HelpTOCNode Title="Draw Method " Url="html/M_GeonBit_UI_Entities_Entity_Draw.htm" />
-          <HelpTOCNode Id="753eb967-152a-4ae4-95f7-62d2aa4e9106" Title="Find Method " Url="html/Overload_GeonBit_UI_Entities_Entity_Find.htm">
+          <HelpTOCNode Id="7eaed718-bac2-4cf9-8b7e-c5c63494c65e" Title="Find Method " Url="html/Overload_GeonBit_UI_Entities_Entity_Find.htm">
             <HelpTOCNode Title="Find(T) Method (String, Boolean)" Url="html/M_GeonBit_UI_Entities_Entity_Find__1.htm" />
             <HelpTOCNode Title="Find Method (String, Boolean)" Url="html/M_GeonBit_UI_Entities_Entity_Find.htm" />
           </HelpTOCNode>
@@ -230,6 +264,7 @@
           <HelpTOCNode Title="IsNaturallyInteractable Method " Url="html/M_GeonBit_UI_Entities_Entity_IsNaturallyInteractable.htm" />
           <HelpTOCNode Title="IsVisible Method " Url="html/M_GeonBit_UI_Entities_Entity_IsVisible.htm" />
           <HelpTOCNode Title="IterateChildren Method " Url="html/M_GeonBit_UI_Entities_Entity_IterateChildren.htm" />
+          <HelpTOCNode Title="MarkAsDirty Method " Url="html/M_GeonBit_UI_Entities_Entity_MarkAsDirty.htm" />
           <HelpTOCNode Title="RemoveChild Method " Url="html/M_GeonBit_UI_Entities_Entity_RemoveChild.htm" />
           <HelpTOCNode Title="RemoveFromParent Method " Url="html/M_GeonBit_UI_Entities_Entity_RemoveFromParent.htm" />
           <HelpTOCNode Title="SetAnchor Method " Url="html/M_GeonBit_UI_Entities_Entity_SetAnchor.htm" />
@@ -237,10 +272,11 @@
           <HelpTOCNode Title="SetPosition Method " Url="html/M_GeonBit_UI_Entities_Entity_SetPosition.htm" />
           <HelpTOCNode Title="SetStyleProperty Method " Url="html/M_GeonBit_UI_Entities_Entity_SetStyleProperty.htm" />
           <HelpTOCNode Title="Update Method " Url="html/M_GeonBit_UI_Entities_Entity_Update.htm" />
+          <HelpTOCNode Title="UpdateDestinationRects Method " Url="html/M_GeonBit_UI_Entities_Entity_UpdateDestinationRects.htm" />
+          <HelpTOCNode Title="UpdateDestinationRectsIfDirty Method " Url="html/M_GeonBit_UI_Entities_Entity_UpdateDestinationRectsIfDirty.htm" />
           <HelpTOCNode Title="UpdateStyle Method " Url="html/M_GeonBit_UI_Entities_Entity_UpdateStyle.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="978811dc-c4b5-48d2-8d05-0387e8d5f63e" Title="Entity Fields" Url="html/Fields_T_GeonBit_UI_Entities_Entity.htm">
-          <HelpTOCNode Title="_visible Field" Url="html/F_GeonBit_UI_Entities_Entity__visible.htm" />
+        <HelpTOCNode Id="a9cafe78-0a31-40e3-bd4a-e3fd6a60321e" Title="Entity Fields" Url="html/Fields_T_GeonBit_UI_Entities_Entity.htm">
           <HelpTOCNode Title="AfterDraw Field" Url="html/F_GeonBit_UI_Entities_Entity_AfterDraw.htm" />
           <HelpTOCNode Title="AfterUpdate Field" Url="html/F_GeonBit_UI_Entities_Entity_AfterUpdate.htm" />
           <HelpTOCNode Title="AttachedData Field" Url="html/F_GeonBit_UI_Entities_Entity_AttachedData.htm" />
@@ -249,6 +285,7 @@
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_Entity_DefaultStyle.htm" />
           <HelpTOCNode Title="Disabled Field" Url="html/F_GeonBit_UI_Entities_Entity_Disabled.htm" />
           <HelpTOCNode Title="Identifier Field" Url="html/F_GeonBit_UI_Entities_Entity_Identifier.htm" />
+          <HelpTOCNode Title="IsFocused Field" Url="html/F_GeonBit_UI_Entities_Entity_IsFocused.htm" />
           <HelpTOCNode Title="LimitDraggingToParentBoundaries Field" Url="html/F_GeonBit_UI_Entities_Entity_LimitDraggingToParentBoundaries.htm" />
           <HelpTOCNode Title="Locked Field" Url="html/F_GeonBit_UI_Entities_Entity_Locked.htm" />
           <HelpTOCNode Title="OnClick Field" Url="html/F_GeonBit_UI_Entities_Entity_OnClick.htm" />
@@ -271,39 +308,40 @@
       </HelpTOCNode>
       <HelpTOCNode Title="EntityState Enumeration" Url="html/T_GeonBit_UI_Entities_EntityState.htm" />
       <HelpTOCNode Title="FontStyle Enumeration" Url="html/T_GeonBit_UI_Entities_FontStyle.htm" />
-      <HelpTOCNode Id="0129383e-9940-4d3d-9cf5-55514c851a84" Title="Header Class" Url="html/T_GeonBit_UI_Entities_Header.htm">
+      <HelpTOCNode Id="e436b30c-c5ac-4b4b-bf64-6434cf2ec34e" Title="Header Class" Url="html/T_GeonBit_UI_Entities_Header.htm">
         <HelpTOCNode Title="Header Constructor " Url="html/M_GeonBit_UI_Entities_Header__ctor.htm" />
         <HelpTOCNode Title="Header Properties" Url="html/Properties_T_GeonBit_UI_Entities_Header.htm" />
         <HelpTOCNode Title="Header Methods" Url="html/Methods_T_GeonBit_UI_Entities_Header.htm" />
-        <HelpTOCNode Id="caf79f02-3e88-450c-8fb6-da94bfd0c316" Title="Header Fields" Url="html/Fields_T_GeonBit_UI_Entities_Header.htm">
+        <HelpTOCNode Id="9fca4950-fa60-438e-8643-4f029f5a8610" Title="Header Fields" Url="html/Fields_T_GeonBit_UI_Entities_Header.htm">
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_Header_DefaultStyle.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="aed5756b-2df4-45d0-9b6b-4cb7d8b9220d" Title="HorizontalLine Class" Url="html/T_GeonBit_UI_Entities_HorizontalLine.htm">
+      <HelpTOCNode Id="6c600444-c00c-4b20-a9e4-8a0f9fd8f187" Title="HorizontalLine Class" Url="html/T_GeonBit_UI_Entities_HorizontalLine.htm">
         <HelpTOCNode Title="HorizontalLine Constructor " Url="html/M_GeonBit_UI_Entities_HorizontalLine__ctor.htm" />
         <HelpTOCNode Title="HorizontalLine Properties" Url="html/Properties_T_GeonBit_UI_Entities_HorizontalLine.htm" />
         <HelpTOCNode Title="HorizontalLine Methods" Url="html/Methods_T_GeonBit_UI_Entities_HorizontalLine.htm" />
-        <HelpTOCNode Id="0b8a170d-f3c0-4f7c-a193-abf2ea461eda" Title="HorizontalLine Fields" Url="html/Fields_T_GeonBit_UI_Entities_HorizontalLine.htm">
+        <HelpTOCNode Id="823eaa1d-40e0-4d28-8a80-71f80d06203f" Title="HorizontalLine Fields" Url="html/Fields_T_GeonBit_UI_Entities_HorizontalLine.htm">
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_HorizontalLine_DefaultStyle.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="170c322d-6df5-4fa2-bf8d-e99db9aa979c" Title="Icon Class" Url="html/T_GeonBit_UI_Entities_Icon.htm">
+      <HelpTOCNode Id="c2ebfdcd-d910-410b-abcd-9e2ade4978d2" Title="Icon Class" Url="html/T_GeonBit_UI_Entities_Icon.htm">
         <HelpTOCNode Title="Icon Constructor " Url="html/M_GeonBit_UI_Entities_Icon__ctor.htm" />
-        <HelpTOCNode Id="46c3e346-02ee-4fdf-9dc2-5646a76ccfc1" Title="Icon Properties" Url="html/Properties_T_GeonBit_UI_Entities_Icon.htm">
+        <HelpTOCNode Id="f10db939-d097-49f7-84fd-f642b484fa39" Title="Icon Properties" Url="html/Properties_T_GeonBit_UI_Entities_Icon.htm">
           <HelpTOCNode Title="DefaultSize Property " Url="html/P_GeonBit_UI_Entities_Icon_DefaultSize.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="Icon Methods" Url="html/Methods_T_GeonBit_UI_Entities_Icon.htm" />
-        <HelpTOCNode Id="574e65c0-fc54-4b3b-b44c-3a6bf9ea268a" Title="Icon Fields" Url="html/Fields_T_GeonBit_UI_Entities_Icon.htm">
+        <HelpTOCNode Id="63deadcd-637a-4f91-82fa-33e652b9ec6c" Title="Icon Fields" Url="html/Fields_T_GeonBit_UI_Entities_Icon.htm">
+          <HelpTOCNode Title="BackgroundSize Field" Url="html/F_GeonBit_UI_Entities_Icon_BackgroundSize.htm" />
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_Icon_DefaultStyle.htm" />
           <HelpTOCNode Title="DrawBackground Field" Url="html/F_GeonBit_UI_Entities_Icon_DrawBackground.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="IconType Enumeration" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
-      <HelpTOCNode Id="8cea3118-e6c0-4b40-adce-07c9c60923a7" Title="Image Class" Url="html/T_GeonBit_UI_Entities_Image.htm">
+      <HelpTOCNode Id="532565f1-66aa-4817-b1bb-f19e60eedec1" Title="Image Class" Url="html/T_GeonBit_UI_Entities_Image.htm">
         <HelpTOCNode Title="Image Constructor " Url="html/M_GeonBit_UI_Entities_Image__ctor.htm" />
         <HelpTOCNode Title="Image Properties" Url="html/Properties_T_GeonBit_UI_Entities_Image.htm" />
         <HelpTOCNode Title="Image Methods" Url="html/Methods_T_GeonBit_UI_Entities_Image.htm" />
-        <HelpTOCNode Id="806e9872-1137-412b-88a2-01193bcb52fa" Title="Image Fields" Url="html/Fields_T_GeonBit_UI_Entities_Image.htm">
+        <HelpTOCNode Id="0e64e33e-3f7f-4446-ba3d-1e9c3db199b4" Title="Image Fields" Url="html/Fields_T_GeonBit_UI_Entities_Image.htm">
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_Image_DefaultStyle.htm" />
           <HelpTOCNode Title="DrawMode Field" Url="html/F_GeonBit_UI_Entities_Image_DrawMode.htm" />
           <HelpTOCNode Title="FrameWidth Field" Url="html/F_GeonBit_UI_Entities_Image_FrameWidth.htm" />
@@ -312,121 +350,129 @@
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="ImageDrawMode Enumeration" Url="html/T_GeonBit_UI_Entities_ImageDrawMode.htm" />
-      <HelpTOCNode Id="928c2d3f-cdb5-4791-aacd-2300ecdb7949" Title="Label Class" Url="html/T_GeonBit_UI_Entities_Label.htm">
+      <HelpTOCNode Id="af9d18ac-385f-4abc-8eae-076966d15d68" Title="Label Class" Url="html/T_GeonBit_UI_Entities_Label.htm">
         <HelpTOCNode Title="Label Constructor " Url="html/M_GeonBit_UI_Entities_Label__ctor.htm" />
         <HelpTOCNode Title="Label Properties" Url="html/Properties_T_GeonBit_UI_Entities_Label.htm" />
         <HelpTOCNode Title="Label Methods" Url="html/Methods_T_GeonBit_UI_Entities_Label.htm" />
-        <HelpTOCNode Id="8b187a49-1cf6-433e-9934-36a730910322" Title="Label Fields" Url="html/Fields_T_GeonBit_UI_Entities_Label.htm">
+        <HelpTOCNode Id="5aaea8bf-6ee8-43d2-a029-d69c45e9d8f9" Title="Label Fields" Url="html/Fields_T_GeonBit_UI_Entities_Label.htm">
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_Label_DefaultStyle.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="8787b6e8-8f03-4112-aabd-e36fcb65b119" Title="LineSpace Class" Url="html/T_GeonBit_UI_Entities_LineSpace.htm">
+      <HelpTOCNode Id="87b28754-fec4-4c5d-9900-56cb9d1beca7" Title="LineSpace Class" Url="html/T_GeonBit_UI_Entities_LineSpace.htm">
         <HelpTOCNode Title="LineSpace Constructor " Url="html/M_GeonBit_UI_Entities_LineSpace__ctor.htm" />
-        <HelpTOCNode Title="LineSpace Properties" Url="html/Properties_T_GeonBit_UI_Entities_LineSpace.htm" />
+        <HelpTOCNode Id="a4f54da1-eb8d-4c7c-a97e-12ad1bd5d165" Title="LineSpace Properties" Url="html/Properties_T_GeonBit_UI_Entities_LineSpace.htm">
+          <HelpTOCNode Title="DefaultSize Property " Url="html/P_GeonBit_UI_Entities_LineSpace_DefaultSize.htm" />
+        </HelpTOCNode>
         <HelpTOCNode Title="LineSpace Methods" Url="html/Methods_T_GeonBit_UI_Entities_LineSpace.htm" />
-        <HelpTOCNode Title="LineSpace Fields" Url="html/Fields_T_GeonBit_UI_Entities_LineSpace.htm" />
+        <HelpTOCNode Id="932617cc-d461-41c8-bf27-c0770206a9fb" Title="LineSpace Fields" Url="html/Fields_T_GeonBit_UI_Entities_LineSpace.htm">
+          <HelpTOCNode Title="SpaceSize Field" Url="html/F_GeonBit_UI_Entities_LineSpace_SpaceSize.htm" />
+        </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="cce0dc2f-c53d-479e-9192-a46f166cf3e3" Title="Panel Class" Url="html/T_GeonBit_UI_Entities_Panel.htm">
+      <HelpTOCNode Id="b655a080-318a-48ed-a1a6-725d2c3eb4df" Title="Panel Class" Url="html/T_GeonBit_UI_Entities_Panel.htm">
         <HelpTOCNode Title="Panel Constructor " Url="html/M_GeonBit_UI_Entities_Panel__ctor.htm" />
-        <HelpTOCNode Id="a727dfe3-5559-4be7-b71b-ac28cebef9e7" Title="Panel Properties" Url="html/Properties_T_GeonBit_UI_Entities_Panel.htm">
+        <HelpTOCNode Id="854c7cf1-1cdc-4c2d-a565-ae2d2d07c577" Title="Panel Properties" Url="html/Properties_T_GeonBit_UI_Entities_Panel.htm">
+          <HelpTOCNode Title="PanelOverflowBehavior Property " Url="html/P_GeonBit_UI_Entities_Panel_PanelOverflowBehavior.htm" />
+          <HelpTOCNode Title="Scrollbar Property " Url="html/P_GeonBit_UI_Entities_Panel_Scrollbar.htm" />
           <HelpTOCNode Title="Skin Property " Url="html/P_GeonBit_UI_Entities_Panel_Skin.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="Panel Methods" Url="html/Methods_T_GeonBit_UI_Entities_Panel.htm" />
-        <HelpTOCNode Id="a1207fa2-c0a6-4ee2-8a6c-2012a57ef3ee" Title="Panel Fields" Url="html/Fields_T_GeonBit_UI_Entities_Panel.htm">
+        <HelpTOCNode Id="591fa84b-9581-435f-9b97-3de92eb6c365" Title="Panel Fields" Url="html/Fields_T_GeonBit_UI_Entities_Panel.htm">
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_Panel_DefaultStyle.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
+      <HelpTOCNode Title="PanelOverflowBehavior Enumeration" Url="html/T_GeonBit_UI_Entities_PanelOverflowBehavior.htm" />
       <HelpTOCNode Title="PanelSkin Enumeration" Url="html/T_GeonBit_UI_Entities_PanelSkin.htm" />
-      <HelpTOCNode Id="a0125b1f-db0c-4cfb-a275-c137d6560abe" Title="PanelTabs Class" Url="html/T_GeonBit_UI_Entities_PanelTabs.htm">
+      <HelpTOCNode Id="14baca9a-19e6-4f90-bd18-51d9344d1d57" Title="PanelTabs Class" Url="html/T_GeonBit_UI_Entities_PanelTabs.htm">
         <HelpTOCNode Title="PanelTabs Constructor " Url="html/M_GeonBit_UI_Entities_PanelTabs__ctor.htm" />
-        <HelpTOCNode Id="0151f41c-fb5f-4199-9469-b8031ebba547" Title="PanelTabs Properties" Url="html/Properties_T_GeonBit_UI_Entities_PanelTabs.htm">
+        <HelpTOCNode Id="2b208d13-8b5f-4177-a658-acd48911412a" Title="PanelTabs Properties" Url="html/Properties_T_GeonBit_UI_Entities_PanelTabs.htm">
           <HelpTOCNode Title="ActiveTab Property " Url="html/P_GeonBit_UI_Entities_PanelTabs_ActiveTab.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="891bba8a-b234-41d5-acdb-86839b6c9495" Title="PanelTabs Methods" Url="html/Methods_T_GeonBit_UI_Entities_PanelTabs.htm">
+        <HelpTOCNode Id="9938cf6f-e3ad-4020-93f9-c9459feae8ca" Title="PanelTabs Methods" Url="html/Methods_T_GeonBit_UI_Entities_PanelTabs.htm">
           <HelpTOCNode Title="AddTab Method " Url="html/M_GeonBit_UI_Entities_PanelTabs_AddTab.htm" />
           <HelpTOCNode Title="SelectTab Method " Url="html/M_GeonBit_UI_Entities_PanelTabs_SelectTab.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="30453d5d-2f9f-4de8-959b-c550be0fee3c" Title="PanelTabs Fields" Url="html/Fields_T_GeonBit_UI_Entities_PanelTabs.htm">
+        <HelpTOCNode Id="ca740782-c192-4ebf-8e9c-78e5ceea27a3" Title="PanelTabs Fields" Url="html/Fields_T_GeonBit_UI_Entities_PanelTabs.htm">
           <HelpTOCNode Title="DefaultButtonParagraphStyle Field" Url="html/F_GeonBit_UI_Entities_PanelTabs_DefaultButtonParagraphStyle.htm" />
           <HelpTOCNode Title="DefaultButtonStyle Field" Url="html/F_GeonBit_UI_Entities_PanelTabs_DefaultButtonStyle.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="1cbde1c5-b3ca-4ef7-bb7b-c8923586cb36" Title="PanelTabs.TabData Class" Url="html/T_GeonBit_UI_Entities_PanelTabs_TabData.htm">
+      <HelpTOCNode Id="51d51a85-0c06-4d69-9b10-1830ba6636c4" Title="PanelTabs.TabData Class" Url="html/T_GeonBit_UI_Entities_PanelTabs_TabData.htm">
         <HelpTOCNode Title="PanelTabs.TabData Constructor " Url="html/M_GeonBit_UI_Entities_PanelTabs_TabData__ctor.htm" />
         <HelpTOCNode Title="TabData Methods" Url="html/Methods_T_GeonBit_UI_Entities_PanelTabs_TabData.htm" />
-        <HelpTOCNode Id="1e890cf1-b60f-41c1-ab04-638a7979e3d5" Title="TabData Fields" Url="html/Fields_T_GeonBit_UI_Entities_PanelTabs_TabData.htm">
+        <HelpTOCNode Id="5af345d4-15bc-4780-981d-8eaec7576978" Title="TabData Fields" Url="html/Fields_T_GeonBit_UI_Entities_PanelTabs_TabData.htm">
           <HelpTOCNode Title="button Field" Url="html/F_GeonBit_UI_Entities_PanelTabs_TabData_button.htm" />
           <HelpTOCNode Title="name Field" Url="html/F_GeonBit_UI_Entities_PanelTabs_TabData_name.htm" />
           <HelpTOCNode Title="panel Field" Url="html/F_GeonBit_UI_Entities_PanelTabs_TabData_panel.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="fdeeba6b-7071-441d-9e6a-17a74e6ca90f" Title="Paragraph Class" Url="html/T_GeonBit_UI_Entities_Paragraph.htm">
-        <HelpTOCNode Id="ca84438b-531c-4276-a5c8-8d2095ef12a7" Title="Paragraph Constructor " Url="html/Overload_GeonBit_UI_Entities_Paragraph__ctor.htm">
+      <HelpTOCNode Id="d26b890d-f377-4830-9403-1e95de875bac" Title="Paragraph Class" Url="html/T_GeonBit_UI_Entities_Paragraph.htm">
+        <HelpTOCNode Id="42f273f8-8844-4b60-94e1-878a704cabfd" Title="Paragraph Constructor " Url="html/Overload_GeonBit_UI_Entities_Paragraph__ctor.htm">
           <HelpTOCNode Title="Paragraph Constructor (String, Anchor, Nullable(Vector2), Nullable(Vector2))" Url="html/M_GeonBit_UI_Entities_Paragraph__ctor_1.htm" />
           <HelpTOCNode Title="Paragraph Constructor (String, Anchor, Color, Nullable(Single), Nullable(Vector2), Nullable(Vector2))" Url="html/M_GeonBit_UI_Entities_Paragraph__ctor.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="046fdbfd-6dd1-4597-88de-b82e60d00e3d" Title="Paragraph Properties" Url="html/Properties_T_GeonBit_UI_Entities_Paragraph.htm">
+        <HelpTOCNode Id="60a77db4-68fe-45a8-afa0-65309ca55adc" Title="Paragraph Properties" Url="html/Properties_T_GeonBit_UI_Entities_Paragraph.htm">
+          <HelpTOCNode Title="AddHyphenWhenBreakWord Property " Url="html/P_GeonBit_UI_Entities_Paragraph_AddHyphenWhenBreakWord.htm" />
           <HelpTOCNode Title="AlignToCenter Property " Url="html/P_GeonBit_UI_Entities_Paragraph_AlignToCenter.htm" />
+          <HelpTOCNode Title="BreakWordsIfMust Property " Url="html/P_GeonBit_UI_Entities_Paragraph_BreakWordsIfMust.htm" />
+          <HelpTOCNode Title="Text Property " Url="html/P_GeonBit_UI_Entities_Paragraph_Text.htm" />
           <HelpTOCNode Title="TextStyle Property " Url="html/P_GeonBit_UI_Entities_Paragraph_TextStyle.htm" />
+          <HelpTOCNode Title="WrapWords Property " Url="html/P_GeonBit_UI_Entities_Paragraph_WrapWords.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="37382efb-c406-4409-9d1f-e875f84df325" Title="Paragraph Methods" Url="html/Methods_T_GeonBit_UI_Entities_Paragraph.htm">
+        <HelpTOCNode Id="b90b0ceb-bd3d-4f08-8d7e-60df71d91044" Title="Paragraph Methods" Url="html/Methods_T_GeonBit_UI_Entities_Paragraph.htm">
+          <HelpTOCNode Title="CalcTextActualRectWithWrap Method " Url="html/M_GeonBit_UI_Entities_Paragraph_CalcTextActualRectWithWrap.htm" />
           <HelpTOCNode Title="GetActualDestRect Method " Url="html/M_GeonBit_UI_Entities_Paragraph_GetActualDestRect.htm" />
           <HelpTOCNode Title="GetCharacterActualSize Method " Url="html/M_GeonBit_UI_Entities_Paragraph_GetCharacterActualSize.htm" />
           <HelpTOCNode Title="GetProcessedText Method " Url="html/M_GeonBit_UI_Entities_Paragraph_GetProcessedText.htm" />
-          <HelpTOCNode Title="PrepareForDraw Method " Url="html/M_GeonBit_UI_Entities_Paragraph_PrepareForDraw.htm" />
+          <HelpTOCNode Title="UpdateDestinationRects Method " Url="html/M_GeonBit_UI_Entities_Paragraph_UpdateDestinationRects.htm" />
           <HelpTOCNode Title="WrapText Method " Url="html/M_GeonBit_UI_Entities_Paragraph_WrapText.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f5b36f21-ebc5-45c3-b258-c0b5d36aa780" Title="Paragraph Fields" Url="html/Fields_T_GeonBit_UI_Entities_Paragraph.htm">
-          <HelpTOCNode Title="AddHyphenWhenBreakWord Field" Url="html/F_GeonBit_UI_Entities_Paragraph_AddHyphenWhenBreakWord.htm" />
+        <HelpTOCNode Id="6a61de54-86f2-478a-a310-4ea6c87af0b1" Title="Paragraph Fields" Url="html/Fields_T_GeonBit_UI_Entities_Paragraph.htm">
           <HelpTOCNode Title="BaseSize Field" Url="html/F_GeonBit_UI_Entities_Paragraph_BaseSize.htm" />
-          <HelpTOCNode Title="BreakWordsIfMust Field" Url="html/F_GeonBit_UI_Entities_Paragraph_BreakWordsIfMust.htm" />
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_Paragraph_DefaultStyle.htm" />
-          <HelpTOCNode Title="Text Field" Url="html/F_GeonBit_UI_Entities_Paragraph_Text.htm" />
-          <HelpTOCNode Title="WrapWords Field" Url="html/F_GeonBit_UI_Entities_Paragraph_WrapWords.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ea4df170-0af0-4258-9cde-7028e44e94c4" Title="ProgressBar Class" Url="html/T_GeonBit_UI_Entities_ProgressBar.htm">
-        <HelpTOCNode Id="71fd6b22-e004-4589-ad38-8237df7df881" Title="ProgressBar Constructor " Url="html/Overload_GeonBit_UI_Entities_ProgressBar__ctor.htm">
+      <HelpTOCNode Id="31ee9cab-88aa-4e03-9d89-28f178ffb540" Title="ProgressBar Class" Url="html/T_GeonBit_UI_Entities_ProgressBar.htm">
+        <HelpTOCNode Id="36300275-5e0f-4947-a76a-c2a7788ecb5f" Title="ProgressBar Constructor " Url="html/Overload_GeonBit_UI_Entities_ProgressBar__ctor.htm">
           <HelpTOCNode Title="ProgressBar Constructor (UInt32, UInt32, Anchor, Nullable(Vector2))" Url="html/M_GeonBit_UI_Entities_ProgressBar__ctor.htm" />
           <HelpTOCNode Title="ProgressBar Constructor (UInt32, UInt32, Vector2, Anchor, Nullable(Vector2))" Url="html/M_GeonBit_UI_Entities_ProgressBar__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="b93ecf93-0deb-4aa7-886f-5c0235ed8eaf" Title="ProgressBar Properties" Url="html/Properties_T_GeonBit_UI_Entities_ProgressBar.htm">
+        <HelpTOCNode Id="68b14795-074f-4a44-a673-e1751dd90439" Title="ProgressBar Properties" Url="html/Properties_T_GeonBit_UI_Entities_ProgressBar.htm">
           <HelpTOCNode Title="DefaultSize Property " Url="html/P_GeonBit_UI_Entities_ProgressBar_DefaultSize.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="ProgressBar Methods" Url="html/Methods_T_GeonBit_UI_Entities_ProgressBar.htm" />
-        <HelpTOCNode Id="4bfd76a6-549c-481f-92cb-6c751d5a5010" Title="ProgressBar Fields" Url="html/Fields_T_GeonBit_UI_Entities_ProgressBar.htm">
+        <HelpTOCNode Id="d3803af2-23f8-4c90-862f-ea2ccc507bdd" Title="ProgressBar Fields" Url="html/Fields_T_GeonBit_UI_Entities_ProgressBar.htm">
           <HelpTOCNode Title="DefaultFillStyle Field" Url="html/F_GeonBit_UI_Entities_ProgressBar_DefaultFillStyle.htm" />
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_ProgressBar_DefaultStyle.htm" />
           <HelpTOCNode Title="ProgressFill Field" Url="html/F_GeonBit_UI_Entities_ProgressBar_ProgressFill.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="19eae93f-c0c0-4285-8b3c-7aabed20e4b6" Title="RadioButton Class" Url="html/T_GeonBit_UI_Entities_RadioButton.htm">
+      <HelpTOCNode Id="5330a092-1245-4d78-a6c8-09f9ccfb7a71" Title="RadioButton Class" Url="html/T_GeonBit_UI_Entities_RadioButton.htm">
         <HelpTOCNode Title="RadioButton Constructor " Url="html/M_GeonBit_UI_Entities_RadioButton__ctor.htm" />
-        <HelpTOCNode Id="3472836f-9995-40b0-969c-d4525b7d91dd" Title="RadioButton Properties" Url="html/Properties_T_GeonBit_UI_Entities_RadioButton.htm">
+        <HelpTOCNode Id="a93d0a91-ac40-4310-ae7c-0ebe6b5b1b4f" Title="RadioButton Properties" Url="html/Properties_T_GeonBit_UI_Entities_RadioButton.htm">
           <HelpTOCNode Title="DefaultSize Property " Url="html/P_GeonBit_UI_Entities_RadioButton_DefaultSize.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RadioButton Methods" Url="html/Methods_T_GeonBit_UI_Entities_RadioButton.htm" />
-        <HelpTOCNode Id="02fcd890-d82d-43f6-a33d-f581673b1d17" Title="RadioButton Fields" Url="html/Fields_T_GeonBit_UI_Entities_RadioButton.htm">
+        <HelpTOCNode Id="b2b6de3f-65b4-4978-8e22-99a50f2226ec" Title="RadioButton Fields" Url="html/Fields_T_GeonBit_UI_Entities_RadioButton.htm">
           <HelpTOCNode Title="CanUncheck Field" Url="html/F_GeonBit_UI_Entities_RadioButton_CanUncheck.htm" />
           <HelpTOCNode Title="DefaultParagraphStyle Field" Url="html/F_GeonBit_UI_Entities_RadioButton_DefaultParagraphStyle.htm" />
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_RadioButton_DefaultStyle.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="de8be141-211e-4989-a590-16a3e7c6470a" Title="RootPanel Class" Url="html/T_GeonBit_UI_Entities_RootPanel.htm">
+      <HelpTOCNode Id="ad28757b-27c5-4941-afe6-9423fb40f31d" Title="RootPanel Class" Url="html/T_GeonBit_UI_Entities_RootPanel.htm">
         <HelpTOCNode Title="RootPanel Constructor " Url="html/M_GeonBit_UI_Entities_RootPanel__ctor.htm" />
         <HelpTOCNode Title="RootPanel Properties" Url="html/Properties_T_GeonBit_UI_Entities_RootPanel.htm" />
-        <HelpTOCNode Id="022e9402-f650-4dec-a022-3595dc3ba946" Title="RootPanel Methods" Url="html/Methods_T_GeonBit_UI_Entities_RootPanel.htm">
+        <HelpTOCNode Id="8f9eee54-9c50-41df-9447-ecb3358761d9" Title="RootPanel Methods" Url="html/Methods_T_GeonBit_UI_Entities_RootPanel.htm">
           <HelpTOCNode Title="CalcDestRect Method " Url="html/M_GeonBit_UI_Entities_RootPanel_CalcDestRect.htm" />
           <HelpTOCNode Title="Draw Method " Url="html/M_GeonBit_UI_Entities_RootPanel_Draw.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="RootPanel Fields" Url="html/Fields_T_GeonBit_UI_Entities_RootPanel.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="8d12dfd8-ecf7-44b3-b671-03baf1997804" Title="SelectList Class" Url="html/T_GeonBit_UI_Entities_SelectList.htm">
-        <HelpTOCNode Id="2b5814f9-d1cc-4e09-80ba-3f08f3c10792" Title="SelectList Constructor " Url="html/Overload_GeonBit_UI_Entities_SelectList__ctor.htm">
+      <HelpTOCNode Id="e78623cb-b41f-4f9f-9ef5-1bc000425776" Title="SelectList Class" Url="html/T_GeonBit_UI_Entities_SelectList.htm">
+        <HelpTOCNode Id="01a6df5a-dfe5-4cbd-a798-68426f99f6c3" Title="SelectList Constructor " Url="html/Overload_GeonBit_UI_Entities_SelectList__ctor.htm">
           <HelpTOCNode Title="SelectList Constructor (Anchor, Nullable(Vector2))" Url="html/M_GeonBit_UI_Entities_SelectList__ctor.htm" />
           <HelpTOCNode Title="SelectList Constructor (Vector2, Anchor, Nullable(Vector2), PanelSkin)" Url="html/M_GeonBit_UI_Entities_SelectList__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="0990634b-85cb-49c3-876b-be4a12c8f726" Title="SelectList Properties" Url="html/Properties_T_GeonBit_UI_Entities_SelectList.htm">
+        <HelpTOCNode Id="c1b20c6c-add7-4afe-b90b-ae8a0fd51cdc" Title="SelectList Properties" Url="html/Properties_T_GeonBit_UI_Entities_SelectList.htm">
           <HelpTOCNode Title="Count Property " Url="html/P_GeonBit_UI_Entities_SelectList_Count.htm" />
           <HelpTOCNode Title="DefaultSize Property " Url="html/P_GeonBit_UI_Entities_SelectList_DefaultSize.htm" />
           <HelpTOCNode Title="Empty Property " Url="html/P_GeonBit_UI_Entities_SelectList_Empty.htm" />
@@ -434,14 +480,14 @@
           <HelpTOCNode Title="SelectedIndex Property " Url="html/P_GeonBit_UI_Entities_SelectList_SelectedIndex.htm" />
           <HelpTOCNode Title="SelectedValue Property " Url="html/P_GeonBit_UI_Entities_SelectList_SelectedValue.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f9d8bddd-9a0e-4e70-a2f4-b0f376849628" Title="SelectList Methods" Url="html/Methods_T_GeonBit_UI_Entities_SelectList.htm">
-          <HelpTOCNode Id="43ac8daa-6e1c-4f4b-965e-0ae334951261" Title="AddItem Method " Url="html/Overload_GeonBit_UI_Entities_SelectList_AddItem.htm">
+        <HelpTOCNode Id="208821ac-0d3e-410f-b64f-8b03926610ec" Title="SelectList Methods" Url="html/Methods_T_GeonBit_UI_Entities_SelectList.htm">
+          <HelpTOCNode Id="81d62cee-33fe-4682-a0d4-470771073be2" Title="AddItem Method " Url="html/Overload_GeonBit_UI_Entities_SelectList_AddItem.htm">
             <HelpTOCNode Title="AddItem Method (String)" Url="html/M_GeonBit_UI_Entities_SelectList_AddItem.htm" />
             <HelpTOCNode Title="AddItem Method (String, Int32)" Url="html/M_GeonBit_UI_Entities_SelectList_AddItem_1.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="ClearItems Method " Url="html/M_GeonBit_UI_Entities_SelectList_ClearItems.htm" />
           <HelpTOCNode Title="IsNaturallyInteractable Method " Url="html/M_GeonBit_UI_Entities_SelectList_IsNaturallyInteractable.htm" />
-          <HelpTOCNode Id="fadb2c91-f4f5-413a-813d-f22b20b75967" Title="RemoveItem Method " Url="html/Overload_GeonBit_UI_Entities_SelectList_RemoveItem.htm">
+          <HelpTOCNode Id="0cd0443f-3569-413a-8957-76fd68bd594e" Title="RemoveItem Method " Url="html/Overload_GeonBit_UI_Entities_SelectList_RemoveItem.htm">
             <HelpTOCNode Title="RemoveItem Method (Int32)" Url="html/M_GeonBit_UI_Entities_SelectList_RemoveItem.htm" />
             <HelpTOCNode Title="RemoveItem Method (String)" Url="html/M_GeonBit_UI_Entities_SelectList_RemoveItem_1.htm" />
           </HelpTOCNode>
@@ -449,63 +495,65 @@
           <HelpTOCNode Title="ScrollToSelected Method " Url="html/M_GeonBit_UI_Entities_SelectList_ScrollToSelected.htm" />
           <HelpTOCNode Title="Unselect Method " Url="html/M_GeonBit_UI_Entities_SelectList_Unselect.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="ad41b300-b3dc-4260-9f98-fdd393204820" Title="SelectList Fields" Url="html/Fields_T_GeonBit_UI_Entities_SelectList.htm">
+        <HelpTOCNode Id="7ea81978-74b9-4fb4-988d-a0840e246786" Title="SelectList Fields" Url="html/Fields_T_GeonBit_UI_Entities_SelectList.htm">
           <HelpTOCNode Title="DefaultParagraphStyle Field" Url="html/F_GeonBit_UI_Entities_SelectList_DefaultParagraphStyle.htm" />
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_SelectList_DefaultStyle.htm" />
           <HelpTOCNode Title="ExtraSpaceBetweenLines Field" Url="html/F_GeonBit_UI_Entities_SelectList_ExtraSpaceBetweenLines.htm" />
           <HelpTOCNode Title="ItemsScale Field" Url="html/F_GeonBit_UI_Entities_SelectList_ItemsScale.htm" />
           <HelpTOCNode Title="LockSelection Field" Url="html/F_GeonBit_UI_Entities_SelectList_LockSelection.htm" />
+          <HelpTOCNode Title="MaxItems Field" Url="html/F_GeonBit_UI_Entities_SelectList_MaxItems.htm" />
           <HelpTOCNode Title="OnListChange Field" Url="html/F_GeonBit_UI_Entities_SelectList_OnListChange.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="35f165ef-dcdc-46f1-b362-3f9f423049d2" Title="Slider Class" Url="html/T_GeonBit_UI_Entities_Slider.htm">
-        <HelpTOCNode Id="708b3553-da3d-45eb-8a9c-a877a258440c" Title="Slider Constructor " Url="html/Overload_GeonBit_UI_Entities_Slider__ctor.htm">
+      <HelpTOCNode Id="0a38dfd4-6781-45a2-afc2-689d36d0581b" Title="Slider Class" Url="html/T_GeonBit_UI_Entities_Slider.htm">
+        <HelpTOCNode Id="ba42249a-dc3c-4a22-9c24-5814bdd10799" Title="Slider Constructor " Url="html/Overload_GeonBit_UI_Entities_Slider__ctor.htm">
           <HelpTOCNode Title="Slider Constructor (UInt32, UInt32, SliderSkin, Anchor, Nullable(Vector2))" Url="html/M_GeonBit_UI_Entities_Slider__ctor.htm" />
           <HelpTOCNode Title="Slider Constructor (UInt32, UInt32, Vector2, SliderSkin, Anchor, Nullable(Vector2))" Url="html/M_GeonBit_UI_Entities_Slider__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="888fe399-4ec3-44d2-8ad5-99fff4627147" Title="Slider Properties" Url="html/Properties_T_GeonBit_UI_Entities_Slider.htm">
+        <HelpTOCNode Id="f2e7a920-8e83-40d7-810e-3ebd52627eb7" Title="Slider Properties" Url="html/Properties_T_GeonBit_UI_Entities_Slider.htm">
           <HelpTOCNode Title="DefaultSize Property " Url="html/P_GeonBit_UI_Entities_Slider_DefaultSize.htm" />
           <HelpTOCNode Title="Max Property " Url="html/P_GeonBit_UI_Entities_Slider_Max.htm" />
           <HelpTOCNode Title="Min Property " Url="html/P_GeonBit_UI_Entities_Slider_Min.htm" />
           <HelpTOCNode Title="StepsCount Property " Url="html/P_GeonBit_UI_Entities_Slider_StepsCount.htm" />
           <HelpTOCNode Title="Value Property " Url="html/P_GeonBit_UI_Entities_Slider_Value.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="bdf5a9be-add4-4db7-83b5-12e99ce51193" Title="Slider Methods" Url="html/Methods_T_GeonBit_UI_Entities_Slider.htm">
+        <HelpTOCNode Id="2bcb40a5-abbb-4d59-a11a-bfa1ba883c5d" Title="Slider Methods" Url="html/Methods_T_GeonBit_UI_Entities_Slider.htm">
+          <HelpTOCNode Title="GetStepSize Method " Url="html/M_GeonBit_UI_Entities_Slider_GetStepSize.htm" />
           <HelpTOCNode Title="GetValueAsPercent Method " Url="html/M_GeonBit_UI_Entities_Slider_GetValueAsPercent.htm" />
           <HelpTOCNode Title="IsNaturallyInteractable Method " Url="html/M_GeonBit_UI_Entities_Slider_IsNaturallyInteractable.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="f410f1e2-d0ef-4426-8a36-dfeefe6cba83" Title="Slider Fields" Url="html/Fields_T_GeonBit_UI_Entities_Slider.htm">
+        <HelpTOCNode Id="c8871fa4-c13e-4f38-9139-9fcd317b7f50" Title="Slider Fields" Url="html/Fields_T_GeonBit_UI_Entities_Slider.htm">
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_Slider_DefaultStyle.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
       <HelpTOCNode Title="SliderSkin Enumeration" Url="html/T_GeonBit_UI_Entities_SliderSkin.htm" />
-      <HelpTOCNode Id="97af68d6-ad1a-4bbe-93b8-faac13af6c4d" Title="StyleSheet Class" Url="html/T_GeonBit_UI_Entities_StyleSheet.htm">
+      <HelpTOCNode Id="129d31cb-842a-4725-8aea-6bfc65458935" Title="StyleSheet Class" Url="html/T_GeonBit_UI_Entities_StyleSheet.htm">
         <HelpTOCNode Title="StyleSheet Constructor " Url="html/M_GeonBit_UI_Entities_StyleSheet__ctor.htm" />
         <HelpTOCNode Title="StyleSheet Properties" Url="html/Properties_T_GeonBit_UI_Entities_StyleSheet.htm" />
-        <HelpTOCNode Id="029fc28f-752b-471e-84f9-5094bea10a49" Title="StyleSheet Methods" Url="html/Methods_T_GeonBit_UI_Entities_StyleSheet.htm">
+        <HelpTOCNode Id="3d6662bc-8fa4-475c-80ba-b774e9ba1c67" Title="StyleSheet Methods" Url="html/Methods_T_GeonBit_UI_Entities_StyleSheet.htm">
           <HelpTOCNode Title="GetStyleProperty Method " Url="html/M_GeonBit_UI_Entities_StyleSheet_GetStyleProperty.htm" />
           <HelpTOCNode Title="SetStyleProperty Method " Url="html/M_GeonBit_UI_Entities_StyleSheet_SetStyleProperty.htm" />
           <HelpTOCNode Title="UpdateFrom Method " Url="html/M_GeonBit_UI_Entities_StyleSheet_UpdateFrom.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="af01966c-37bb-4d59-b556-fa3662d78ca2" Title="TextInput Class" Url="html/T_GeonBit_UI_Entities_TextInput.htm">
-        <HelpTOCNode Id="93009f88-fae5-4698-80cb-7735dd002719" Title="TextInput Constructor " Url="html/Overload_GeonBit_UI_Entities_TextInput__ctor.htm">
+      <HelpTOCNode Id="3e718c22-8c8c-4fa0-b4d6-e1270155ece7" Title="TextInput Class" Url="html/T_GeonBit_UI_Entities_TextInput.htm">
+        <HelpTOCNode Id="39ede42f-144b-450d-bc6b-9dbdcb8cd8fa" Title="TextInput Constructor " Url="html/Overload_GeonBit_UI_Entities_TextInput__ctor.htm">
           <HelpTOCNode Title="TextInput Constructor (Boolean, Anchor, Nullable(Vector2))" Url="html/M_GeonBit_UI_Entities_TextInput__ctor.htm" />
           <HelpTOCNode Title="TextInput Constructor (Boolean, Vector2, Anchor, Nullable(Vector2), PanelSkin)" Url="html/M_GeonBit_UI_Entities_TextInput__ctor_1.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="91843789-5c8d-42a9-98fa-a37154e803d0" Title="TextInput Properties" Url="html/Properties_T_GeonBit_UI_Entities_TextInput.htm">
+        <HelpTOCNode Id="2e81c588-f2f3-4f0d-a893-bf6e9476231a" Title="TextInput Properties" Url="html/Properties_T_GeonBit_UI_Entities_TextInput.htm">
           <HelpTOCNode Title="Caret Property " Url="html/P_GeonBit_UI_Entities_TextInput_Caret.htm" />
           <HelpTOCNode Title="DefaultSize Property " Url="html/P_GeonBit_UI_Entities_TextInput_DefaultSize.htm" />
           <HelpTOCNode Title="PlaceholderText Property " Url="html/P_GeonBit_UI_Entities_TextInput_PlaceholderText.htm" />
           <HelpTOCNode Title="ScrollPosition Property " Url="html/P_GeonBit_UI_Entities_TextInput_ScrollPosition.htm" />
           <HelpTOCNode Title="Value Property " Url="html/P_GeonBit_UI_Entities_TextInput_Value.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="6453a0c9-0cbd-4571-b266-df1354777183" Title="TextInput Methods" Url="html/Methods_T_GeonBit_UI_Entities_TextInput.htm">
+        <HelpTOCNode Id="517eb1a4-fd52-47cc-8ab7-ed2c33ab98ff" Title="TextInput Methods" Url="html/Methods_T_GeonBit_UI_Entities_TextInput.htm">
           <HelpTOCNode Title="IsNaturallyInteractable Method " Url="html/M_GeonBit_UI_Entities_TextInput_IsNaturallyInteractable.htm" />
           <HelpTOCNode Title="ResetCaret Method " Url="html/M_GeonBit_UI_Entities_TextInput_ResetCaret.htm" />
           <HelpTOCNode Title="ScrollToCaret Method " Url="html/M_GeonBit_UI_Entities_TextInput_ScrollToCaret.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="5084c04d-7154-4cc6-8e35-caddf51e15b7" Title="TextInput Fields" Url="html/Fields_T_GeonBit_UI_Entities_TextInput.htm">
+        <HelpTOCNode Id="6c476e9c-70f7-4d96-81ff-2a5669a75698" Title="TextInput Fields" Url="html/Fields_T_GeonBit_UI_Entities_TextInput.htm">
           <HelpTOCNode Title="CaretBlinkingSpeed Field" Url="html/F_GeonBit_UI_Entities_TextInput_CaretBlinkingSpeed.htm" />
           <HelpTOCNode Title="CharactersLimit Field" Url="html/F_GeonBit_UI_Entities_TextInput_CharactersLimit.htm" />
           <HelpTOCNode Title="DefaultParagraphStyle Field" Url="html/F_GeonBit_UI_Entities_TextInput_DefaultParagraphStyle.htm" />
@@ -517,38 +565,38 @@
           <HelpTOCNode Title="Validators Field" Url="html/F_GeonBit_UI_Entities_TextInput_Validators.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="ad9a5465-6c79-42d2-8e9e-804b066dd2ee" Title="VerticalScrollbar Class" Url="html/T_GeonBit_UI_Entities_VerticalScrollbar.htm">
+      <HelpTOCNode Id="3fbbcdff-c25a-4717-9f10-0e1125768e9e" Title="VerticalScrollbar Class" Url="html/T_GeonBit_UI_Entities_VerticalScrollbar.htm">
         <HelpTOCNode Title="VerticalScrollbar Constructor " Url="html/M_GeonBit_UI_Entities_VerticalScrollbar__ctor.htm" />
-        <HelpTOCNode Id="7083d7fd-46c0-4ca6-a143-d116b38cd415" Title="VerticalScrollbar Properties" Url="html/Properties_T_GeonBit_UI_Entities_VerticalScrollbar.htm">
+        <HelpTOCNode Id="b3b0704b-409f-44e1-b4be-945ee209dd0e" Title="VerticalScrollbar Properties" Url="html/Properties_T_GeonBit_UI_Entities_VerticalScrollbar.htm">
           <HelpTOCNode Title="DefaultSize Property " Url="html/P_GeonBit_UI_Entities_VerticalScrollbar_DefaultSize.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="VerticalScrollbar Methods" Url="html/Methods_T_GeonBit_UI_Entities_VerticalScrollbar.htm" />
-        <HelpTOCNode Id="d182c008-18d6-4669-b023-7283cd2ea2d6" Title="VerticalScrollbar Fields" Url="html/Fields_T_GeonBit_UI_Entities_VerticalScrollbar.htm">
+        <HelpTOCNode Id="bc385e70-e020-4d66-90d5-a9528f644f4a" Title="VerticalScrollbar Fields" Url="html/Fields_T_GeonBit_UI_Entities_VerticalScrollbar.htm">
           <HelpTOCNode Title="DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_VerticalScrollbar_DefaultStyle.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="7808751e-6d3e-40b5-a945-04e9f2d72216" Title="GeonBit.UI.Entities.TextValidators" Url="html/N_GeonBit_UI_Entities_TextValidators.htm">
-      <HelpTOCNode Id="ec2a0f76-bdb5-4daa-96e9-a8742ffc3fc8" Title="ITextValidator Interface" Url="html/T_GeonBit_UI_Entities_TextValidators_ITextValidator.htm">
-        <HelpTOCNode Id="89e5b7e5-7663-4492-b987-67a9fea4da5f" Title="ITextValidator Methods" Url="html/Methods_T_GeonBit_UI_Entities_TextValidators_ITextValidator.htm">
+    <HelpTOCNode Id="a1894bc1-8015-4c97-b943-27ad7a2cb820" Title="GeonBit.UI.Entities.TextValidators" Url="html/N_GeonBit_UI_Entities_TextValidators.htm">
+      <HelpTOCNode Id="e103c4fa-7206-4d1e-ae4c-a41ce11b4360" Title="ITextValidator Interface" Url="html/T_GeonBit_UI_Entities_TextValidators_ITextValidator.htm">
+        <HelpTOCNode Id="732ad893-79d0-41ce-87f9-2a42d05f107a" Title="ITextValidator Methods" Url="html/Methods_T_GeonBit_UI_Entities_TextValidators_ITextValidator.htm">
           <HelpTOCNode Title="ValidateText Method " Url="html/M_GeonBit_UI_Entities_TextValidators_ITextValidator_ValidateText.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="310382a2-bb57-41df-9bd7-ded67d6b61af" Title="TextValidatorEnglishCharsOnly Class" Url="html/T_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly.htm">
+      <HelpTOCNode Id="08033fe0-b1b3-4bd7-8467-3b2e30d4bf72" Title="TextValidatorEnglishCharsOnly Class" Url="html/T_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly.htm">
         <HelpTOCNode Title="TextValidatorEnglishCharsOnly Constructor " Url="html/M_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly__ctor.htm" />
-        <HelpTOCNode Id="9e3e8ffd-1103-417c-a090-94042fe8182b" Title="TextValidatorEnglishCharsOnly Methods" Url="html/Methods_T_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly.htm">
+        <HelpTOCNode Id="eeecac27-a034-4e56-ba17-3ddae71e9a8c" Title="TextValidatorEnglishCharsOnly Methods" Url="html/Methods_T_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly.htm">
           <HelpTOCNode Title="ValidateText Method " Url="html/M_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly_ValidateText.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="59a6b6a2-f7bc-4ca6-9f09-3a66d15c4ce8" Title="TextValidatorMakeTitle Class" Url="html/T_GeonBit_UI_Entities_TextValidators_TextValidatorMakeTitle.htm">
+      <HelpTOCNode Id="8fd3882d-ef06-4190-807c-5cde1f7b9952" Title="TextValidatorMakeTitle Class" Url="html/T_GeonBit_UI_Entities_TextValidators_TextValidatorMakeTitle.htm">
         <HelpTOCNode Title="TextValidatorMakeTitle Constructor " Url="html/M_GeonBit_UI_Entities_TextValidators_TextValidatorMakeTitle__ctor.htm" />
-        <HelpTOCNode Id="e012ae15-2f61-49a8-b5ca-1a9fd5fb5661" Title="TextValidatorMakeTitle Methods" Url="html/Methods_T_GeonBit_UI_Entities_TextValidators_TextValidatorMakeTitle.htm">
+        <HelpTOCNode Id="91911a27-bdd1-479a-a38e-a6246b323b2f" Title="TextValidatorMakeTitle Methods" Url="html/Methods_T_GeonBit_UI_Entities_TextValidators_TextValidatorMakeTitle.htm">
           <HelpTOCNode Title="ValidateText Method " Url="html/M_GeonBit_UI_Entities_TextValidators_TextValidatorMakeTitle_ValidateText.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="9580a526-6757-409a-88ef-506085dc1c40" Title="TextValidatorNumbersOnly Class" Url="html/T_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly.htm">
+      <HelpTOCNode Id="c2d1cc24-f227-4b61-ad9b-16133344b245" Title="TextValidatorNumbersOnly Class" Url="html/T_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly.htm">
         <HelpTOCNode Title="TextValidatorNumbersOnly Constructor " Url="html/M_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly__ctor.htm" />
-        <HelpTOCNode Id="722dcbf7-dc39-4d1f-90f3-92518d0a3533" Title="TextValidatorNumbersOnly Methods" Url="html/Methods_T_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly.htm">
+        <HelpTOCNode Id="c0b0f8c0-c5b5-4338-9c56-3582a01819e9" Title="TextValidatorNumbersOnly Methods" Url="html/Methods_T_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly.htm">
           <HelpTOCNode Title="ValidateText Method " Url="html/M_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly_ValidateText.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
