@@ -111,6 +111,7 @@
     <HelpKINode Title="Button.Checked Property " Url="html/P_GeonBit_UI_Entities_Button_Checked.htm" />
     <HelpKINode Title="CheckBox.Checked Property " Url="html/P_GeonBit_UI_Entities_CheckBox_Checked.htm" />
   </HelpKINode>
+  <HelpKINode Title="Clear method" Url="html/M_GeonBit_UI_UserInterface_Clear.htm" />
   <HelpKINode Title="ClearChildren method" Url="html/M_GeonBit_UI_Entities_Entity_ClearChildren.htm" />
   <HelpKINode Title="ClearItems method">
     <HelpKINode Title="DropDown.ClearItems Method " Url="html/M_GeonBit_UI_Entities_DropDown_ClearItems.htm" />
@@ -828,6 +829,7 @@
   <HelpKINode Title="RingGold enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="RingGoldRuby enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="RingRuby enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
+  <HelpKINode Title="Root property" Url="html/P_GeonBit_UI_UserInterface_Root.htm" />
   <HelpKINode Title="RootPanel class">
     <HelpKINode Title="RootPanel Class" Url="html/T_GeonBit_UI_Entities_RootPanel.htm" />
     <HelpKINode Title="about RootPanel class" Url="html/T_GeonBit_UI_Entities_RootPanel.htm" />
@@ -1077,6 +1079,7 @@
   <HelpKINode Title="UserInterface.AfterUpdate field" Url="html/F_GeonBit_UI_UserInterface_AfterUpdate.htm" />
   <HelpKINode Title="UserInterface.BeforeDraw field" Url="html/F_GeonBit_UI_UserInterface_BeforeDraw.htm" />
   <HelpKINode Title="UserInterface.BeforeUpdate field" Url="html/F_GeonBit_UI_UserInterface_BeforeUpdate.htm" />
+  <HelpKINode Title="UserInterface.Clear method" Url="html/M_GeonBit_UI_UserInterface_Clear.htm" />
   <HelpKINode Title="UserInterface.CursorScale field" Url="html/F_GeonBit_UI_UserInterface_CursorScale.htm" />
   <HelpKINode Title="UserInterface.Draw method" Url="html/M_GeonBit_UI_UserInterface_Draw.htm" />
   <HelpKINode Title="UserInterface.DrawMainRenderTarget method" Url="html/M_GeonBit_UI_UserInterface_DrawMainRenderTarget.htm" />
@@ -1096,6 +1099,7 @@
   <HelpKINode Title="UserInterface.OnVisiblityChange field" Url="html/F_GeonBit_UI_UserInterface_OnVisiblityChange.htm" />
   <HelpKINode Title="UserInterface.RemoveEntity method" Url="html/M_GeonBit_UI_UserInterface_RemoveEntity.htm" />
   <HelpKINode Title="UserInterface.RenderTarget property" Url="html/P_GeonBit_UI_UserInterface_RenderTarget.htm" />
+  <HelpKINode Title="UserInterface.Root property" Url="html/P_GeonBit_UI_UserInterface_Root.htm" />
   <HelpKINode Title="UserInterface.ScreenHeight field" Url="html/F_GeonBit_UI_UserInterface_ScreenHeight.htm" />
   <HelpKINode Title="UserInterface.ScreenWidth field" Url="html/F_GeonBit_UI_UserInterface_ScreenWidth.htm" />
   <HelpKINode Title="UserInterface.SetCursor method" Url="html/Overload_GeonBit_UI_UserInterface_SetCursor.htm" />
