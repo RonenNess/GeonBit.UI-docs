@@ -38,6 +38,7 @@
   <HelpKINode Title="Axe enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="Background property" Url="html/P_GeonBit_UI_Entities_Entity_Background.htm" />
   <HelpKINode Title="BackgroundSize field" Url="html/F_GeonBit_UI_Entities_Icon_BackgroundSize.htm" />
+  <HelpKINode Title="BackgroundSkin property" Url="html/P_GeonBit_UI_Entities_PanelTabs_BackgroundSkin.htm" />
   <HelpKINode Title="BaseSize field" Url="html/F_GeonBit_UI_Entities_Paragraph_BaseSize.htm" />
   <HelpKINode Title="BeforeDraw field">
     <HelpKINode Title="Entity.BeforeDraw Field" Url="html/F_GeonBit_UI_Entities_Entity_BeforeDraw.htm" />
@@ -82,10 +83,12 @@
   <HelpKINode Title="ButtonTextures field" Url="html/F_GeonBit_UI_Resources_ButtonTextures.htm" />
   <HelpKINode Title="CalcDestRect method">
     <HelpKINode Title="Entity.CalcDestRect Method " Url="html/M_GeonBit_UI_Entities_Entity_CalcDestRect.htm" />
-    <HelpKINode Title="PanelTabs.CalcDestRect Method " Url="html/M_GeonBit_UI_Entities_PanelTabs_CalcDestRect.htm" />
     <HelpKINode Title="RootPanel.CalcDestRect Method " Url="html/M_GeonBit_UI_Entities_RootPanel_CalcDestRect.htm" />
   </HelpKINode>
-  <HelpKINode Title="CalcInternalRect method" Url="html/M_GeonBit_UI_Entities_Entity_CalcInternalRect.htm" />
+  <HelpKINode Title="CalcInternalRect method">
+    <HelpKINode Title="Entity.CalcInternalRect Method " Url="html/M_GeonBit_UI_Entities_Entity_CalcInternalRect.htm" />
+    <HelpKINode Title="Panel.CalcInternalRect Method " Url="html/M_GeonBit_UI_Entities_Panel_CalcInternalRect.htm" />
+  </HelpKINode>
   <HelpKINode Title="CalcTextActualRectWithWrap method" Url="html/M_GeonBit_UI_Entities_Paragraph_CalcTextActualRectWithWrap.htm" />
   <HelpKINode Title="CanUncheck field" Url="html/F_GeonBit_UI_Entities_RadioButton_CanUncheck.htm" />
   <HelpKINode Title="Caption field" Url="html/F_GeonBit_UI_Entities_ProgressBar_Caption.htm" />
@@ -715,6 +718,7 @@
   </HelpKINode>
   <HelpKINode Title="Panel enumeration member" Url="html/T_GeonBit_UI_Entities_ImageDrawMode.htm" />
   <HelpKINode Title="panel field" Url="html/F_GeonBit_UI_Entities_PanelTabs_TabData_panel.htm" />
+  <HelpKINode Title="Panel.CalcInternalRect method" Url="html/M_GeonBit_UI_Entities_Panel_CalcInternalRect.htm" />
   <HelpKINode Title="Panel.DefaultStyle field" Url="html/F_GeonBit_UI_Entities_Panel_DefaultStyle.htm" />
   <HelpKINode Title="Panel.Panel constructor" Url="html/M_GeonBit_UI_Entities_Panel__ctor.htm" />
   <HelpKINode Title="Panel.PanelOverflowBehavior property" Url="html/P_GeonBit_UI_Entities_Panel_PanelOverflowBehavior.htm" />
@@ -734,7 +738,7 @@
   </HelpKINode>
   <HelpKINode Title="PanelTabs.ActiveTab property" Url="html/P_GeonBit_UI_Entities_PanelTabs_ActiveTab.htm" />
   <HelpKINode Title="PanelTabs.AddTab method" Url="html/M_GeonBit_UI_Entities_PanelTabs_AddTab.htm" />
-  <HelpKINode Title="PanelTabs.CalcDestRect method" Url="html/M_GeonBit_UI_Entities_PanelTabs_CalcDestRect.htm" />
+  <HelpKINode Title="PanelTabs.BackgroundSkin property" Url="html/P_GeonBit_UI_Entities_PanelTabs_BackgroundSkin.htm" />
   <HelpKINode Title="PanelTabs.DefaultButtonParagraphStyle field" Url="html/F_GeonBit_UI_Entities_PanelTabs_DefaultButtonParagraphStyle.htm" />
   <HelpKINode Title="PanelTabs.DefaultButtonStyle field" Url="html/F_GeonBit_UI_Entities_PanelTabs_DefaultButtonStyle.htm" />
   <HelpKINode Title="PanelTabs.PanelTabs constructor" Url="html/M_GeonBit_UI_Entities_PanelTabs__ctor.htm" />
