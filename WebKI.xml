@@ -11,7 +11,10 @@
     <HelpKINode Title="DropDown.AddItem Method " Url="html/Overload_GeonBit_UI_Entities_DropDown_AddItem.htm" />
     <HelpKINode Title="SelectList.AddItem Method " Url="html/Overload_GeonBit_UI_Entities_SelectList_AddItem.htm" />
   </HelpKINode>
+  <HelpKINode Title="AddItemToMenu method" Url="html/M_GeonBit_UI_Utils_SimpleFileMenu_MenuLayout_AddItemToMenu.htm" />
+  <HelpKINode Title="AddMenu method" Url="html/M_GeonBit_UI_Utils_SimpleFileMenu_MenuLayout_AddMenu.htm" />
   <HelpKINode Title="AddTab method" Url="html/M_GeonBit_UI_Entities_PanelTabs_AddTab.htm" />
+  <HelpKINode Title="AddWhenClipping field" Url="html/F_GeonBit_UI_Entities_SelectList_AddWhenClipping.htm" />
   <HelpKINode Title="AdjustMaxAutomatically field" Url="html/F_GeonBit_UI_Entities_VerticalScrollbar_AdjustMaxAutomatically.htm" />
   <HelpKINode Title="AfterDraw field">
     <HelpKINode Title="Entity.AfterDraw Field" Url="html/F_GeonBit_UI_Entities_Entity_AfterDraw.htm" />
@@ -37,6 +40,7 @@
   <HelpKINode Title="Auto enumeration member" Url="html/T_GeonBit_UI_Entities_Anchor.htm" />
   <HelpKINode Title="AutoCenter enumeration member" Url="html/T_GeonBit_UI_Entities_Anchor.htm" />
   <HelpKINode Title="AutoInline enumeration member" Url="html/T_GeonBit_UI_Entities_Anchor.htm" />
+  <HelpKINode Title="AutoSetListHeight field" Url="html/F_GeonBit_UI_Entities_DropDown_AutoSetListHeight.htm" />
   <HelpKINode Title="Axe enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="Background property" Url="html/P_GeonBit_UI_Entities_Entity_Background.htm" />
   <HelpKINode Title="BackgroundColor field" Url="html/F_GeonBit_UI_Entities_Paragraph_BackgroundColor.htm" />
@@ -134,6 +138,7 @@
   </HelpKINode>
   <HelpKINode Title="ClickThrough field" Url="html/F_GeonBit_UI_Entities_Entity_ClickThrough.htm" />
   <HelpKINode Title="Clipped enumeration member" Url="html/T_GeonBit_UI_Entities_PanelOverflowBehavior.htm" />
+  <HelpKINode Title="ClipTextIfOverflow field" Url="html/F_GeonBit_UI_Entities_SelectList_ClipTextIfOverflow.htm" />
   <HelpKINode Title="Color property" Url="html/P_GeonBit_UI_Entities_ColorInstruction_Color.htm" />
   <HelpKINode Title="ColoredRectangle class">
     <HelpKINode Title="ColoredRectangle Class" Url="html/T_GeonBit_UI_Entities_ColoredRectangle.htm" />
@@ -161,6 +166,7 @@
     <HelpKINode Title="DropDown.Count Property " Url="html/P_GeonBit_UI_Entities_DropDown_Count.htm" />
     <HelpKINode Title="SelectList.Count Property " Url="html/P_GeonBit_UI_Entities_SelectList_Count.htm" />
   </HelpKINode>
+  <HelpKINode Title="Create method" Url="html/M_GeonBit_UI_Utils_SimpleFileMenu_Create.htm" />
   <HelpKINode Title="Cubes enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="CurrGameTime property" Url="html/P_GeonBit_UI_InputHelper_CurrGameTime.htm" />
   <HelpKINode Title="Cursors field" Url="html/F_GeonBit_UI_Resources_Cursors.htm" />
@@ -226,7 +232,7 @@
     <HelpKINode Title="TextInput.DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_TextInput_DefaultStyle.htm" />
     <HelpKINode Title="VerticalScrollbar.DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_VerticalScrollbar_DefaultStyle.htm" />
   </HelpKINode>
-  <HelpKINode Title="DefaultText field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultText.htm" />
+  <HelpKINode Title="DefaultText property" Url="html/P_GeonBit_UI_Entities_DropDown_DefaultText.htm" />
   <HelpKINode Title="Diamond enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="Disabled field" Url="html/F_GeonBit_UI_Entities_Entity_Disabled.htm" />
   <HelpKINode Title="DisabledEffect field" Url="html/F_GeonBit_UI_Resources_DisabledEffect.htm" />
@@ -278,13 +284,14 @@
   <HelpKINode Title="DropDown.AllowReselectValue property" Url="html/P_GeonBit_UI_Entities_DropDown_AllowReselectValue.htm" />
   <HelpKINode Title="DropDown.ArrowDownImage property" Url="html/P_GeonBit_UI_Entities_DropDown_ArrowDownImage.htm" />
   <HelpKINode Title="DropDown.ArrowSize field" Url="html/F_GeonBit_UI_Entities_DropDown_ArrowSize.htm" />
+  <HelpKINode Title="DropDown.AutoSetListHeight field" Url="html/F_GeonBit_UI_Entities_DropDown_AutoSetListHeight.htm" />
   <HelpKINode Title="DropDown.ClearItems method" Url="html/M_GeonBit_UI_Entities_DropDown_ClearItems.htm" />
   <HelpKINode Title="DropDown.Count property" Url="html/P_GeonBit_UI_Entities_DropDown_Count.htm" />
   <HelpKINode Title="DropDown.DefaultParagraphStyle field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultParagraphStyle.htm" />
   <HelpKINode Title="DropDown.DefaultSelectedParagraphStyle field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultSelectedParagraphStyle.htm" />
   <HelpKINode Title="DropDown.DefaultSize field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultSize.htm" />
   <HelpKINode Title="DropDown.DefaultStyle field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultStyle.htm" />
-  <HelpKINode Title="DropDown.DefaultText field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultText.htm" />
+  <HelpKINode Title="DropDown.DefaultText property" Url="html/P_GeonBit_UI_Entities_DropDown_DefaultText.htm" />
   <HelpKINode Title="DropDown.DropDown constructor" Url="html/M_GeonBit_UI_Entities_DropDown__ctor.htm" />
   <HelpKINode Title="DropDown.Empty property" Url="html/P_GeonBit_UI_Entities_DropDown_Empty.htm" />
   <HelpKINode Title="DropDown.IsInsideEntity method" Url="html/M_GeonBit_UI_Entities_DropDown_IsInsideEntity.htm" />
@@ -489,6 +496,8 @@
   <HelpKINode Title="GeonBit.UI.Utils namespace" Url="html/N_GeonBit_UI_Utils.htm" />
   <HelpKINode Title="GeonBit.UI.Utils.MessageBox class" Url="html/T_GeonBit_UI_Utils_MessageBox.htm" />
   <HelpKINode Title="GeonBit.UI.Utils.MessageBox.MsgBoxOption class" Url="html/T_GeonBit_UI_Utils_MessageBox_MsgBoxOption.htm" />
+  <HelpKINode Title="GeonBit.UI.Utils.SimpleFileMenu class" Url="html/T_GeonBit_UI_Utils_SimpleFileMenu.htm" />
+  <HelpKINode Title="GeonBit.UI.Utils.SimpleFileMenu.MenuLayout class" Url="html/T_GeonBit_UI_Utils_SimpleFileMenu_MenuLayout.htm" />
   <HelpKINode Title="GetActiveStyle method" Url="html/M_GeonBit_UI_Entities_Entity_GetActiveStyle.htm" />
   <HelpKINode Title="GetActualDestRect method">
     <HelpKINode Title="Entity.GetActualDestRect Method " Url="html/M_GeonBit_UI_Entities_Entity_GetActualDestRect.htm" />
@@ -680,8 +689,12 @@
   <HelpKINode Title="MagicWand enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="Map enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="MarkAsDirty method" Url="html/M_GeonBit_UI_Entities_Entity_MarkAsDirty.htm" />
+  <HelpKINode Title="MatchHeightToList method" Url="html/M_GeonBit_UI_Entities_SelectList_MatchHeightToList.htm" />
   <HelpKINode Title="Max property" Url="html/P_GeonBit_UI_Entities_Slider_Max.htm" />
   <HelpKINode Title="MaxItems field" Url="html/F_GeonBit_UI_Entities_SelectList_MaxItems.htm" />
+  <HelpKINode Title="MenuLayout class">
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Utils_SimpleFileMenu_MenuLayout.htm" />
+  </HelpKINode>
   <HelpKINode Title="MessageBox class">
     <HelpKINode Title="MessageBox Class" Url="html/T_GeonBit_UI_Utils_MessageBox.htm" />
     <HelpKINode Title="about MessageBox class" Url="html/T_GeonBit_UI_Utils_MessageBox.htm" />
@@ -1048,8 +1061,10 @@
   </HelpKINode>
   <HelpKINode Title="SelectList property" Url="html/P_GeonBit_UI_Entities_DropDown_SelectList.htm" />
   <HelpKINode Title="SelectList.AddItem method" Url="html/Overload_GeonBit_UI_Entities_SelectList_AddItem.htm" />
+  <HelpKINode Title="SelectList.AddWhenClipping field" Url="html/F_GeonBit_UI_Entities_SelectList_AddWhenClipping.htm" />
   <HelpKINode Title="SelectList.AllowReselectValue field" Url="html/F_GeonBit_UI_Entities_SelectList_AllowReselectValue.htm" />
   <HelpKINode Title="SelectList.ClearItems method" Url="html/M_GeonBit_UI_Entities_SelectList_ClearItems.htm" />
+  <HelpKINode Title="SelectList.ClipTextIfOverflow field" Url="html/F_GeonBit_UI_Entities_SelectList_ClipTextIfOverflow.htm" />
   <HelpKINode Title="SelectList.Count property" Url="html/P_GeonBit_UI_Entities_SelectList_Count.htm" />
   <HelpKINode Title="SelectList.DefaultParagraphStyle field" Url="html/F_GeonBit_UI_Entities_SelectList_DefaultParagraphStyle.htm" />
   <HelpKINode Title="SelectList.DefaultSize field" Url="html/F_GeonBit_UI_Entities_SelectList_DefaultSize.htm" />
@@ -1060,6 +1075,7 @@
   <HelpKINode Title="SelectList.ItemsScale field" Url="html/F_GeonBit_UI_Entities_SelectList_ItemsScale.htm" />
   <HelpKINode Title="SelectList.LockedItems field" Url="html/F_GeonBit_UI_Entities_SelectList_LockedItems.htm" />
   <HelpKINode Title="SelectList.LockSelection field" Url="html/F_GeonBit_UI_Entities_SelectList_LockSelection.htm" />
+  <HelpKINode Title="SelectList.MatchHeightToList method" Url="html/M_GeonBit_UI_Entities_SelectList_MatchHeightToList.htm" />
   <HelpKINode Title="SelectList.MaxItems field" Url="html/F_GeonBit_UI_Entities_SelectList_MaxItems.htm" />
   <HelpKINode Title="SelectList.OnListChange field" Url="html/F_GeonBit_UI_Entities_SelectList_OnListChange.htm" />
   <HelpKINode Title="SelectList.PropagateEventsTo method" Url="html/Overload_GeonBit_UI_Entities_SelectList_PropagateEventsTo.htm" />
@@ -1093,6 +1109,20 @@
   <HelpKINode Title="SilhouetteEffect field" Url="html/F_GeonBit_UI_Resources_SilhouetteEffect.htm" />
   <HelpKINode Title="SilverShard enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="Simple enumeration member" Url="html/T_GeonBit_UI_Entities_PanelSkin.htm" />
+  <HelpKINode Title="SimpleFileMenu class">
+    <HelpKINode Title="SimpleFileMenu Class" Url="html/T_GeonBit_UI_Utils_SimpleFileMenu.htm" />
+    <HelpKINode Title="about SimpleFileMenu class" Url="html/T_GeonBit_UI_Utils_SimpleFileMenu.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Utils_SimpleFileMenu.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SimpleFileMenu.Create method" Url="html/M_GeonBit_UI_Utils_SimpleFileMenu_Create.htm" />
+  <HelpKINode Title="SimpleFileMenu.MenuLayout class">
+    <HelpKINode Title="SimpleFileMenu.MenuLayout Class" Url="html/T_GeonBit_UI_Utils_SimpleFileMenu_MenuLayout.htm" />
+    <HelpKINode Title="about SimpleFileMenu.MenuLayout class" Url="html/T_GeonBit_UI_Utils_SimpleFileMenu_MenuLayout.htm" />
+    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Utils_SimpleFileMenu_MenuLayout__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SimpleFileMenu.MenuLayout.AddItemToMenu method" Url="html/M_GeonBit_UI_Utils_SimpleFileMenu_MenuLayout_AddItemToMenu.htm" />
+  <HelpKINode Title="SimpleFileMenu.MenuLayout.AddMenu method" Url="html/M_GeonBit_UI_Utils_SimpleFileMenu_MenuLayout_AddMenu.htm" />
+  <HelpKINode Title="SimpleFileMenu.MenuLayout.MenuLayout constructor" Url="html/M_GeonBit_UI_Utils_SimpleFileMenu_MenuLayout__ctor.htm" />
   <HelpKINode Title="Size property" Url="html/P_GeonBit_UI_Entities_Entity_Size.htm" />
   <HelpKINode Title="Skin property">
     <HelpKINode Title="Button.Skin Property " Url="html/P_GeonBit_UI_Entities_Button_Skin.htm" />
