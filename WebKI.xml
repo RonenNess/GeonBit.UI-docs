@@ -247,6 +247,7 @@
     <HelpKINode Title="UserInterface.Draw Method " Url="html/M_GeonBit_UI_UserInterface_Draw.htm" />
   </HelpKINode>
   <HelpKINode Title="DrawBackground field" Url="html/F_GeonBit_UI_Entities_Icon_DrawBackground.htm" />
+  <HelpKINode Title="DrawCursor method" Url="html/M_GeonBit_UI_UserInterface_DrawCursor.htm" />
   <HelpKINode Title="DrawImage method" Url="html/M_GeonBit_UI_DrawUtils_DrawImage.htm" />
   <HelpKINode Title="DrawMainRenderTarget method" Url="html/M_GeonBit_UI_UserInterface_DrawMainRenderTarget.htm" />
   <HelpKINode Title="DrawMode field" Url="html/F_GeonBit_UI_Entities_Image_DrawMode.htm" />
@@ -513,6 +514,7 @@
     <HelpKINode Title="StyleSheet.GetStyleProperty Method " Url="html/M_GeonBit_UI_Entities_StyleSheet_GetStyleProperty.htm" />
   </HelpKINode>
   <HelpKINode Title="GetTextInput method" Url="html/M_GeonBit_UI_InputHelper_GetTextInput.htm" />
+  <HelpKINode Title="GetTransformedCursorPos method" Url="html/M_GeonBit_UI_UserInterface_GetTransformedCursorPos.htm" />
   <HelpKINode Title="GetValueAsPercent method" Url="html/M_GeonBit_UI_Entities_Slider_GetValueAsPercent.htm" />
   <HelpKINode Title="GlobalScale property" Url="html/P_GeonBit_UI_UserInterface_GlobalScale.htm" />
   <HelpKINode Title="GoldCoins enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
@@ -531,6 +533,7 @@
   <HelpKINode Title="Header.Header constructor" Url="html/M_GeonBit_UI_Entities_Header__ctor.htm" />
   <HelpKINode Title="Heart enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="Helmet enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
+  <HelpKINode Title="HideInputWithChar field" Url="html/F_GeonBit_UI_Entities_TextInput_HideInputWithChar.htm" />
   <HelpKINode Title="HorizontalLine class">
     <HelpKINode Title="HorizontalLine Class" Url="html/T_GeonBit_UI_Entities_HorizontalLine.htm" />
     <HelpKINode Title="about HorizontalLine class" Url="html/T_GeonBit_UI_Entities_HorizontalLine.htm" />
@@ -575,6 +578,7 @@
   <HelpKINode Title="Image.SourceRectangle field" Url="html/F_GeonBit_UI_Entities_Image_SourceRectangle.htm" />
   <HelpKINode Title="Image.Texture field" Url="html/F_GeonBit_UI_Entities_Image_Texture.htm" />
   <HelpKINode Title="ImageDrawMode enumeration" Url="html/T_GeonBit_UI_Entities_ImageDrawMode.htm" />
+  <HelpKINode Title="IncludeCursorInRenderTarget field" Url="html/F_GeonBit_UI_UserInterface_IncludeCursorInRenderTarget.htm" />
   <HelpKINode Title="Initialize method" Url="html/Overload_GeonBit_UI_UserInterface_Initialize.htm" />
   <HelpKINode Title="InputHelper class">
     <HelpKINode Title="InputHelper Class" Url="html/T_GeonBit_UI_InputHelper.htm" />
@@ -599,6 +603,7 @@
   <HelpKINode Title="InputHelper.MousePositionDiff property" Url="html/P_GeonBit_UI_InputHelper_MousePositionDiff.htm" />
   <HelpKINode Title="InputHelper.MouseWheel field" Url="html/F_GeonBit_UI_InputHelper_MouseWheel.htm" />
   <HelpKINode Title="InputHelper.MouseWheelChange field" Url="html/F_GeonBit_UI_InputHelper_MouseWheelChange.htm" />
+  <HelpKINode Title="InputHelper.TransformCursorPos method" Url="html/M_GeonBit_UI_InputHelper_TransformCursorPos.htm" />
   <HelpKINode Title="InputHelper.Update method" Url="html/M_GeonBit_UI_InputHelper_Update.htm" />
   <HelpKINode Title="InputHelper.UpdateCursorPosition method" Url="html/M_GeonBit_UI_InputHelper_UpdateCursorPosition.htm" />
   <HelpKINode Title="InternalDestRect property" Url="html/P_GeonBit_UI_Entities_Entity_InternalDestRect.htm" />
@@ -960,6 +965,7 @@
     <HelpKINode Title="SelectList.RemoveItem Method " Url="html/Overload_GeonBit_UI_Entities_SelectList_RemoveItem.htm" />
   </HelpKINode>
   <HelpKINode Title="RenderTarget property" Url="html/P_GeonBit_UI_UserInterface_RenderTarget.htm" />
+  <HelpKINode Title="RenderTargetTransformMatrix field" Url="html/F_GeonBit_UI_UserInterface_RenderTargetTransformMatrix.htm" />
   <HelpKINode Title="ResetCaret method" Url="html/M_GeonBit_UI_Entities_TextInput_ResetCaret.htm" />
   <HelpKINode Title="Resources class">
     <HelpKINode Title="Resources Class" Url="html/T_GeonBit_UI_Resources.htm" />
@@ -1205,6 +1211,7 @@
   <HelpKINode Title="TextInput.DefaultPlaceholderStyle field" Url="html/F_GeonBit_UI_Entities_TextInput_DefaultPlaceholderStyle.htm" />
   <HelpKINode Title="TextInput.DefaultSize field" Url="html/F_GeonBit_UI_Entities_TextInput_DefaultSize.htm" />
   <HelpKINode Title="TextInput.DefaultStyle field" Url="html/F_GeonBit_UI_Entities_TextInput_DefaultStyle.htm" />
+  <HelpKINode Title="TextInput.HideInputWithChar field" Url="html/F_GeonBit_UI_Entities_TextInput_HideInputWithChar.htm" />
   <HelpKINode Title="TextInput.IsNaturallyInteractable method" Url="html/M_GeonBit_UI_Entities_TextInput_IsNaturallyInteractable.htm" />
   <HelpKINode Title="TextInput.LimitBySize field" Url="html/F_GeonBit_UI_Entities_TextInput_LimitBySize.htm" />
   <HelpKINode Title="TextInput.PlaceholderParagraph field" Url="html/F_GeonBit_UI_Entities_TextInput_PlaceholderParagraph.htm" />
@@ -1272,6 +1279,7 @@
   <HelpKINode Title="TopCenter enumeration member" Url="html/T_GeonBit_UI_Entities_Anchor.htm" />
   <HelpKINode Title="TopLeft enumeration member" Url="html/T_GeonBit_UI_Entities_Anchor.htm" />
   <HelpKINode Title="TopRight enumeration member" Url="html/T_GeonBit_UI_Entities_Anchor.htm" />
+  <HelpKINode Title="TransformCursorPos method" Url="html/M_GeonBit_UI_InputHelper_TransformCursorPos.htm" />
   <HelpKINode Title="Unselect method">
     <HelpKINode Title="DropDown.Unselect Method " Url="html/M_GeonBit_UI_Entities_DropDown_Unselect.htm" />
     <HelpKINode Title="SelectList.Unselect Method " Url="html/M_GeonBit_UI_Entities_SelectList_Unselect.htm" />
@@ -1316,10 +1324,13 @@
   <HelpKINode Title="UserInterface.DefaultParagraph field" Url="html/F_GeonBit_UI_UserInterface_DefaultParagraph.htm" />
   <HelpKINode Title="UserInterface.Dispose method" Url="html/M_GeonBit_UI_UserInterface_Dispose.htm" />
   <HelpKINode Title="UserInterface.Draw method" Url="html/M_GeonBit_UI_UserInterface_Draw.htm" />
+  <HelpKINode Title="UserInterface.DrawCursor method" Url="html/M_GeonBit_UI_UserInterface_DrawCursor.htm" />
   <HelpKINode Title="UserInterface.DrawMainRenderTarget method" Url="html/M_GeonBit_UI_UserInterface_DrawMainRenderTarget.htm" />
   <HelpKINode Title="UserInterface.DrawUtils field" Url="html/F_GeonBit_UI_UserInterface_DrawUtils.htm" />
   <HelpKINode Title="UserInterface.GenerateTooltipFunc field" Url="html/F_GeonBit_UI_UserInterface_GenerateTooltipFunc.htm" />
+  <HelpKINode Title="UserInterface.GetTransformedCursorPos method" Url="html/M_GeonBit_UI_UserInterface_GetTransformedCursorPos.htm" />
   <HelpKINode Title="UserInterface.GlobalScale property" Url="html/P_GeonBit_UI_UserInterface_GlobalScale.htm" />
+  <HelpKINode Title="UserInterface.IncludeCursorInRenderTarget field" Url="html/F_GeonBit_UI_UserInterface_IncludeCursorInRenderTarget.htm" />
   <HelpKINode Title="UserInterface.Initialize method" Url="html/Overload_GeonBit_UI_UserInterface_Initialize.htm" />
   <HelpKINode Title="UserInterface.OnClick field" Url="html/F_GeonBit_UI_UserInterface_OnClick.htm" />
   <HelpKINode Title="UserInterface.OnEntitySpawn field" Url="html/F_GeonBit_UI_UserInterface_OnEntitySpawn.htm" />
@@ -1335,6 +1346,7 @@
   <HelpKINode Title="UserInterface.OnVisiblityChange field" Url="html/F_GeonBit_UI_UserInterface_OnVisiblityChange.htm" />
   <HelpKINode Title="UserInterface.RemoveEntity method" Url="html/M_GeonBit_UI_UserInterface_RemoveEntity.htm" />
   <HelpKINode Title="UserInterface.RenderTarget property" Url="html/P_GeonBit_UI_UserInterface_RenderTarget.htm" />
+  <HelpKINode Title="UserInterface.RenderTargetTransformMatrix field" Url="html/F_GeonBit_UI_UserInterface_RenderTargetTransformMatrix.htm" />
   <HelpKINode Title="UserInterface.Root property" Url="html/P_GeonBit_UI_UserInterface_Root.htm" />
   <HelpKINode Title="UserInterface.SamplerState field" Url="html/F_GeonBit_UI_UserInterface_SamplerState.htm" />
   <HelpKINode Title="UserInterface.ScreenHeight field" Url="html/F_GeonBit_UI_UserInterface_ScreenHeight.htm" />
