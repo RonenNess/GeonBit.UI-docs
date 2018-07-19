@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.9.17.0" projectFile="C:\Projects\GeonBit.UI\geonbitui.shfbproj" started="7/6/2018 11:59:53 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.9.17.0" projectFile="C:\Projects\GeonBit.UI\geonbitui.shfbproj" started="7/19/2018 11:04:27 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -30,16 +30,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0600
+</plugIn>    Last step completed in 00:00:00.0629
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0279
+    Last step completed in 00:00:00.0159
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateRefInfo.proj]
-Build started 7/6/2018 11:59:55 PM.
+Build started 7/19/2018 11:04:29 PM.
 Project &quot;C:\Projects\GeonBit.UI\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 PrepareForBuild:
@@ -50,7 +50,7 @@ GenerateRefInfo:
   Portions Copyright c 2006-2016, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 5 namespaces, 59 types, and 562 members
+  Wrote information on 5 namespaces, 61 types, and 616 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2016.9.17.0)
   Copyright c 2006-2016, Microsoft Corporation, All Rights Reserved.
@@ -60,13 +60,13 @@ Done Building Project &quot;C:\Projects\GeonBit.UI\Help\Working\GenerateRefInfo.
 
 Build succeeded.
 
-Time Elapsed 00:00:00.81
-    Last step completed in 00:00:01.0673
+Time Elapsed 00:00:01.34
+    Last step completed in 00:00:01.6715
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - TransformManifest.proj]
-Build started 7/6/2018 11:59:56 PM.
+Build started 7/19/2018 11:04:30 PM.
 Project &quot;C:\Projects\GeonBit.UI\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 TransformManifest:
@@ -81,22 +81,47 @@ TransformManifest:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
     Unique name M_GeonBit_UI_DrawUtils_FixColorOpacity_1 generated for M:GeonBit.UI.DrawUtils.FixColorOpacity(System.Nullable{Microsoft.Xna.Framework.Color})
     Unique name P_GeonBit_UI_TexturesGetter_1_Item_1 generated for P:GeonBit.UI.TexturesGetter`1.Item(`0,GeonBit.UI.Entities.EntityState)
+    Unique name M_GeonBit_UI_UserInterface_Deserialize_1 generated for M:GeonBit.UI.UserInterface.Deserialize(System.String)
     Unique name M_GeonBit_UI_UserInterface_Initialize_1 generated for M:GeonBit.UI.UserInterface.Initialize(Microsoft.Xna.Framework.Content.ContentManager,System.String)
+    Unique name M_GeonBit_UI_UserInterface_Serialize_1 generated for M:GeonBit.UI.UserInterface.Serialize(System.String)
     Unique name M_GeonBit_UI_UserInterface_SetCursor_1 generated for M:GeonBit.UI.UserInterface.SetCursor(Microsoft.Xna.Framework.Graphics.Texture2D,System.Int32,System.Nullable{Microsoft.Xna.Framework.Point})
-    Unique name M_GeonBit_UI_Entities_ColoredRectangle__ctor_1 generated for M:GeonBit.UI.Entities.ColoredRectangle.#ctor(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,System.Int32,Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_Button__ctor_1 generated for M:GeonBit.UI.Entities.Button.#ctor(System.String,GeonBit.UI.Entities.ButtonSkin,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_CheckBox__ctor_1 generated for M:GeonBit.UI.Entities.CheckBox.#ctor(System.String,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Vector2},System.Boolean)
+    Unique name M_GeonBit_UI_Entities_ColoredRectangle__ctor_1 generated for M:GeonBit.UI.Entities.ColoredRectangle.#ctor(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
     Unique name M_GeonBit_UI_Entities_ColoredRectangle__ctor_2 generated for M:GeonBit.UI.Entities.ColoredRectangle.#ctor(Microsoft.Xna.Framework.Color,Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
-    Unique name M_GeonBit_UI_Entities_ColoredRectangle__ctor_3 generated for M:GeonBit.UI.Entities.ColoredRectangle.#ctor(Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_ColoredRectangle__ctor_3 generated for M:GeonBit.UI.Entities.ColoredRectangle.#ctor(Microsoft.Xna.Framework.Color,System.Nullable{Microsoft.Xna.Framework.Color},System.Int32,System.Nullable{Microsoft.Xna.Framework.Vector2},GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_ColoredRectangle__ctor_4 generated for M:GeonBit.UI.Entities.ColoredRectangle.#ctor(Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_DropDown__ctor_1 generated for M:GeonBit.UI.Entities.DropDown.#ctor(Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},GeonBit.UI.Entities.PanelSkin,System.Nullable{GeonBit.UI.Entities.PanelSkin},System.Boolean)
     Unique name M_GeonBit_UI_Entities_DropDown_AddItem_1 generated for M:GeonBit.UI.Entities.DropDown.AddItem(System.String,System.Int32)
     Unique name M_GeonBit_UI_Entities_DropDown_RemoveItem_1 generated for M:GeonBit.UI.Entities.DropDown.RemoveItem(System.String)
-    Unique name M_GeonBit_UI_Entities_MulticolorParagraph__ctor_1 generated for M:GeonBit.UI.Entities.MulticolorParagraph.#ctor(System.String,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{System.Single})
-    Unique name M_GeonBit_UI_Entities_Paragraph__ctor_1 generated for M:GeonBit.UI.Entities.Paragraph.#ctor(System.String,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{System.Single})
-    Unique name M_GeonBit_UI_Entities_ProgressBar__ctor_1 generated for M:GeonBit.UI.Entities.ProgressBar.#ctor(System.UInt32,System.UInt32,Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
-    Unique name M_GeonBit_UI_Entities_SelectList__ctor_1 generated for M:GeonBit.UI.Entities.SelectList.#ctor(Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},GeonBit.UI.Entities.PanelSkin)
+    Unique name M_GeonBit_UI_Entities_Header__ctor_1 generated for M:GeonBit.UI.Entities.Header.#ctor(System.String,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_HorizontalLine__ctor_1 generated for M:GeonBit.UI.Entities.HorizontalLine.#ctor(GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_Icon__ctor_1 generated for M:GeonBit.UI.Entities.Icon.#ctor(GeonBit.UI.Entities.IconType,GeonBit.UI.Entities.Anchor,System.Single,System.Boolean,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_Image__ctor_1 generated for M:GeonBit.UI.Entities.Image.#ctor(Microsoft.Xna.Framework.Graphics.Texture2D,System.Nullable{Microsoft.Xna.Framework.Vector2},GeonBit.UI.Entities.ImageDrawMode,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_Label__ctor_1 generated for M:GeonBit.UI.Entities.Label.#ctor(System.String,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_LineSpace__ctor_1 generated for M:GeonBit.UI.Entities.LineSpace.#ctor(System.Int32)
+    Unique name M_GeonBit_UI_Entities_MulticolorParagraph__ctor_1 generated for M:GeonBit.UI.Entities.MulticolorParagraph.#ctor(System.String,GeonBit.UI.Entities.Anchor,Microsoft.Xna.Framework.Color,System.Nullable{System.Single},System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_MulticolorParagraph__ctor_2 generated for M:GeonBit.UI.Entities.MulticolorParagraph.#ctor(System.String,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{System.Single})
+    Unique name M_GeonBit_UI_Entities_Panel__ctor_1 generated for M:GeonBit.UI.Entities.Panel.#ctor(Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.PanelSkin,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_PanelBase__ctor_1 generated for M:GeonBit.UI.Entities.PanelBase.#ctor(Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.PanelSkin,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_Paragraph__ctor_1 generated for M:GeonBit.UI.Entities.Paragraph.#ctor(System.String,GeonBit.UI.Entities.Anchor,Microsoft.Xna.Framework.Color,System.Nullable{System.Single},System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_Paragraph__ctor_2 generated for M:GeonBit.UI.Entities.Paragraph.#ctor(System.String,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{System.Single})
+    Unique name M_GeonBit_UI_Entities_ProgressBar__ctor_1 generated for M:GeonBit.UI.Entities.ProgressBar.#ctor(System.UInt32,System.UInt32,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_ProgressBar__ctor_2 generated for M:GeonBit.UI.Entities.ProgressBar.#ctor(System.UInt32,System.UInt32,Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_RadioButton__ctor_1 generated for M:GeonBit.UI.Entities.RadioButton.#ctor(System.String,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},System.Nullable{Microsoft.Xna.Framework.Vector2},System.Boolean)
+    Unique name M_GeonBit_UI_Entities_SelectList__ctor_1 generated for M:GeonBit.UI.Entities.SelectList.#ctor(GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_SelectList__ctor_2 generated for M:GeonBit.UI.Entities.SelectList.#ctor(Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},GeonBit.UI.Entities.PanelSkin)
     Unique name M_GeonBit_UI_Entities_SelectList_AddItem_1 generated for M:GeonBit.UI.Entities.SelectList.AddItem(System.String,System.Int32)
     Unique name M_GeonBit_UI_Entities_SelectList_PropagateEventsTo_1 generated for M:GeonBit.UI.Entities.SelectList.PropagateEventsTo(GeonBit.UI.Entities.SelectList)
     Unique name M_GeonBit_UI_Entities_SelectList_RemoveItem_1 generated for M:GeonBit.UI.Entities.SelectList.RemoveItem(System.String)
-    Unique name M_GeonBit_UI_Entities_Slider__ctor_1 generated for M:GeonBit.UI.Entities.Slider.#ctor(System.UInt32,System.UInt32,Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.SliderSkin,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
-    Unique name M_GeonBit_UI_Entities_TextInput__ctor_1 generated for M:GeonBit.UI.Entities.TextInput.#ctor(System.Boolean,Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},GeonBit.UI.Entities.PanelSkin)
+    Unique name M_GeonBit_UI_Entities_Slider__ctor_1 generated for M:GeonBit.UI.Entities.Slider.#ctor(System.UInt32,System.UInt32,GeonBit.UI.Entities.SliderSkin,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_Slider__ctor_2 generated for M:GeonBit.UI.Entities.Slider.#ctor(System.UInt32,System.UInt32,Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.SliderSkin,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_TextInput__ctor_1 generated for M:GeonBit.UI.Entities.TextInput.#ctor(System.Boolean,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2})
+    Unique name M_GeonBit_UI_Entities_TextInput__ctor_2 generated for M:GeonBit.UI.Entities.TextInput.#ctor(System.Boolean,Microsoft.Xna.Framework.Vector2,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},GeonBit.UI.Entities.PanelSkin)
+    Unique name M_GeonBit_UI_Entities_VerticalScrollbar__ctor_1 generated for M:GeonBit.UI.Entities.VerticalScrollbar.#ctor(System.UInt32,System.UInt32,GeonBit.UI.Entities.Anchor,System.Nullable{Microsoft.Xna.Framework.Vector2},System.Boolean)
+    Unique name M_GeonBit_UI_Entities_TextValidators_SlugValidator__ctor_1 generated for M:GeonBit.UI.Entities.TextValidators.SlugValidator.#ctor(System.Boolean)
+    Unique name M_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly__ctor_1 generated for M:GeonBit.UI.Entities.TextValidators.TextValidatorEnglishCharsOnly.#ctor(System.Boolean)
+    Unique name M_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly__ctor_1 generated for M:GeonBit.UI.Entities.TextValidators.TextValidatorNumbersOnly.#ctor(System.Boolean,System.Nullable{System.Double},System.Nullable{System.Double})
     Unique name M_GeonBit_UI_Exceptions_InvalidStateException__ctor_1 generated for M:GeonBit.UI.Exceptions.InvalidStateException.#ctor(System.String)
     Unique name M_GeonBit_UI_Exceptions_InvalidStateException__ctor_2 generated for M:GeonBit.UI.Exceptions.InvalidStateException.#ctor(System.String,System.Exception)
     Unique name M_GeonBit_UI_Exceptions_InvalidValueException__ctor_1 generated for M:GeonBit.UI.Exceptions.InvalidValueException.#ctor(System.String)
@@ -112,17 +137,17 @@ Done Building Project &quot;C:\Projects\GeonBit.UI\Help\Working\TransformManifes
 
 Build succeeded.
 
-Time Elapsed 00:00:01.02
-    Last step completed in 00:00:01.1481
+Time Elapsed 00:00:01.46
+    Last step completed in 00:00:01.7134
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0489
+    Last step completed in 00:00:00.0429
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0029
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -131,7 +156,7 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 7/6/2018 11:59:57 PM.
+Build started 7/19/2018 11:04:32 PM.
 Project &quot;C:\Projects\GeonBit.UI\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 GenerateIntermediateTOC:
@@ -143,26 +168,26 @@ Done Building Project &quot;C:\Projects\GeonBit.UI\Help\Working\GenerateIntermed
 
 Build succeeded.
 
-Time Elapsed 00:00:00.12
+Time Elapsed 00:00:00.48
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.2603
+    Last step completed in 00:00:00.7531
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.4119
+    Last step completed in 00:00:00.3260
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Projects\GeonBit.UI\Help\Working\sandcastle.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0309
+    Last step completed in 00:00:00.0238
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildTopics.proj]
-Build started 7/6/2018 11:59:58 PM.
+Build started 7/19/2018 11:04:33 PM.
 Project &quot;C:\Projects\GeonBit.UI\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 BuildTopics:
@@ -198,6 +223,8 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.UI.Entitie
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.UI.Entities.Entity.GetStyleProperty(System.String,GeonBit.UI.Entities.EntityState,System.Boolean)] Unknown reference link target &#39;T:GeonBit.UI.DataTypes.StyleProperty&#39;. [C:\Projects\GeonBit.UI\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.UI.Entities.Entity.SetStyleProperty(System.String,GeonBit.UI.DataTypes.StyleProperty,GeonBit.UI.Entities.EntityState,System.Boolean)] Unknown reference link target &#39;T:GeonBit.UI.DataTypes.StyleProperty&#39;. [C:\Projects\GeonBit.UI\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:GeonBit.UI.Entities.Entity.SetStyleProperty(System.String,GeonBit.UI.DataTypes.StyleProperty,GeonBit.UI.Entities.EntityState,System.Boolean)] Unknown reference link target &#39;T:GeonBit.UI.DataTypes.StyleProperty&#39;. [C:\Projects\GeonBit.UI\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.UI.Entities.StyleSheet] Unknown reference link target &#39;T:GeonBit.UI.DataTypes.StyleProperty&#39;. [C:\Projects\GeonBit.UI\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.UI.Entities.StyleSheet] Unknown reference link target &#39;T:GeonBit.UI.DataTypes.StyleProperty&#39;. [C:\Projects\GeonBit.UI\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.UI.Entities.StyleSheet] Unknown reference link target &#39;T:GeonBit.UI.DataTypes.StyleProperty&#39;. [C:\Projects\GeonBit.UI\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.UI.Entities.StyleSheet] Unknown reference link target &#39;T:GeonBit.UI.DataTypes.StyleProperty&#39;. [C:\Projects\GeonBit.UI\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GeonBit.UI.Entities.StyleSheet] Unknown reference link target &#39;T:GeonBit.UI.DataTypes.StyleProperty&#39;. [C:\Projects\GeonBit.UI\Help\Working\BuildTopics.proj]
@@ -270,20 +297,21 @@ BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.UI.Exceptions.Invali
 BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.UI.Exceptions.NotFoundException.#ctor(System.String)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Projects\GeonBit.UI\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.UI.Exceptions.NotFoundException.#ctor(System.String,System.Exception)] Missing &lt;param name=&quot;message&quot;/&gt; documentation [C:\Projects\GeonBit.UI\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:GeonBit.UI.Exceptions.NotFoundException.#ctor(System.String,System.Exception)] Missing &lt;param name=&quot;inner&quot;/&gt; documentation [C:\Projects\GeonBit.UI\Help\Working\BuildTopics.proj]
-  Processed 656 topic(s)
-  99 warning(s)
-  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
+  Processed 738 topic(s)
+  101 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
+  ResolveReferenceLinksComponent: 7 entries added to the MSDN content ID cache.  New cache size: 140 entries
 Done Building Project &quot;C:\Projects\GeonBit.UI\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:11.21
-    Last step completed in 00:00:11.3570
+Time Elapsed 00:00:17.95
+    Last step completed in 00:00:18.2457
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -296,17 +324,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in C:\Projects\GeonBit.UI\Help\Working\Output\HtmlHelp1
-Processed 656 HTML files
+Processed 738 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\Projects\GeonBit.UI\Help\Working\Documentation.hhk
 Saving HTML Help 1 table of contents to C:\Projects\GeonBit.UI\Help\Working\Documentation.hhc
 
 Processing website files in C:\Projects\GeonBit.UI\Help\Working\Output\Website
-Processed 656 HTML files
+Processed 738 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Projects\GeonBit.UI\Help\Working\WebKI.xml
 Saving website table of contents to C:\Projects\GeonBit.UI\Help\Working\WebTOC.xml
-    Last step completed in 00:00:06.8984
+    Last step completed in 00:00:07.1631
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -448,11 +476,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Projects\GeonBit.UI\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Projects\GeonBit.UI\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Projects\GeonBit.UI\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.4930
+    Last step completed in 00:00:00.4369
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
@@ -460,7 +488,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0170
+    Last step completed in 00:00:00.0180
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -476,13 +504,13 @@ Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown
   
   
   
-  Compile time: 0 minutes, 17 seconds
+  Compile time: 0 minutes, 18 seconds
   
-  658	Topics
+  740	Topics
   
-  15,006	Local links
+  16,601	Local links
   
-  1,493	Internet links
+  1,648	Internet links
   
   0	Graphics
   
@@ -490,37 +518,38 @@ Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown
   
   
   
-  Created c:\Projects\GeonBit.UI\Help\Working\Output\HtmlHelp1\Documentation.chm, 823,749 bytes
+  Created c:\Projects\GeonBit.UI\Help\Working\Output\HtmlHelp1\Documentation.chm, 909,055 bytes
   
-  Compression decreased file by 6,022,866 bytes.
+  Compression decreased file by 6,716,457 bytes.
   
-    Last step completed in 00:00:18.1889
+    Last step completed in 00:00:19.7194
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:06.7416
+</plugIn>    Last step completed in 00:00:07.1306
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
 Copied 500 files
-Copied 901 files for the website content
-    Last step completed in 00:00:01.0887
+Copied 1000 files
+Copied 1010 files for the website content
+    Last step completed in 00:00:01.3582
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.2172
+    Last step completed in 00:00:00.2641
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 7/7/2018 12:00:42 AM.  Total time: 00:00:49.5765
+Build completed successfully at 7/19/2018 11:05:27 PM.  Total time: 00:01:00.5440
 
 </buildStep>
 </shfbBuild>

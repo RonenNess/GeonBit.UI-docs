@@ -22,8 +22,6 @@
             Return actual destination rectangle.
             This can be override and implemented by things like Paragraph, where the actual destination rect is based on
             text content, font and word-wrap.
-            </div> (Inherited from <a href="T_GeonBit_UI_Entities_Entity.htm">Entity</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_GetChildren.htm">GetChildren</a></td><td><div class="summary">
-            Return all children of this entity.
             </div> (Inherited from <a href="T_GeonBit_UI_Entities_Entity.htm">Entity</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a></td><td><div class="summary">Serves as the default hash function. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_GetRelativeOffset.htm">GetRelativeOffset</a></td><td><div class="summary">
             Return the relative offset, in pixels, from parent top-left corner.
             </div> (Inherited from <a href="T_GeonBit_UI_Entities_Entity.htm">Entity</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_GetStyleProperty.htm">GetStyleProperty</a></td><td><div class="summary">
@@ -46,6 +44,9 @@
             Iterate over children and call 'callback' for every direct child of this entity.
             </div> (Inherited from <a href="T_GeonBit_UI_Entities_Entity.htm">Entity</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_MarkAsDirty.htm">MarkAsDirty</a></td><td><div class="summary">
             Mark that this entity boundaries or style changed and it need to recalculate cached destination rect and other things.
+            </div> (Inherited from <a href="T_GeonBit_UI_Entities_Entity.htm">Entity</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_PopulateDict.htm">PopulateDict</a></td><td><div class="summary">
+            Put all entities that have identifier property in a dictionary.
+            Note: if multiple entities share the same identifier, the deepest entity in hirarchy will end up in dict.
             </div> (Inherited from <a href="T_GeonBit_UI_Entities_Entity.htm">Entity</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_PropagateEventsTo.htm">PropagateEventsTo</a></td><td><div class="summary">
             Propagate all events trigger by this entity to a given other entity.
             For example, if "OnClick" will be called on this entity, it will trigger OnClick on 'other' as well.

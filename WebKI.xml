@@ -25,10 +25,16 @@
     <HelpKINode Title="UserInterface.AfterUpdate Field" Url="html/F_GeonBit_UI_UserInterface_AfterUpdate.htm" />
   </HelpKINode>
   <HelpKINode Title="AlignToCenter property" Url="html/P_GeonBit_UI_Entities_Paragraph_AlignToCenter.htm" />
+  <HelpKINode Title="AllowDecimalPoint field" Url="html/F_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly_AllowDecimalPoint.htm" />
   <HelpKINode Title="AllowReselectValue field" Url="html/F_GeonBit_UI_Entities_SelectList_AllowReselectValue.htm" />
   <HelpKINode Title="AllowReselectValue property" Url="html/P_GeonBit_UI_Entities_DropDown_AllowReselectValue.htm" />
+  <HelpKINode Title="AllowSpaces property">
+    <HelpKINode Title="SlugValidator.AllowSpaces Property " Url="html/P_GeonBit_UI_Entities_TextValidators_SlugValidator_AllowSpaces.htm" />
+    <HelpKINode Title="TextValidatorEnglishCharsOnly.AllowSpaces Property " Url="html/P_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly_AllowSpaces.htm" />
+  </HelpKINode>
   <HelpKINode Title="Alternative enumeration member" Url="html/T_GeonBit_UI_Entities_ButtonSkin.htm" />
   <HelpKINode Title="Anchor enumeration" Url="html/T_GeonBit_UI_Entities_Anchor.htm" />
+  <HelpKINode Title="Anchor property" Url="html/P_GeonBit_UI_Entities_Entity_Anchor.htm" />
   <HelpKINode Title="AnyMouseButtonClicked method" Url="html/M_GeonBit_UI_InputHelper_AnyMouseButtonClicked.htm" />
   <HelpKINode Title="AnyMouseButtonDown method" Url="html/M_GeonBit_UI_InputHelper_AnyMouseButtonDown.htm" />
   <HelpKINode Title="AnyMouseButtonPressed method" Url="html/M_GeonBit_UI_InputHelper_AnyMouseButtonPressed.htm" />
@@ -76,13 +82,13 @@
   <HelpKINode Title="Button class">
     <HelpKINode Title="Button Class" Url="html/T_GeonBit_UI_Entities_Button.htm" />
     <HelpKINode Title="about Button class" Url="html/T_GeonBit_UI_Entities_Button.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_Button__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_Button__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_Button.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_Button.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_Button.htm" />
   </HelpKINode>
-  <HelpKINode Title="button field" Url="html/F_GeonBit_UI_Entities_PanelTabs_TabData_button.htm" />
-  <HelpKINode Title="Button.Button constructor" Url="html/M_GeonBit_UI_Entities_Button__ctor.htm" />
+  <HelpKINode Title="button field" Url="html/F_GeonBit_UI_Entities_TabData_button.htm" />
+  <HelpKINode Title="Button.Button constructor" Url="html/Overload_GeonBit_UI_Entities_Button__ctor.htm" />
   <HelpKINode Title="Button.ButtonParagraph field" Url="html/F_GeonBit_UI_Entities_Button_ButtonParagraph.htm" />
   <HelpKINode Title="Button.Checked property" Url="html/P_GeonBit_UI_Entities_Button_Checked.htm" />
   <HelpKINode Title="Button.DefaultParagraphStyle field" Url="html/F_GeonBit_UI_Entities_Button_DefaultParagraphStyle.htm" />
@@ -119,12 +125,12 @@
   <HelpKINode Title="CheckBox class">
     <HelpKINode Title="CheckBox Class" Url="html/T_GeonBit_UI_Entities_CheckBox.htm" />
     <HelpKINode Title="about CheckBox class" Url="html/T_GeonBit_UI_Entities_CheckBox.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_CheckBox__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_CheckBox__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_CheckBox.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_CheckBox.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_CheckBox.htm" />
   </HelpKINode>
-  <HelpKINode Title="CheckBox.CheckBox constructor" Url="html/M_GeonBit_UI_Entities_CheckBox__ctor.htm" />
+  <HelpKINode Title="CheckBox.CheckBox constructor" Url="html/Overload_GeonBit_UI_Entities_CheckBox__ctor.htm" />
   <HelpKINode Title="CheckBox.Checked property" Url="html/P_GeonBit_UI_Entities_CheckBox_Checked.htm" />
   <HelpKINode Title="CheckBox.DefaultParagraphStyle field" Url="html/F_GeonBit_UI_Entities_CheckBox_DefaultParagraphStyle.htm" />
   <HelpKINode Title="CheckBox.DefaultSize field" Url="html/F_GeonBit_UI_Entities_CheckBox_DefaultSize.htm" />
@@ -136,12 +142,14 @@
     <HelpKINode Title="Button.Checked Property " Url="html/P_GeonBit_UI_Entities_Button_Checked.htm" />
     <HelpKINode Title="CheckBox.Checked Property " Url="html/P_GeonBit_UI_Entities_CheckBox_Checked.htm" />
   </HelpKINode>
+  <HelpKINode Title="Children property" Url="html/P_GeonBit_UI_Entities_Entity_Children.htm" />
   <HelpKINode Title="Clear method" Url="html/M_GeonBit_UI_UserInterface_Clear.htm" />
   <HelpKINode Title="ClearChildren method" Url="html/M_GeonBit_UI_Entities_Entity_ClearChildren.htm" />
   <HelpKINode Title="ClearItems method">
     <HelpKINode Title="DropDown.ClearItems Method " Url="html/M_GeonBit_UI_Entities_DropDown_ClearItems.htm" />
     <HelpKINode Title="SelectList.ClearItems Method " Url="html/M_GeonBit_UI_Entities_SelectList_ClearItems.htm" />
   </HelpKINode>
+  <HelpKINode Title="ClearSpecificItemEvents method" Url="html/M_GeonBit_UI_Entities_DropDown_ClearSpecificItemEvents.htm" />
   <HelpKINode Title="ClickThrough field" Url="html/F_GeonBit_UI_Entities_Entity_ClickThrough.htm" />
   <HelpKINode Title="Clipped enumeration member" Url="html/T_GeonBit_UI_Entities_PanelOverflowBehavior.htm" />
   <HelpKINode Title="ClipTextIfOverflow field" Url="html/F_GeonBit_UI_Entities_SelectList_ClipTextIfOverflow.htm" />
@@ -239,6 +247,7 @@
     <HelpKINode Title="VerticalScrollbar.DefaultStyle Field" Url="html/F_GeonBit_UI_Entities_VerticalScrollbar_DefaultStyle.htm" />
   </HelpKINode>
   <HelpKINode Title="DefaultText property" Url="html/P_GeonBit_UI_Entities_DropDown_DefaultText.htm" />
+  <HelpKINode Title="Deserialize method" Url="html/Overload_GeonBit_UI_UserInterface_Deserialize.htm" />
   <HelpKINode Title="Diamond enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="Disabled property" Url="html/P_GeonBit_UI_Entities_Entity_Disabled.htm" />
   <HelpKINode Title="DisabledEffect field" Url="html/F_GeonBit_UI_Resources_DisabledEffect.htm" />
@@ -246,6 +255,7 @@
     <HelpKINode Title="Panel.Dispose Method " Url="html/M_GeonBit_UI_Entities_Panel_Dispose.htm" />
     <HelpKINode Title="UserInterface.Dispose Method " Url="html/M_GeonBit_UI_UserInterface_Dispose.htm" />
   </HelpKINode>
+  <HelpKINode Title="DontKeepSelection field" Url="html/F_GeonBit_UI_Entities_DropDown_DontKeepSelection.htm" />
   <HelpKINode Title="Draggable property" Url="html/P_GeonBit_UI_Entities_Entity_Draggable.htm" />
   <HelpKINode Title="Draw method">
     <HelpKINode Title="Entity.Draw Method " Url="html/M_GeonBit_UI_Entities_Entity_Draw.htm" />
@@ -283,7 +293,7 @@
   <HelpKINode Title="DropDown class">
     <HelpKINode Title="DropDown Class" Url="html/T_GeonBit_UI_Entities_DropDown.htm" />
     <HelpKINode Title="about DropDown class" Url="html/T_GeonBit_UI_Entities_DropDown.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_DropDown__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_DropDown__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_DropDown.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_DropDown.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_DropDown.htm" />
@@ -294,18 +304,22 @@
   <HelpKINode Title="DropDown.ArrowSize field" Url="html/F_GeonBit_UI_Entities_DropDown_ArrowSize.htm" />
   <HelpKINode Title="DropDown.AutoSetListHeight field" Url="html/F_GeonBit_UI_Entities_DropDown_AutoSetListHeight.htm" />
   <HelpKINode Title="DropDown.ClearItems method" Url="html/M_GeonBit_UI_Entities_DropDown_ClearItems.htm" />
+  <HelpKINode Title="DropDown.ClearSpecificItemEvents method" Url="html/M_GeonBit_UI_Entities_DropDown_ClearSpecificItemEvents.htm" />
   <HelpKINode Title="DropDown.Count property" Url="html/P_GeonBit_UI_Entities_DropDown_Count.htm" />
   <HelpKINode Title="DropDown.DefaultParagraphStyle field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultParagraphStyle.htm" />
   <HelpKINode Title="DropDown.DefaultSelectedParagraphStyle field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultSelectedParagraphStyle.htm" />
   <HelpKINode Title="DropDown.DefaultSize field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultSize.htm" />
   <HelpKINode Title="DropDown.DefaultStyle field" Url="html/F_GeonBit_UI_Entities_DropDown_DefaultStyle.htm" />
   <HelpKINode Title="DropDown.DefaultText property" Url="html/P_GeonBit_UI_Entities_DropDown_DefaultText.htm" />
-  <HelpKINode Title="DropDown.DropDown constructor" Url="html/M_GeonBit_UI_Entities_DropDown__ctor.htm" />
+  <HelpKINode Title="DropDown.DontKeepSelection field" Url="html/F_GeonBit_UI_Entities_DropDown_DontKeepSelection.htm" />
+  <HelpKINode Title="DropDown.DropDown constructor" Url="html/Overload_GeonBit_UI_Entities_DropDown__ctor.htm" />
   <HelpKINode Title="DropDown.Empty property" Url="html/P_GeonBit_UI_Entities_DropDown_Empty.htm" />
+  <HelpKINode Title="DropDown.HasSelectedValue property" Url="html/P_GeonBit_UI_Entities_DropDown_HasSelectedValue.htm" />
   <HelpKINode Title="DropDown.IsInsideEntity method" Url="html/M_GeonBit_UI_Entities_DropDown_IsInsideEntity.htm" />
   <HelpKINode Title="DropDown.IsNaturallyInteractable method" Url="html/M_GeonBit_UI_Entities_DropDown_IsNaturallyInteractable.htm" />
   <HelpKINode Title="DropDown.ListVisible property" Url="html/P_GeonBit_UI_Entities_DropDown_ListVisible.htm" />
   <HelpKINode Title="DropDown.OnListChange field" Url="html/F_GeonBit_UI_Entities_DropDown_OnListChange.htm" />
+  <HelpKINode Title="DropDown.OnSelectedSpecificItem method" Url="html/M_GeonBit_UI_Entities_DropDown_OnSelectedSpecificItem.htm" />
   <HelpKINode Title="DropDown.Priority property" Url="html/P_GeonBit_UI_Entities_DropDown_Priority.htm" />
   <HelpKINode Title="DropDown.RemoveItem method" Url="html/Overload_GeonBit_UI_Entities_DropDown_RemoveItem.htm" />
   <HelpKINode Title="DropDown.ScrollPosition property" Url="html/P_GeonBit_UI_Entities_DropDown_ScrollPosition.htm" />
@@ -337,6 +351,7 @@
   <HelpKINode Title="Entity.AddChild method" Url="html/M_GeonBit_UI_Entities_Entity_AddChild.htm" />
   <HelpKINode Title="Entity.AfterDraw field" Url="html/F_GeonBit_UI_Entities_Entity_AfterDraw.htm" />
   <HelpKINode Title="Entity.AfterUpdate field" Url="html/F_GeonBit_UI_Entities_Entity_AfterUpdate.htm" />
+  <HelpKINode Title="Entity.Anchor property" Url="html/P_GeonBit_UI_Entities_Entity_Anchor.htm" />
   <HelpKINode Title="Entity.AttachedData field" Url="html/F_GeonBit_UI_Entities_Entity_AttachedData.htm" />
   <HelpKINode Title="Entity.Background property" Url="html/P_GeonBit_UI_Entities_Entity_Background.htm" />
   <HelpKINode Title="Entity.BeforeDraw field" Url="html/F_GeonBit_UI_Entities_Entity_BeforeDraw.htm" />
@@ -344,6 +359,7 @@
   <HelpKINode Title="Entity.BringToFront method" Url="html/M_GeonBit_UI_Entities_Entity_BringToFront.htm" />
   <HelpKINode Title="Entity.CalcDestRect method" Url="html/M_GeonBit_UI_Entities_Entity_CalcDestRect.htm" />
   <HelpKINode Title="Entity.CalcInternalRect method" Url="html/M_GeonBit_UI_Entities_Entity_CalcInternalRect.htm" />
+  <HelpKINode Title="Entity.Children property" Url="html/P_GeonBit_UI_Entities_Entity_Children.htm" />
   <HelpKINode Title="Entity.ClearChildren method" Url="html/M_GeonBit_UI_Entities_Entity_ClearChildren.htm" />
   <HelpKINode Title="Entity.ClickThrough field" Url="html/F_GeonBit_UI_Entities_Entity_ClickThrough.htm" />
   <HelpKINode Title="Entity.DefaultSize field" Url="html/F_GeonBit_UI_Entities_Entity_DefaultSize.htm" />
@@ -359,10 +375,10 @@
   <HelpKINode Title="Entity.Find method" Url="html/Overload_GeonBit_UI_Entities_Entity_Find.htm" />
   <HelpKINode Title="Entity.GetActiveStyle method" Url="html/M_GeonBit_UI_Entities_Entity_GetActiveStyle.htm" />
   <HelpKINode Title="Entity.GetActualDestRect method" Url="html/M_GeonBit_UI_Entities_Entity_GetActualDestRect.htm" />
-  <HelpKINode Title="Entity.GetChildren method" Url="html/M_GeonBit_UI_Entities_Entity_GetChildren.htm" />
   <HelpKINode Title="Entity.GetRelativeOffset method" Url="html/M_GeonBit_UI_Entities_Entity_GetRelativeOffset.htm" />
   <HelpKINode Title="Entity.GetStyleProperty method" Url="html/M_GeonBit_UI_Entities_Entity_GetStyleProperty.htm" />
   <HelpKINode Title="Entity.Identifier field" Url="html/F_GeonBit_UI_Entities_Entity_Identifier.htm" />
+  <HelpKINode Title="Entity.InheritParentState field" Url="html/F_GeonBit_UI_Entities_Entity_InheritParentState.htm" />
   <HelpKINode Title="Entity.InternalDestRect property" Url="html/P_GeonBit_UI_Entities_Entity_InternalDestRect.htm" />
   <HelpKINode Title="Entity.IsDeepChildOf method" Url="html/M_GeonBit_UI_Entities_Entity_IsDeepChildOf.htm" />
   <HelpKINode Title="Entity.IsDirty property" Url="html/P_GeonBit_UI_Entities_Entity_IsDirty.htm" />
@@ -377,9 +393,11 @@
   <HelpKINode Title="Entity.IterateChildren method" Url="html/M_GeonBit_UI_Entities_Entity_IterateChildren.htm" />
   <HelpKINode Title="Entity.LimitDraggingToParentBoundaries field" Url="html/F_GeonBit_UI_Entities_Entity_LimitDraggingToParentBoundaries.htm" />
   <HelpKINode Title="Entity.Locked field" Url="html/F_GeonBit_UI_Entities_Entity_Locked.htm" />
+  <HelpKINode Title="Entity.MakeSerializable method" Url="html/M_GeonBit_UI_Entities_Entity_MakeSerializable.htm" />
   <HelpKINode Title="Entity.MarkAsDirty method" Url="html/M_GeonBit_UI_Entities_Entity_MarkAsDirty.htm" />
   <HelpKINode Title="Entity.MaxSize property" Url="html/P_GeonBit_UI_Entities_Entity_MaxSize.htm" />
   <HelpKINode Title="Entity.MinSize property" Url="html/P_GeonBit_UI_Entities_Entity_MinSize.htm" />
+  <HelpKINode Title="Entity.Offset property" Url="html/P_GeonBit_UI_Entities_Entity_Offset.htm" />
   <HelpKINode Title="Entity.OnClick field" Url="html/F_GeonBit_UI_Entities_Entity_OnClick.htm" />
   <HelpKINode Title="Entity.OnFocusChange field" Url="html/F_GeonBit_UI_Entities_Entity_OnFocusChange.htm" />
   <HelpKINode Title="Entity.OnMouseDown field" Url="html/F_GeonBit_UI_Entities_Entity_OnMouseDown.htm" />
@@ -399,10 +417,12 @@
   <HelpKINode Title="Entity.OutlineWidth property" Url="html/P_GeonBit_UI_Entities_Entity_OutlineWidth.htm" />
   <HelpKINode Title="Entity.Padding property" Url="html/P_GeonBit_UI_Entities_Entity_Padding.htm" />
   <HelpKINode Title="Entity.Parent property" Url="html/P_GeonBit_UI_Entities_Entity_Parent.htm" />
+  <HelpKINode Title="Entity.PopulateDict method" Url="html/M_GeonBit_UI_Entities_Entity_PopulateDict.htm" />
   <HelpKINode Title="Entity.Priority property" Url="html/P_GeonBit_UI_Entities_Entity_Priority.htm" />
   <HelpKINode Title="Entity.PriorityBonus field" Url="html/F_GeonBit_UI_Entities_Entity_PriorityBonus.htm" />
   <HelpKINode Title="Entity.PromiscuousClicksMode field" Url="html/F_GeonBit_UI_Entities_Entity_PromiscuousClicksMode.htm" />
   <HelpKINode Title="Entity.PropagateEventsTo method" Url="html/M_GeonBit_UI_Entities_Entity_PropagateEventsTo.htm" />
+  <HelpKINode Title="Entity.RawStyleSheet property" Url="html/P_GeonBit_UI_Entities_Entity_RawStyleSheet.htm" />
   <HelpKINode Title="Entity.RemoveChild method" Url="html/M_GeonBit_UI_Entities_Entity_RemoveChild.htm" />
   <HelpKINode Title="Entity.RemoveFromParent method" Url="html/M_GeonBit_UI_Entities_Entity_RemoveFromParent.htm" />
   <HelpKINode Title="Entity.Scale property" Url="html/P_GeonBit_UI_Entities_Entity_Scale.htm" />
@@ -479,10 +499,10 @@
   <HelpKINode Title="GeonBit.UI.Entities.LineSpace class" Url="html/T_GeonBit_UI_Entities_LineSpace.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.MulticolorParagraph class" Url="html/T_GeonBit_UI_Entities_MulticolorParagraph.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.Panel class" Url="html/T_GeonBit_UI_Entities_Panel.htm" />
+  <HelpKINode Title="GeonBit.UI.Entities.PanelBase class" Url="html/T_GeonBit_UI_Entities_PanelBase.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.PanelOverflowBehavior enumeration" Url="html/T_GeonBit_UI_Entities_PanelOverflowBehavior.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.PanelSkin enumeration" Url="html/T_GeonBit_UI_Entities_PanelSkin.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.PanelTabs class" Url="html/T_GeonBit_UI_Entities_PanelTabs.htm" />
-  <HelpKINode Title="GeonBit.UI.Entities.PanelTabs.TabData class" Url="html/T_GeonBit_UI_Entities_PanelTabs_TabData.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.Paragraph class" Url="html/T_GeonBit_UI_Entities_Paragraph.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.ProgressBar class" Url="html/T_GeonBit_UI_Entities_ProgressBar.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.RadioButton class" Url="html/T_GeonBit_UI_Entities_RadioButton.htm" />
@@ -491,9 +511,10 @@
   <HelpKINode Title="GeonBit.UI.Entities.Slider class" Url="html/T_GeonBit_UI_Entities_Slider.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.SliderSkin enumeration" Url="html/T_GeonBit_UI_Entities_SliderSkin.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.StyleSheet class" Url="html/T_GeonBit_UI_Entities_StyleSheet.htm" />
+  <HelpKINode Title="GeonBit.UI.Entities.TabData class" Url="html/T_GeonBit_UI_Entities_TabData.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.TextInput class" Url="html/T_GeonBit_UI_Entities_TextInput.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.TextValidators namespace" Url="html/N_GeonBit_UI_Entities_TextValidators.htm" />
-  <HelpKINode Title="GeonBit.UI.Entities.TextValidators.ITextValidator interface" Url="html/T_GeonBit_UI_Entities_TextValidators_ITextValidator.htm" />
+  <HelpKINode Title="GeonBit.UI.Entities.TextValidators.ITextValidator class" Url="html/T_GeonBit_UI_Entities_TextValidators_ITextValidator.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.TextValidators.OnlySingleSpaces class" Url="html/T_GeonBit_UI_Entities_TextValidators_OnlySingleSpaces.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.TextValidators.SlugValidator class" Url="html/T_GeonBit_UI_Entities_TextValidators_SlugValidator.htm" />
   <HelpKINode Title="GeonBit.UI.Entities.TextValidators.TextValidatorEnglishCharsOnly class" Url="html/T_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly.htm" />
@@ -515,6 +536,8 @@
   <HelpKINode Title="GeonBit.UI.Utils namespace" Url="html/N_GeonBit_UI_Utils.htm" />
   <HelpKINode Title="GeonBit.UI.Utils.MessageBox class" Url="html/T_GeonBit_UI_Utils_MessageBox.htm" />
   <HelpKINode Title="GeonBit.UI.Utils.MessageBox.MsgBoxOption class" Url="html/T_GeonBit_UI_Utils_MessageBox_MsgBoxOption.htm" />
+  <HelpKINode Title="GeonBit.UI.Utils.SerializableDictionary(Of TKey, TValue) class" Url="html/T_GeonBit_UI_Utils_SerializableDictionary_2.htm" />
+  <HelpKINode Title="GeonBit.UI.Utils.SerializableDictionary&lt;TKey, TValue&gt; class" Url="html/T_GeonBit_UI_Utils_SerializableDictionary_2.htm" />
   <HelpKINode Title="GeonBit.UI.Utils.SimpleFileMenu class" Url="html/T_GeonBit_UI_Utils_SimpleFileMenu.htm" />
   <HelpKINode Title="GeonBit.UI.Utils.SimpleFileMenu.MenuLayout class" Url="html/T_GeonBit_UI_Utils_SimpleFileMenu_MenuLayout.htm" />
   <HelpKINode Title="GetActiveStyle method" Url="html/M_GeonBit_UI_Entities_Entity_GetActiveStyle.htm" />
@@ -523,10 +546,10 @@
     <HelpKINode Title="Paragraph.GetActualDestRect Method " Url="html/M_GeonBit_UI_Entities_Paragraph_GetActualDestRect.htm" />
   </HelpKINode>
   <HelpKINode Title="GetCharacterActualSize method" Url="html/M_GeonBit_UI_Entities_Paragraph_GetCharacterActualSize.htm" />
-  <HelpKINode Title="GetChildren method" Url="html/M_GeonBit_UI_Entities_Entity_GetChildren.htm" />
   <HelpKINode Title="GetColorAt method" Url="html/M_GeonBit_UI_Entities_Image_GetColorAt.htm" />
   <HelpKINode Title="GetProcessedText method" Url="html/M_GeonBit_UI_Entities_Paragraph_GetProcessedText.htm" />
   <HelpKINode Title="GetRelativeOffset method" Url="html/M_GeonBit_UI_Entities_Entity_GetRelativeOffset.htm" />
+  <HelpKINode Title="GetSchema method" Url="html/M_GeonBit_UI_Utils_SerializableDictionary_2_GetSchema.htm" />
   <HelpKINode Title="GetStepSize method" Url="html/M_GeonBit_UI_Entities_Slider_GetStepSize.htm" />
   <HelpKINode Title="GetStyleProperty method">
     <HelpKINode Title="Entity.GetStyleProperty Method " Url="html/M_GeonBit_UI_Entities_Entity_GetStyleProperty.htm" />
@@ -540,36 +563,40 @@
   <HelpKINode Title="GoldCoins enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="Golden enumeration member" Url="html/T_GeonBit_UI_Entities_PanelSkin.htm" />
   <HelpKINode Title="GoldShard enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
+  <HelpKINode Title="HasSelectedValue property">
+    <HelpKINode Title="DropDown.HasSelectedValue Property " Url="html/P_GeonBit_UI_Entities_DropDown_HasSelectedValue.htm" />
+    <HelpKINode Title="SelectList.HasSelectedValue Property " Url="html/P_GeonBit_UI_Entities_SelectList_HasSelectedValue.htm" />
+  </HelpKINode>
   <HelpKINode Title="hd enumeration member" Url="html/T_GeonBit_UI_BuiltinThemes.htm" />
   <HelpKINode Title="Header class">
     <HelpKINode Title="Header Class" Url="html/T_GeonBit_UI_Entities_Header.htm" />
     <HelpKINode Title="about Header class" Url="html/T_GeonBit_UI_Entities_Header.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_Header__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_Header__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_Header.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_Header.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_Header.htm" />
   </HelpKINode>
   <HelpKINode Title="Header.DefaultStyle field" Url="html/F_GeonBit_UI_Entities_Header_DefaultStyle.htm" />
-  <HelpKINode Title="Header.Header constructor" Url="html/M_GeonBit_UI_Entities_Header__ctor.htm" />
+  <HelpKINode Title="Header.Header constructor" Url="html/Overload_GeonBit_UI_Entities_Header__ctor.htm" />
   <HelpKINode Title="Heart enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="Helmet enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="HideInputWithChar field" Url="html/F_GeonBit_UI_Entities_TextInput_HideInputWithChar.htm" />
   <HelpKINode Title="HorizontalLine class">
     <HelpKINode Title="HorizontalLine Class" Url="html/T_GeonBit_UI_Entities_HorizontalLine.htm" />
     <HelpKINode Title="about HorizontalLine class" Url="html/T_GeonBit_UI_Entities_HorizontalLine.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_HorizontalLine__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_HorizontalLine__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_HorizontalLine.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_HorizontalLine.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_HorizontalLine.htm" />
   </HelpKINode>
   <HelpKINode Title="HorizontalLine.DefaultStyle field" Url="html/F_GeonBit_UI_Entities_HorizontalLine_DefaultStyle.htm" />
-  <HelpKINode Title="HorizontalLine.HorizontalLine constructor" Url="html/M_GeonBit_UI_Entities_HorizontalLine__ctor.htm" />
+  <HelpKINode Title="HorizontalLine.HorizontalLine constructor" Url="html/Overload_GeonBit_UI_Entities_HorizontalLine__ctor.htm" />
   <HelpKINode Title="HorizontalLineTexture property" Url="html/P_GeonBit_UI_Resources_HorizontalLineTexture.htm" />
   <HelpKINode Title="IBeam enumeration member" Url="html/T_GeonBit_UI_CursorType.htm" />
   <HelpKINode Title="Icon class">
     <HelpKINode Title="Icon Class" Url="html/T_GeonBit_UI_Entities_Icon.htm" />
     <HelpKINode Title="about Icon class" Url="html/T_GeonBit_UI_Entities_Icon.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_Icon__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_Icon__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_Icon.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_Icon.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_Icon.htm" />
@@ -578,15 +605,17 @@
   <HelpKINode Title="Icon.DefaultSize field" Url="html/F_GeonBit_UI_Entities_Icon_DefaultSize.htm" />
   <HelpKINode Title="Icon.DefaultStyle field" Url="html/F_GeonBit_UI_Entities_Icon_DefaultStyle.htm" />
   <HelpKINode Title="Icon.DrawBackground field" Url="html/F_GeonBit_UI_Entities_Icon_DrawBackground.htm" />
-  <HelpKINode Title="Icon.Icon constructor" Url="html/M_GeonBit_UI_Entities_Icon__ctor.htm" />
+  <HelpKINode Title="Icon.Icon constructor" Url="html/Overload_GeonBit_UI_Entities_Icon__ctor.htm" />
+  <HelpKINode Title="Icon.IconType property" Url="html/P_GeonBit_UI_Entities_Icon_IconType.htm" />
   <HelpKINode Title="IconBackgroundTexture property" Url="html/P_GeonBit_UI_Resources_IconBackgroundTexture.htm" />
   <HelpKINode Title="IconTextures field" Url="html/F_GeonBit_UI_Resources_IconTextures.htm" />
   <HelpKINode Title="IconType enumeration" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
+  <HelpKINode Title="IconType property" Url="html/P_GeonBit_UI_Entities_Icon_IconType.htm" />
   <HelpKINode Title="Identifier field" Url="html/F_GeonBit_UI_Entities_Entity_Identifier.htm" />
   <HelpKINode Title="Image class">
     <HelpKINode Title="Image Class" Url="html/T_GeonBit_UI_Entities_Image.htm" />
     <HelpKINode Title="about Image class" Url="html/T_GeonBit_UI_Entities_Image.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_Image__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_Image__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_Image.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_Image.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_Image.htm" />
@@ -598,12 +627,14 @@
   <HelpKINode Title="Image.FrameWidth field" Url="html/F_GeonBit_UI_Entities_Image_FrameWidth.htm" />
   <HelpKINode Title="Image.GetColorAt method" Url="html/M_GeonBit_UI_Entities_Image_GetColorAt.htm" />
   <HelpKINode Title="Image.GetTextureCoordsAt method" Url="html/M_GeonBit_UI_Entities_Image_GetTextureCoordsAt.htm" />
-  <HelpKINode Title="Image.Image constructor" Url="html/M_GeonBit_UI_Entities_Image__ctor.htm" />
+  <HelpKINode Title="Image.Image constructor" Url="html/Overload_GeonBit_UI_Entities_Image__ctor.htm" />
   <HelpKINode Title="Image.SetTextureColorAt method" Url="html/M_GeonBit_UI_Entities_Image_SetTextureColorAt.htm" />
   <HelpKINode Title="Image.SourceRectangle field" Url="html/F_GeonBit_UI_Entities_Image_SourceRectangle.htm" />
   <HelpKINode Title="Image.Texture field" Url="html/F_GeonBit_UI_Entities_Image_Texture.htm" />
+  <HelpKINode Title="Image.TextureName property" Url="html/P_GeonBit_UI_Entities_Image_TextureName.htm" />
   <HelpKINode Title="ImageDrawMode enumeration" Url="html/T_GeonBit_UI_Entities_ImageDrawMode.htm" />
   <HelpKINode Title="IncludeCursorInRenderTarget field" Url="html/F_GeonBit_UI_UserInterface_IncludeCursorInRenderTarget.htm" />
+  <HelpKINode Title="InheritParentState field" Url="html/F_GeonBit_UI_Entities_Entity_InheritParentState.htm" />
   <HelpKINode Title="Initialize method" Url="html/Overload_GeonBit_UI_UserInterface_Initialize.htm" />
   <HelpKINode Title="InputHelper class">
     <HelpKINode Title="InputHelper Class" Url="html/T_GeonBit_UI_InputHelper.htm" />
@@ -677,39 +708,42 @@
   <HelpKINode Title="IsVisible method" Url="html/M_GeonBit_UI_Entities_Entity_IsVisible.htm" />
   <HelpKINode Title="Italic enumeration member" Url="html/T_GeonBit_UI_Entities_FontStyle.htm" />
   <HelpKINode Title="Item property" Url="html/Overload_GeonBit_UI_TexturesGetter_1_Item.htm" />
+  <HelpKINode Title="Items property" Url="html/P_GeonBit_UI_Entities_SelectList_Items.htm" />
   <HelpKINode Title="ItemsScale field" Url="html/F_GeonBit_UI_Entities_SelectList_ItemsScale.htm" />
   <HelpKINode Title="IterateChildren method" Url="html/M_GeonBit_UI_Entities_Entity_IterateChildren.htm" />
-  <HelpKINode Title="ITextValidator interface">
-    <HelpKINode Title="ITextValidator Interface" Url="html/T_GeonBit_UI_Entities_TextValidators_ITextValidator.htm" />
-    <HelpKINode Title="about ITextValidator interface" Url="html/T_GeonBit_UI_Entities_TextValidators_ITextValidator.htm" />
+  <HelpKINode Title="ITextValidator class">
+    <HelpKINode Title="ITextValidator Class" Url="html/T_GeonBit_UI_Entities_TextValidators_ITextValidator.htm" />
+    <HelpKINode Title="about ITextValidator class" Url="html/T_GeonBit_UI_Entities_TextValidators_ITextValidator.htm" />
+    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_TextValidators_ITextValidator__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_TextValidators_ITextValidator.htm" />
   </HelpKINode>
+  <HelpKINode Title="ITextValidator.ITextValidator constructor" Url="html/M_GeonBit_UI_Entities_TextValidators_ITextValidator__ctor.htm" />
   <HelpKINode Title="ITextValidator.ValidateText method" Url="html/M_GeonBit_UI_Entities_TextValidators_ITextValidator_ValidateText.htm" />
   <HelpKINode Title="Key enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="KeysTypeCooldown field" Url="html/F_GeonBit_UI_InputHelper_KeysTypeCooldown.htm" />
   <HelpKINode Title="Label class">
     <HelpKINode Title="Label Class" Url="html/T_GeonBit_UI_Entities_Label.htm" />
     <HelpKINode Title="about Label class" Url="html/T_GeonBit_UI_Entities_Label.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_Label__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_Label__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_Label.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_Label.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_Label.htm" />
   </HelpKINode>
   <HelpKINode Title="Label.DefaultStyle field" Url="html/F_GeonBit_UI_Entities_Label_DefaultStyle.htm" />
-  <HelpKINode Title="Label.Label constructor" Url="html/M_GeonBit_UI_Entities_Label__ctor.htm" />
+  <HelpKINode Title="Label.Label constructor" Url="html/Overload_GeonBit_UI_Entities_Label__ctor.htm" />
   <HelpKINode Title="Left enumeration member" Url="html/T_GeonBit_UI_MouseButton.htm" />
   <HelpKINode Title="LimitBySize field" Url="html/F_GeonBit_UI_Entities_TextInput_LimitBySize.htm" />
   <HelpKINode Title="LimitDraggingToParentBoundaries field" Url="html/F_GeonBit_UI_Entities_Entity_LimitDraggingToParentBoundaries.htm" />
   <HelpKINode Title="LineSpace class">
     <HelpKINode Title="LineSpace Class" Url="html/T_GeonBit_UI_Entities_LineSpace.htm" />
     <HelpKINode Title="about LineSpace class" Url="html/T_GeonBit_UI_Entities_LineSpace.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_LineSpace__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_LineSpace__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_LineSpace.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_LineSpace.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_LineSpace.htm" />
   </HelpKINode>
   <HelpKINode Title="LineSpace.DefaultSize field" Url="html/F_GeonBit_UI_Entities_LineSpace_DefaultSize.htm" />
-  <HelpKINode Title="LineSpace.LineSpace constructor" Url="html/M_GeonBit_UI_Entities_LineSpace__ctor.htm" />
+  <HelpKINode Title="LineSpace.LineSpace constructor" Url="html/Overload_GeonBit_UI_Entities_LineSpace__ctor.htm" />
   <HelpKINode Title="LineSpace.SpaceSize field" Url="html/F_GeonBit_UI_Entities_LineSpace_SpaceSize.htm" />
   <HelpKINode Title="ListBackground enumeration member" Url="html/T_GeonBit_UI_Entities_PanelSkin.htm" />
   <HelpKINode Title="ListVisible property" Url="html/P_GeonBit_UI_Entities_DropDown_ListVisible.htm" />
@@ -720,9 +754,11 @@
   <HelpKINode Title="lowres enumeration member" Url="html/T_GeonBit_UI_BuiltinThemes.htm" />
   <HelpKINode Title="MagicBook enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="MagicWand enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
+  <HelpKINode Title="MakeSerializable method" Url="html/M_GeonBit_UI_Entities_Entity_MakeSerializable.htm" />
   <HelpKINode Title="Map enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="MarkAsDirty method" Url="html/M_GeonBit_UI_Entities_Entity_MarkAsDirty.htm" />
   <HelpKINode Title="MatchHeightToList method" Url="html/M_GeonBit_UI_Entities_SelectList_MatchHeightToList.htm" />
+  <HelpKINode Title="Max field" Url="html/F_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly_Max.htm" />
   <HelpKINode Title="Max property" Url="html/P_GeonBit_UI_Entities_Slider_Max.htm" />
   <HelpKINode Title="MaxItems field" Url="html/F_GeonBit_UI_Entities_SelectList_MaxItems.htm" />
   <HelpKINode Title="MaxSize property" Url="html/P_GeonBit_UI_Entities_Entity_MaxSize.htm" />
@@ -751,6 +787,7 @@
   <HelpKINode Title="MessageBox.OpenedMsgBoxesCount property" Url="html/P_GeonBit_UI_Utils_MessageBox_OpenedMsgBoxesCount.htm" />
   <HelpKINode Title="MessageBox.ShowMsgBox method" Url="html/Overload_GeonBit_UI_Utils_MessageBox_ShowMsgBox.htm" />
   <HelpKINode Title="Middle enumeration member" Url="html/T_GeonBit_UI_MouseButton.htm" />
+  <HelpKINode Title="Min field" Url="html/F_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly_Min.htm" />
   <HelpKINode Title="Min property" Url="html/P_GeonBit_UI_Entities_Slider_Min.htm" />
   <HelpKINode Title="MinSize property" Url="html/P_GeonBit_UI_Entities_Entity_MinSize.htm" />
   <HelpKINode Title="MouseButton enumeration" Url="html/T_GeonBit_UI_MouseButton.htm" />
@@ -780,7 +817,8 @@
   <HelpKINode Title="MulticolorParagraph.EnableColorInstructions property" Url="html/P_GeonBit_UI_Entities_MulticolorParagraph_EnableColorInstructions.htm" />
   <HelpKINode Title="MulticolorParagraph.MulticolorParagraph constructor" Url="html/Overload_GeonBit_UI_Entities_MulticolorParagraph__ctor.htm" />
   <HelpKINode Title="MulticolorParagraph.Text property" Url="html/P_GeonBit_UI_Entities_MulticolorParagraph_Text.htm" />
-  <HelpKINode Title="name field" Url="html/F_GeonBit_UI_Entities_PanelTabs_TabData_name.htm" />
+  <HelpKINode Title="Multiline property" Url="html/P_GeonBit_UI_Entities_TextInput_Multiline.htm" />
+  <HelpKINode Title="name field" Url="html/F_GeonBit_UI_Entities_TabData_name.htm" />
   <HelpKINode Title="None enumeration member">
     <HelpKINode Title="IconType Enumeration" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
     <HelpKINode Title="PanelSkin Enumeration" Url="html/T_GeonBit_UI_Entities_PanelSkin.htm" />
@@ -793,6 +831,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Exceptions_NotFoundException.htm" />
   </HelpKINode>
   <HelpKINode Title="NotFoundException.NotFoundException constructor" Url="html/Overload_GeonBit_UI_Exceptions_NotFoundException__ctor.htm" />
+  <HelpKINode Title="Offset property" Url="html/P_GeonBit_UI_Entities_Entity_Offset.htm" />
   <HelpKINode Title="OnClick field">
     <HelpKINode Title="Entity.OnClick Field" Url="html/F_GeonBit_UI_Entities_Entity_OnClick.htm" />
     <HelpKINode Title="UserInterface.OnClick Field" Url="html/F_GeonBit_UI_UserInterface_OnClick.htm" />
@@ -842,6 +881,7 @@
     <HelpKINode Title="Entity.OnRightMouseDown Field" Url="html/F_GeonBit_UI_Entities_Entity_OnRightMouseDown.htm" />
     <HelpKINode Title="UserInterface.OnRightMouseDown Field" Url="html/F_GeonBit_UI_UserInterface_OnRightMouseDown.htm" />
   </HelpKINode>
+  <HelpKINode Title="OnSelectedSpecificItem method" Url="html/M_GeonBit_UI_Entities_DropDown_OnSelectedSpecificItem.htm" />
   <HelpKINode Title="OnStartDrag field">
     <HelpKINode Title="Entity.OnStartDrag Field" Url="html/F_GeonBit_UI_Entities_Entity_OnStartDrag.htm" />
     <HelpKINode Title="UserInterface.OnStartDrag Field" Url="html/F_GeonBit_UI_UserInterface_OnStartDrag.htm" />
@@ -872,20 +912,29 @@
   <HelpKINode Title="Panel class">
     <HelpKINode Title="Panel Class" Url="html/T_GeonBit_UI_Entities_Panel.htm" />
     <HelpKINode Title="about Panel class" Url="html/T_GeonBit_UI_Entities_Panel.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_Panel__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_Panel__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_Panel.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_Panel.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_Panel.htm" />
   </HelpKINode>
   <HelpKINode Title="Panel enumeration member" Url="html/T_GeonBit_UI_Entities_ImageDrawMode.htm" />
-  <HelpKINode Title="panel field" Url="html/F_GeonBit_UI_Entities_PanelTabs_TabData_panel.htm" />
+  <HelpKINode Title="panel field" Url="html/F_GeonBit_UI_Entities_TabData_panel.htm" />
   <HelpKINode Title="Panel.CalcInternalRect method" Url="html/M_GeonBit_UI_Entities_Panel_CalcInternalRect.htm" />
   <HelpKINode Title="Panel.DefaultStyle field" Url="html/F_GeonBit_UI_Entities_Panel_DefaultStyle.htm" />
   <HelpKINode Title="Panel.Dispose method" Url="html/M_GeonBit_UI_Entities_Panel_Dispose.htm" />
-  <HelpKINode Title="Panel.Panel constructor" Url="html/M_GeonBit_UI_Entities_Panel__ctor.htm" />
+  <HelpKINode Title="Panel.Panel constructor" Url="html/Overload_GeonBit_UI_Entities_Panel__ctor.htm" />
   <HelpKINode Title="Panel.PanelOverflowBehavior property" Url="html/P_GeonBit_UI_Entities_Panel_PanelOverflowBehavior.htm" />
   <HelpKINode Title="Panel.Scrollbar property" Url="html/P_GeonBit_UI_Entities_Panel_Scrollbar.htm" />
-  <HelpKINode Title="Panel.Skin property" Url="html/P_GeonBit_UI_Entities_Panel_Skin.htm" />
+  <HelpKINode Title="PanelBase class">
+    <HelpKINode Title="PanelBase Class" Url="html/T_GeonBit_UI_Entities_PanelBase.htm" />
+    <HelpKINode Title="about PanelBase class" Url="html/T_GeonBit_UI_Entities_PanelBase.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_PanelBase__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_PanelBase.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_PanelBase.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_PanelBase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PanelBase.PanelBase constructor" Url="html/Overload_GeonBit_UI_Entities_PanelBase__ctor.htm" />
+  <HelpKINode Title="PanelBase.Skin property" Url="html/P_GeonBit_UI_Entities_PanelBase_Skin.htm" />
   <HelpKINode Title="PanelData field" Url="html/F_GeonBit_UI_Resources_PanelData.htm" />
   <HelpKINode Title="PanelOverflowBehavior enumeration" Url="html/T_GeonBit_UI_Entities_PanelOverflowBehavior.htm" />
   <HelpKINode Title="PanelOverflowBehavior property" Url="html/P_GeonBit_UI_Entities_Panel_PanelOverflowBehavior.htm" />
@@ -905,15 +954,6 @@
   <HelpKINode Title="PanelTabs.DefaultButtonStyle field" Url="html/F_GeonBit_UI_Entities_PanelTabs_DefaultButtonStyle.htm" />
   <HelpKINode Title="PanelTabs.PanelTabs constructor" Url="html/M_GeonBit_UI_Entities_PanelTabs__ctor.htm" />
   <HelpKINode Title="PanelTabs.SelectTab method" Url="html/M_GeonBit_UI_Entities_PanelTabs_SelectTab.htm" />
-  <HelpKINode Title="PanelTabs.TabData class">
-    <HelpKINode Title="PanelTabs.TabData Class" Url="html/T_GeonBit_UI_Entities_PanelTabs_TabData.htm" />
-    <HelpKINode Title="about PanelTabs.TabData class" Url="html/T_GeonBit_UI_Entities_PanelTabs_TabData.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_PanelTabs_TabData__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="PanelTabs.TabData.button field" Url="html/F_GeonBit_UI_Entities_PanelTabs_TabData_button.htm" />
-  <HelpKINode Title="PanelTabs.TabData.name field" Url="html/F_GeonBit_UI_Entities_PanelTabs_TabData_name.htm" />
-  <HelpKINode Title="PanelTabs.TabData.panel field" Url="html/F_GeonBit_UI_Entities_PanelTabs_TabData_panel.htm" />
-  <HelpKINode Title="PanelTabs.TabData.TabData constructor" Url="html/M_GeonBit_UI_Entities_PanelTabs_TabData__ctor.htm" />
   <HelpKINode Title="PanelTextures field" Url="html/F_GeonBit_UI_Resources_PanelTextures.htm" />
   <HelpKINode Title="Paragraph class">
     <HelpKINode Title="Paragraph Class" Url="html/T_GeonBit_UI_Entities_Paragraph.htm" />
@@ -948,6 +988,7 @@
   <HelpKINode Title="PlaceholderText property" Url="html/P_GeonBit_UI_Entities_TextInput_PlaceholderText.htm" />
   <HelpKINode Title="Pointer enumeration member" Url="html/T_GeonBit_UI_CursorType.htm" />
   <HelpKINode Title="PopRenderTarget method" Url="html/M_GeonBit_UI_DrawUtils_PopRenderTarget.htm" />
+  <HelpKINode Title="PopulateDict method" Url="html/M_GeonBit_UI_Entities_Entity_PopulateDict.htm" />
   <HelpKINode Title="PotionBlue enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="PotionCyan enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="PotionGreen enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
@@ -986,7 +1027,7 @@
   <HelpKINode Title="RadioButton class">
     <HelpKINode Title="RadioButton Class" Url="html/T_GeonBit_UI_Entities_RadioButton.htm" />
     <HelpKINode Title="about RadioButton class" Url="html/T_GeonBit_UI_Entities_RadioButton.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_RadioButton__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_RadioButton__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_RadioButton.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_RadioButton.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_RadioButton.htm" />
@@ -995,8 +1036,10 @@
   <HelpKINode Title="RadioButton.DefaultParagraphStyle field" Url="html/F_GeonBit_UI_Entities_RadioButton_DefaultParagraphStyle.htm" />
   <HelpKINode Title="RadioButton.DefaultSize field" Url="html/F_GeonBit_UI_Entities_RadioButton_DefaultSize.htm" />
   <HelpKINode Title="RadioButton.DefaultStyle field" Url="html/F_GeonBit_UI_Entities_RadioButton_DefaultStyle.htm" />
-  <HelpKINode Title="RadioButton.RadioButton constructor" Url="html/M_GeonBit_UI_Entities_RadioButton__ctor.htm" />
+  <HelpKINode Title="RadioButton.RadioButton constructor" Url="html/Overload_GeonBit_UI_Entities_RadioButton__ctor.htm" />
   <HelpKINode Title="RadioTextures field" Url="html/F_GeonBit_UI_Resources_RadioTextures.htm" />
+  <HelpKINode Title="RawStyleSheet property" Url="html/P_GeonBit_UI_Entities_Entity_RawStyleSheet.htm" />
+  <HelpKINode Title="ReadXml method" Url="html/M_GeonBit_UI_Utils_SerializableDictionary_2_ReadXml.htm" />
   <HelpKINode Title="Regular enumeration member" Url="html/T_GeonBit_UI_Entities_FontStyle.htm" />
   <HelpKINode Title="RemoveChild method" Url="html/M_GeonBit_UI_Entities_Entity_RemoveChild.htm" />
   <HelpKINode Title="RemoveEntity method" Url="html/M_GeonBit_UI_UserInterface_RemoveEntity.htm" />
@@ -1118,7 +1161,9 @@
   <HelpKINode Title="SelectList.DefaultStyle field" Url="html/F_GeonBit_UI_Entities_SelectList_DefaultStyle.htm" />
   <HelpKINode Title="SelectList.Empty property" Url="html/P_GeonBit_UI_Entities_SelectList_Empty.htm" />
   <HelpKINode Title="SelectList.ExtraSpaceBetweenLines field" Url="html/F_GeonBit_UI_Entities_SelectList_ExtraSpaceBetweenLines.htm" />
+  <HelpKINode Title="SelectList.HasSelectedValue property" Url="html/P_GeonBit_UI_Entities_SelectList_HasSelectedValue.htm" />
   <HelpKINode Title="SelectList.IsNaturallyInteractable method" Url="html/M_GeonBit_UI_Entities_SelectList_IsNaturallyInteractable.htm" />
+  <HelpKINode Title="SelectList.Items property" Url="html/P_GeonBit_UI_Entities_SelectList_Items.htm" />
   <HelpKINode Title="SelectList.ItemsScale field" Url="html/F_GeonBit_UI_Entities_SelectList_ItemsScale.htm" />
   <HelpKINode Title="SelectList.LockedItems field" Url="html/F_GeonBit_UI_Entities_SelectList_LockedItems.htm" />
   <HelpKINode Title="SelectList.LockSelection field" Url="html/F_GeonBit_UI_Entities_SelectList_LockSelection.htm" />
@@ -1135,6 +1180,29 @@
   <HelpKINode Title="SelectList.SelectList constructor" Url="html/Overload_GeonBit_UI_Entities_SelectList__ctor.htm" />
   <HelpKINode Title="SelectList.Unselect method" Url="html/M_GeonBit_UI_Entities_SelectList_Unselect.htm" />
   <HelpKINode Title="SelectTab method" Url="html/M_GeonBit_UI_Entities_PanelTabs_SelectTab.htm" />
+  <HelpKINode Title="SerializableDictionary(Of TKey, TValue) class">
+    <HelpKINode Title="SerializableDictionary(TKey, TValue) Class" Url="html/T_GeonBit_UI_Utils_SerializableDictionary_2.htm" />
+    <HelpKINode Title="about SerializableDictionary(Of TKey, TValue) class" Url="html/T_GeonBit_UI_Utils_SerializableDictionary_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Utils_SerializableDictionary_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Utils_SerializableDictionary_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Utils_SerializableDictionary_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SerializableDictionary(Of TKey, TValue).GetSchema method" Url="html/M_GeonBit_UI_Utils_SerializableDictionary_2_GetSchema.htm" />
+  <HelpKINode Title="SerializableDictionary(Of TKey, TValue).ReadXml method" Url="html/M_GeonBit_UI_Utils_SerializableDictionary_2_ReadXml.htm" />
+  <HelpKINode Title="SerializableDictionary(Of TKey, TValue).SerializableDictionary constructor" Url="html/M_GeonBit_UI_Utils_SerializableDictionary_2__ctor.htm" />
+  <HelpKINode Title="SerializableDictionary(Of TKey, TValue).WriteXml method" Url="html/M_GeonBit_UI_Utils_SerializableDictionary_2_WriteXml.htm" />
+  <HelpKINode Title="SerializableDictionary&lt;TKey, TValue&gt; class">
+    <HelpKINode Title="SerializableDictionary(TKey, TValue) Class" Url="html/T_GeonBit_UI_Utils_SerializableDictionary_2.htm" />
+    <HelpKINode Title="about SerializableDictionary&lt;TKey, TValue&gt; class" Url="html/T_GeonBit_UI_Utils_SerializableDictionary_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Utils_SerializableDictionary_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Utils_SerializableDictionary_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Utils_SerializableDictionary_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SerializableDictionary&lt;TKey, TValue&gt;.GetSchema method" Url="html/M_GeonBit_UI_Utils_SerializableDictionary_2_GetSchema.htm" />
+  <HelpKINode Title="SerializableDictionary&lt;TKey, TValue&gt;.ReadXml method" Url="html/M_GeonBit_UI_Utils_SerializableDictionary_2_ReadXml.htm" />
+  <HelpKINode Title="SerializableDictionary&lt;TKey, TValue&gt;.SerializableDictionary constructor" Url="html/M_GeonBit_UI_Utils_SerializableDictionary_2__ctor.htm" />
+  <HelpKINode Title="SerializableDictionary&lt;TKey, TValue&gt;.WriteXml method" Url="html/M_GeonBit_UI_Utils_SerializableDictionary_2_WriteXml.htm" />
+  <HelpKINode Title="Serialize method" Url="html/Overload_GeonBit_UI_UserInterface_Serialize.htm" />
   <HelpKINode Title="SetAnchor method" Url="html/M_GeonBit_UI_Entities_Entity_SetAnchor.htm" />
   <HelpKINode Title="SetCursor method" Url="html/Overload_GeonBit_UI_UserInterface_SetCursor.htm" />
   <HelpKINode Title="SetCustomSkin method" Url="html/M_GeonBit_UI_Entities_Button_SetCustomSkin.htm" />
@@ -1175,7 +1243,7 @@
   <HelpKINode Title="Size property" Url="html/P_GeonBit_UI_Entities_Entity_Size.htm" />
   <HelpKINode Title="Skin property">
     <HelpKINode Title="Button.Skin Property " Url="html/P_GeonBit_UI_Entities_Button_Skin.htm" />
-    <HelpKINode Title="Panel.Skin Property " Url="html/P_GeonBit_UI_Entities_Panel_Skin.htm" />
+    <HelpKINode Title="PanelBase.Skin Property " Url="html/P_GeonBit_UI_Entities_PanelBase_Skin.htm" />
   </HelpKINode>
   <HelpKINode Title="Skull enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="Slider class">
@@ -1194,19 +1262,23 @@
   <HelpKINode Title="Slider.Max property" Url="html/P_GeonBit_UI_Entities_Slider_Max.htm" />
   <HelpKINode Title="Slider.Min property" Url="html/P_GeonBit_UI_Entities_Slider_Min.htm" />
   <HelpKINode Title="Slider.Slider constructor" Url="html/Overload_GeonBit_UI_Entities_Slider__ctor.htm" />
+  <HelpKINode Title="Slider.SliderSkin property" Url="html/P_GeonBit_UI_Entities_Slider_SliderSkin.htm" />
   <HelpKINode Title="Slider.StepsCount property" Url="html/P_GeonBit_UI_Entities_Slider_StepsCount.htm" />
   <HelpKINode Title="Slider.Value property" Url="html/P_GeonBit_UI_Entities_Slider_Value.htm" />
   <HelpKINode Title="SliderData field" Url="html/F_GeonBit_UI_Resources_SliderData.htm" />
   <HelpKINode Title="SliderMarkTextures field" Url="html/F_GeonBit_UI_Resources_SliderMarkTextures.htm" />
   <HelpKINode Title="SliderSkin enumeration" Url="html/T_GeonBit_UI_Entities_SliderSkin.htm" />
+  <HelpKINode Title="SliderSkin property" Url="html/P_GeonBit_UI_Entities_Slider_SliderSkin.htm" />
   <HelpKINode Title="SliderTextures field" Url="html/F_GeonBit_UI_Resources_SliderTextures.htm" />
   <HelpKINode Title="SlugValidator class">
     <HelpKINode Title="SlugValidator Class" Url="html/T_GeonBit_UI_Entities_TextValidators_SlugValidator.htm" />
     <HelpKINode Title="about SlugValidator class" Url="html/T_GeonBit_UI_Entities_TextValidators_SlugValidator.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_TextValidators_SlugValidator__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_TextValidators_SlugValidator__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_TextValidators_SlugValidator.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_TextValidators_SlugValidator.htm" />
   </HelpKINode>
-  <HelpKINode Title="SlugValidator.SlugValidator constructor" Url="html/M_GeonBit_UI_Entities_TextValidators_SlugValidator__ctor.htm" />
+  <HelpKINode Title="SlugValidator.AllowSpaces property" Url="html/P_GeonBit_UI_Entities_TextValidators_SlugValidator_AllowSpaces.htm" />
+  <HelpKINode Title="SlugValidator.SlugValidator constructor" Url="html/Overload_GeonBit_UI_Entities_TextValidators_SlugValidator__ctor.htm" />
   <HelpKINode Title="SlugValidator.ValidateText method" Url="html/M_GeonBit_UI_Entities_TextValidators_SlugValidator_ValidateText.htm" />
   <HelpKINode Title="SourceRectangle field" Url="html/F_GeonBit_UI_Entities_Image_SourceRectangle.htm" />
   <HelpKINode Title="SpaceAfter property" Url="html/P_GeonBit_UI_Entities_Entity_SpaceAfter.htm" />
@@ -1231,9 +1303,16 @@
   <HelpKINode Title="StyleSheet.UpdateFrom method" Url="html/M_GeonBit_UI_Entities_StyleSheet_UpdateFrom.htm" />
   <HelpKINode Title="Sword enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="TabData class">
-    <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_PanelTabs_TabData.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_PanelTabs_TabData.htm" />
+    <HelpKINode Title="TabData Class" Url="html/T_GeonBit_UI_Entities_TabData.htm" />
+    <HelpKINode Title="about TabData class" Url="html/T_GeonBit_UI_Entities_TabData.htm" />
+    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_TabData__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_TabData.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_TabData.htm" />
   </HelpKINode>
+  <HelpKINode Title="TabData.button field" Url="html/F_GeonBit_UI_Entities_TabData_button.htm" />
+  <HelpKINode Title="TabData.name field" Url="html/F_GeonBit_UI_Entities_TabData_name.htm" />
+  <HelpKINode Title="TabData.panel field" Url="html/F_GeonBit_UI_Entities_TabData_panel.htm" />
+  <HelpKINode Title="TabData.TabData constructor" Url="html/M_GeonBit_UI_Entities_TabData__ctor.htm" />
   <HelpKINode Title="TargetEntity property" Url="html/P_GeonBit_UI_UserInterface_TargetEntity.htm" />
   <HelpKINode Title="Text property">
     <HelpKINode Title="MulticolorParagraph.Text Property " Url="html/P_GeonBit_UI_Entities_MulticolorParagraph_Text.htm" />
@@ -1257,6 +1336,7 @@
   <HelpKINode Title="TextInput.HideInputWithChar field" Url="html/F_GeonBit_UI_Entities_TextInput_HideInputWithChar.htm" />
   <HelpKINode Title="TextInput.IsNaturallyInteractable method" Url="html/M_GeonBit_UI_Entities_TextInput_IsNaturallyInteractable.htm" />
   <HelpKINode Title="TextInput.LimitBySize field" Url="html/F_GeonBit_UI_Entities_TextInput_LimitBySize.htm" />
+  <HelpKINode Title="TextInput.Multiline property" Url="html/P_GeonBit_UI_Entities_TextInput_Multiline.htm" />
   <HelpKINode Title="TextInput.PlaceholderParagraph field" Url="html/F_GeonBit_UI_Entities_TextInput_PlaceholderParagraph.htm" />
   <HelpKINode Title="TextInput.PlaceholderText property" Url="html/P_GeonBit_UI_Entities_TextInput_PlaceholderText.htm" />
   <HelpKINode Title="TextInput.ResetCaret method" Url="html/M_GeonBit_UI_Entities_TextInput_ResetCaret.htm" />
@@ -1273,6 +1353,7 @@
   </HelpKINode>
   <HelpKINode Title="TextStyle property" Url="html/P_GeonBit_UI_Entities_Paragraph_TextStyle.htm" />
   <HelpKINode Title="Texture field" Url="html/F_GeonBit_UI_Entities_Image_Texture.htm" />
+  <HelpKINode Title="TextureName property" Url="html/P_GeonBit_UI_Entities_Image_TextureName.htm" />
   <HelpKINode Title="TexturesGetter(Of TEnum) class">
     <HelpKINode Title="TexturesGetter(TEnum) Class" Url="html/T_GeonBit_UI_TexturesGetter_1.htm" />
     <HelpKINode Title="about TexturesGetter(Of TEnum) class" Url="html/T_GeonBit_UI_TexturesGetter_1.htm" />
@@ -1294,10 +1375,12 @@
   <HelpKINode Title="TextValidatorEnglishCharsOnly class">
     <HelpKINode Title="TextValidatorEnglishCharsOnly Class" Url="html/T_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly.htm" />
     <HelpKINode Title="about TextValidatorEnglishCharsOnly class" Url="html/T_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly.htm" />
   </HelpKINode>
-  <HelpKINode Title="TextValidatorEnglishCharsOnly.TextValidatorEnglishCharsOnly constructor" Url="html/M_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly__ctor.htm" />
+  <HelpKINode Title="TextValidatorEnglishCharsOnly.AllowSpaces property" Url="html/P_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly_AllowSpaces.htm" />
+  <HelpKINode Title="TextValidatorEnglishCharsOnly.TextValidatorEnglishCharsOnly constructor" Url="html/Overload_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly__ctor.htm" />
   <HelpKINode Title="TextValidatorEnglishCharsOnly.ValidateText method" Url="html/M_GeonBit_UI_Entities_TextValidators_TextValidatorEnglishCharsOnly_ValidateText.htm" />
   <HelpKINode Title="TextValidatorMakeTitle class">
     <HelpKINode Title="TextValidatorMakeTitle Class" Url="html/T_GeonBit_UI_Entities_TextValidators_TextValidatorMakeTitle.htm" />
@@ -1310,10 +1393,14 @@
   <HelpKINode Title="TextValidatorNumbersOnly class">
     <HelpKINode Title="TextValidatorNumbersOnly Class" Url="html/T_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly.htm" />
     <HelpKINode Title="about TextValidatorNumbersOnly class" Url="html/T_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly.htm" />
   </HelpKINode>
-  <HelpKINode Title="TextValidatorNumbersOnly.TextValidatorNumbersOnly constructor" Url="html/M_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly__ctor.htm" />
+  <HelpKINode Title="TextValidatorNumbersOnly.AllowDecimalPoint field" Url="html/F_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly_AllowDecimalPoint.htm" />
+  <HelpKINode Title="TextValidatorNumbersOnly.Max field" Url="html/F_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly_Max.htm" />
+  <HelpKINode Title="TextValidatorNumbersOnly.Min field" Url="html/F_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly_Min.htm" />
+  <HelpKINode Title="TextValidatorNumbersOnly.TextValidatorNumbersOnly constructor" Url="html/Overload_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly__ctor.htm" />
   <HelpKINode Title="TextValidatorNumbersOnly.ValidateText method" Url="html/M_GeonBit_UI_Entities_TextValidators_TextValidatorNumbersOnly_ValidateText.htm" />
   <HelpKINode Title="TimeToShowTooltipText field" Url="html/F_GeonBit_UI_UserInterface_TimeToShowTooltipText.htm" />
   <HelpKINode Title="Title field" Url="html/F_GeonBit_UI_Utils_MessageBox_MsgBoxOption_Title.htm" />
@@ -1365,6 +1452,7 @@
   <HelpKINode Title="UserInterface.Clear method" Url="html/M_GeonBit_UI_UserInterface_Clear.htm" />
   <HelpKINode Title="UserInterface.CursorScale field" Url="html/F_GeonBit_UI_UserInterface_CursorScale.htm" />
   <HelpKINode Title="UserInterface.DefaultParagraph field" Url="html/F_GeonBit_UI_UserInterface_DefaultParagraph.htm" />
+  <HelpKINode Title="UserInterface.Deserialize method" Url="html/Overload_GeonBit_UI_UserInterface_Deserialize.htm" />
   <HelpKINode Title="UserInterface.Dispose method" Url="html/M_GeonBit_UI_UserInterface_Dispose.htm" />
   <HelpKINode Title="UserInterface.Draw method" Url="html/M_GeonBit_UI_UserInterface_Draw.htm" />
   <HelpKINode Title="UserInterface.DrawCursor method" Url="html/M_GeonBit_UI_UserInterface_DrawCursor.htm" />
@@ -1396,6 +1484,7 @@
   <HelpKINode Title="UserInterface.SamplerState field" Url="html/F_GeonBit_UI_UserInterface_SamplerState.htm" />
   <HelpKINode Title="UserInterface.ScreenHeight field" Url="html/F_GeonBit_UI_UserInterface_ScreenHeight.htm" />
   <HelpKINode Title="UserInterface.ScreenWidth field" Url="html/F_GeonBit_UI_UserInterface_ScreenWidth.htm" />
+  <HelpKINode Title="UserInterface.Serialize method" Url="html/Overload_GeonBit_UI_UserInterface_Serialize.htm" />
   <HelpKINode Title="UserInterface.SetCursor method" Url="html/Overload_GeonBit_UI_UserInterface_SetCursor.htm" />
   <HelpKINode Title="UserInterface.ShowCursor field" Url="html/F_GeonBit_UI_UserInterface_ShowCursor.htm" />
   <HelpKINode Title="UserInterface.SilentSoftErrors field" Url="html/F_GeonBit_UI_UserInterface_SilentSoftErrors.htm" />
@@ -1430,7 +1519,7 @@
   <HelpKINode Title="VerticalScrollbar class">
     <HelpKINode Title="VerticalScrollbar Class" Url="html/T_GeonBit_UI_Entities_VerticalScrollbar.htm" />
     <HelpKINode Title="about VerticalScrollbar class" Url="html/T_GeonBit_UI_Entities_VerticalScrollbar.htm" />
-    <HelpKINode Title="constructor" Url="html/M_GeonBit_UI_Entities_VerticalScrollbar__ctor.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_GeonBit_UI_Entities_VerticalScrollbar__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_GeonBit_UI_Entities_VerticalScrollbar.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_GeonBit_UI_Entities_VerticalScrollbar.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_GeonBit_UI_Entities_VerticalScrollbar.htm" />
@@ -1438,7 +1527,7 @@
   <HelpKINode Title="VerticalScrollbar.AdjustMaxAutomatically field" Url="html/F_GeonBit_UI_Entities_VerticalScrollbar_AdjustMaxAutomatically.htm" />
   <HelpKINode Title="VerticalScrollbar.DefaultSize field" Url="html/F_GeonBit_UI_Entities_VerticalScrollbar_DefaultSize.htm" />
   <HelpKINode Title="VerticalScrollbar.DefaultStyle field" Url="html/F_GeonBit_UI_Entities_VerticalScrollbar_DefaultStyle.htm" />
-  <HelpKINode Title="VerticalScrollbar.VerticalScrollbar constructor" Url="html/M_GeonBit_UI_Entities_VerticalScrollbar__ctor.htm" />
+  <HelpKINode Title="VerticalScrollbar.VerticalScrollbar constructor" Url="html/Overload_GeonBit_UI_Entities_VerticalScrollbar__ctor.htm" />
   <HelpKINode Title="VerticalScrollbarData field" Url="html/F_GeonBit_UI_Resources_VerticalScrollbarData.htm" />
   <HelpKINode Title="VerticalScrollbarMarkTexture property" Url="html/P_GeonBit_UI_Resources_VerticalScrollbarMarkTexture.htm" />
   <HelpKINode Title="VerticalScrollbarTexture property" Url="html/P_GeonBit_UI_Resources_VerticalScrollbarTexture.htm" />
@@ -1466,6 +1555,7 @@
   <HelpKINode Title="WhiteTexture property" Url="html/P_GeonBit_UI_Resources_WhiteTexture.htm" />
   <HelpKINode Title="WrapText method" Url="html/M_GeonBit_UI_Entities_Paragraph_WrapText.htm" />
   <HelpKINode Title="WrapWords property" Url="html/P_GeonBit_UI_Entities_Paragraph_WrapWords.htm" />
+  <HelpKINode Title="WriteXml method" Url="html/M_GeonBit_UI_Utils_SerializableDictionary_2_WriteXml.htm" />
   <HelpKINode Title="ZoomIn enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
   <HelpKINode Title="ZoomOut enumeration member" Url="html/T_GeonBit_UI_Entities_IconType.htm" />
 </HelpKI>
