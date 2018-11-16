@@ -18,7 +18,7 @@
             Optional background entity that will not respond to events and will always be rendered right behind this entity.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_Children.htm">Children</a></td><td><div class="summary">
             Get / set children list.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_Disabled.htm">Disabled</a></td><td> <strong>Obsolete. </strong><div class="summary">Disable entities - will be removed in future versions!</div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_Draggable.htm">Draggable</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_Draggable.htm">Draggable</a></td><td><div class="summary">
             Is the entity draggable (eg can a user grab it and drag it around).
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_EntityDefaultSize.htm">EntityDefaultSize</a></td><td><div class="summary">
             Return the default size for this entity.
@@ -26,8 +26,6 @@
             Entity fill color - this is just a sugarcoat to access the default fill color style property.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_InternalDestRect.htm">InternalDestRect</a></td><td><div class="summary">
             Get internal destination rect.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_IsDirty.htm">IsDirty</a></td><td><div class="summary">
-            Get if this entity needs to recalculate destination rect.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_IsFocused.htm">IsFocused</a></td><td><div class="summary">Does this entity or one of its children currently focused?</div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_IsMouseDown.htm">IsMouseDown</a></td><td><div class="summary">
             Return if the mouse is currently pressing on this entity (eg over it and left mouse button is down).
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_IsMouseOver.htm">IsMouseOver</a></td><td><div class="summary">
@@ -54,8 +52,6 @@
             Entity padding - this is just a sugarcoat to access the default padding style property.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_Parent.htm">Parent</a></td><td><div class="summary">
             Get the direct parent of this entity.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_Priority.htm">Priority</a></td><td><div class="summary">
-            Return entity priority in drawing order and event handling.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_RawStyleSheet.htm">RawStyleSheet</a></td><td><div class="summary">
             Get / set raw stylesheet.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GeonBit_UI_Entities_Entity_Scale.htm">Scale</a></td><td><div class="summary">
@@ -84,8 +80,6 @@
             Bring this entity to be on front (inside its parent).
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_CalcDestRect.htm">CalcDestRect</a></td><td><div class="summary">
             Calculate and return the destination rectangle, eg the space this entity is rendered on.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_CalcInternalRect.htm">CalcInternalRect</a></td><td><div class="summary">
-            Calculate and return the internal destination rectangle (note: this relay on the dest rect having a valid value first).
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_ClearChildren.htm">ClearChildren</a></td><td><div class="summary">
             Remove all children entities.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_Draw.htm">Draw</a></td><td><div class="summary">
@@ -109,24 +103,16 @@
             This goes up all the way to root.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_IsDisabled.htm">IsDisabled</a></td><td><div class="summary">
             Return if this entity is currently disabled, due to self or one of the parents / grandparents being disabled.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_IsInsideEntity.htm">IsInsideEntity</a></td><td><div class="summary">
-            Test if a given point is inside entity's boundaries.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_IsLocked.htm">IsLocked</a></td><td><div class="summary">
             Return if this entity is currently locked, due to self or one of the parents / grandparents being locked.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_IsNaturallyInteractable.htm">IsNaturallyInteractable</a></td><td><div class="summary">
-            Return true if this entity is naturally interactable, like buttons, lists, etc.
-            Entities that are not naturally interactable are things like paragraph, colored rectangle, icon, etc.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_IsTouching.htm">IsTouching</a></td><td><div class="summary">
+            Test if a given point is inside entity's boundaries.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_IsVisible.htm">IsVisible</a></td><td><div class="summary">
             Return if this entity is currently visible, eg this and all its parents and grandparents are visible.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_IterateChildren.htm">IterateChildren</a></td><td><div class="summary">
             Iterate over children and call 'callback' for every direct child of this entity.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_GeonBit_UI_Entities_Entity_MakeSerializable.htm">MakeSerializable</a></td><td><div class="summary">
             Make an entity type serializable.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_MarkAsDirty.htm">MarkAsDirty</a></td><td><div class="summary">
-            Mark that this entity boundaries or style changed and it need to recalculate cached destination rect and other things.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_PopulateDict.htm">PopulateDict</a></td><td><div class="summary">
-            Put all entities that have identifier property in a dictionary.
-            Note: if multiple entities share the same identifier, the deepest entity in hirarchy will end up in dict.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_PropagateEventsTo.htm">PropagateEventsTo</a></td><td><div class="summary">
             Propagate all events trigger by this entity to a given other entity.
             For example, if "OnClick" will be called on this entity, it will trigger OnClick on 'other' as well.
@@ -134,21 +120,18 @@
             Remove child entity.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_RemoveFromParent.htm">RemoveFromParent</a></td><td><div class="summary">
             Remove this entity from its parent.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_SetAnchor.htm">SetAnchor</a></td><td><div class="summary">
-            Set the anchor of this entity.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_SetOffset.htm">SetOffset</a></td><td><div class="summary">
-            Set the offset of this entity.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_SetPosition.htm">SetPosition</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_SendToBack.htm">SendToBack</a></td><td><div class="summary">
+            Push this entity to the back (inside its parent).
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_SetAnchorAndOffset.htm">SetAnchorAndOffset</a></td><td><div class="summary">
             Set the position and anchor of this entity.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_SetStyleProperty.htm">SetStyleProperty</a></td><td><div class="summary">
             Set a stylesheet property.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_ToEntitiesDictionary.htm">ToEntitiesDictionary</a></td><td><div class="summary">
+            Create and return a dictionary of entities, where key is Identifier and value is the entity. 
+            This will include self + all children (and their children), and will only include entities that have Identifier property defined.
+            Note: if multiple entities share the same identifier, the deepest entity in hirarchy will end up in dict.
             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_Update.htm">Update</a></td><td><div class="summary">
             Called every frame to update entity state and call events.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_UpdateDestinationRects.htm">UpdateDestinationRects</a></td><td><div class="summary">
-            Update dest rect and internal dest rect.
-            This is called internally whenever a change is made to the entity or its parent.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_UpdateDestinationRectsIfDirty.htm">UpdateDestinationRectsIfDirty</a></td><td><div class="summary">
-            Update dest rect and internal dest rect, but only if needed (eg if something changed since last update).
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GeonBit_UI_Entities_Entity_UpdateStyle.htm">UpdateStyle</a></td><td><div class="summary">
             Update the entire stylesheet from a different stylesheet.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Fields</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="fieldList"><tr><th class="iconColumn">
